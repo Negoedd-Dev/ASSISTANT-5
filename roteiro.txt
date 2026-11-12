@@ -41,3 +41,11 @@ revert - Commits do tipo revert indicam que um commit anterior foi revertido.
 
 security - Commits do tipo security indicam alterações relacionadas à segurança da aplicação, como correção de vulnerabilidades, 
 falhas de autenticação ou autorização, exposição indevida de dados e hardening de configurações.
+
+=============================================================================================================================================
+=============================================================================================================================================
+=============================================================================================================================================
+Estrutura do projeto:
+1. componentes referentes à estilos: globais e reutilizáveis.
+Notas: para uso do arquivo de estilos globais farei da seguinte forma: 
+- uma DIV (className="principal")
