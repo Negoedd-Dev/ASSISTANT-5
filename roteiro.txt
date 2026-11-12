@@ -49,3 +49,9 @@ Estrutura do projeto:
 1. componentes referentes à estilos: globais e reutilizáveis.
 Notas: para uso do arquivo de estilos globais farei da seguinte forma: 
 - uma DIV (className="principal")
+2. criado os componetes para: cabeçlho e rodapé
+3. Criado o componente para esilizar todos os botôes do projeto
+    * para uso: 
+    >>>> import Button, { BUTTON_VARIANTS } from "./components/Button"; <<<<
+    e usamos o componete:
+    >>>>   <Button variant={BUTTON_VARIANTS.PRIMARY}>TESTE</Button> <<<<
