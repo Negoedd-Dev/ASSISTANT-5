@@ -4,14 +4,14 @@ export default function Button({
   children,
   variant = "primary",
   type = "button",
-  disable = false,
+  disabled = false,
   ...rest
 }) {
   return (
     <button
       className={`btn btn-${variant}`}
       type={type}
-      disable={disable}
+      disabled={disabled}
       {...rest}
     >
       {children}
