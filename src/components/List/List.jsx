@@ -18,24 +18,49 @@ import "./List.css";
 // * ======================================================================================================
 
 // ListaDicas.jsx
-import dicas from "../../Dados/dicas.json";
+// import dicas from "../../Dados/dicas.json";
 
-export default function List() {
+// export default function List() {
+//   return (
+//     <div style={{ maxHeight: 400, overflowY: "auto" }}>
+//       {dicas.map((dica) => (
+//         <div
+//           key={dica.id}
+//           style={{ padding: 12, borderBottom: "1px solid #eee" }}
+//         >
+//           <strong>{dica.titulo}</strong>
+//           <span style={{ marginLeft: 8, color: "#666" }}>
+//             {dica.programa} · {dica.tipo}
+//           </span>
+//           <p style={{ margin: "6px 0" }}>{dica.descricao}</p>
+//           <code>{dica.exemplo}</code>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+// * ========================================================================================================
+import "./List.css";
+
+export default function List({ dicas, idioma, statusDe, onSelecionar }) {
   return (
-    <div style={{ maxHeight: 400, overflowY: "auto" }}>
-      {dicas.map((dica) => (
-        <div
-          key={dica.id}
-          style={{ padding: 12, borderBottom: "1px solid #eee" }}
-        >
-          <strong>{dica.titulo}</strong>
-          <span style={{ marginLeft: 8, color: "#666" }}>
-            {dica.programa} · {dica.tipo}
-          </span>
-          <p style={{ margin: "6px 0" }}>{dica.descricao}</p>
-          <code>{dica.exemplo}</code>
-        </div>
-      ))}
+    <div className="list-container">
+      {dicas.map((dica, indice) => {
+        // se a dica ainda não tem tradução, usa o texto em português
+        const texto = dica[idioma] ?? dica.pt;
+        return (
+          <button
+            key={dica.id}
+            className={`list-item borda-${statusDe(dica)}`}
+            onClick={() => onSelecionar(indice)}
+          >
+            <strong>{texto.titulo}</strong>
+            <span className="list-item-info">
+              {dica.programa} · {dica.tipo}
+            </span>
+          </button>
+        );
+      })}
     </div>
   );
 }
