@@ -1,419 +1,734 @@
 [
   {
     "id": "geral-copiar-recortar-colar",
-    "app": "Geral",
+    "programa": "Geral",
     "tipo": "atalho",
-    "pergunta": "Como copiar, recortar e colar sem usar o mouse?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", "C"], "d": "Copiar" },
-      { "k": ["Ctrl", "X"], "d": "Recortar" },
-      { "k": ["Ctrl", "V"], "d": "Colar" }
+      {
+        "teclas": ["Ctrl", "C"],
+        "descricao": "Copiar"
+      },
+      {
+        "teclas": ["Ctrl", "X"],
+        "descricao": "Recortar"
+      },
+      {
+        "teclas": ["Ctrl", "V"],
+        "descricao": "Colar"
+      }
     ],
-    "exemplo": "1. Selecione um trecho de texto ou um intervalo de células.\n2. Pressione Ctrl+C para copiar o conteúdo.\n3. Clique no destino e pressione Ctrl+V para colar o conteúdo.",
-    "explicacao": "Copiar mantém o original no lugar; recortar remove o original e leva o conteúdo para a área de transferência. Colar insere o que está lá."
+    "pt": {
+      "titulo": "Como copiar, recortar e colar sem usar o mouse?",
+      "exemplo": "1. Selecione um trecho de texto ou um intervalo de células.\n2. Pressione Ctrl+C para copiar o conteúdo.\n3. Clique no destino e pressione Ctrl+V para colar o conteúdo.",
+      "explicacao": "Copiar mantém o original no lugar; recortar remove o original e leva o conteúdo para a área de transferência. Colar insere o que está lá."
+    }
   },
   {
     "id": "geral-desfazer-refazer",
-    "app": "Geral",
+    "programa": "Geral",
     "tipo": "atalho",
-    "pergunta": "Como desfazer e refazer uma ação?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", "Z"], "d": "Desfazer a última ação" },
-      { "k": ["Ctrl", "Y"], "d": "Refazer a ação desfeita" }
+      {
+        "teclas": ["Ctrl", "Z"],
+        "descricao": "Desfazer a última ação"
+      },
+      {
+        "teclas": ["Ctrl", "Y"],
+        "descricao": "Refazer a ação desfeita"
+      }
     ],
-    "exemplo": "Apagou um parágrafo sem querer? Pressione Ctrl+Z. Se desfez demais, Ctrl+Y traz de volta.",
-    "explicacao": "Cada vez que você pressiona Ctrl+Z, volta mais um passo no histórico de ações."
+    "pt": {
+      "titulo": "Como desfazer e refazer uma ação?",
+      "exemplo": "Apagou um parágrafo sem querer? Pressione Ctrl+Z. Se desfez demais, Ctrl+Y traz de volta.",
+      "explicacao": "Cada vez que você pressiona Ctrl+Z, volta mais um passo no histórico de ações."
+    }
   },
   {
     "id": "geral-negrito-italico-sublinhado",
-    "app": "Geral",
+    "programa": "Geral",
     "tipo": "atalho",
-    "pergunta": "Como aplicar negrito, itálico e sublinhado pelo teclado?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": { "pt": ["Ctrl", "N"], "en": ["Ctrl", "B"] }, "d": "Negrito" },
-      { "k": ["Ctrl", "I"], "d": "Itálico" },
-      { "k": { "pt": ["Ctrl", "S"], "en": ["Ctrl", "U"] }, "d": "Sublinhado" }
+      {
+        "teclas": {
+          "pt": ["Ctrl", "N"],
+          "en": ["Ctrl", "B"]
+        },
+        "descricao": "Negrito"
+      },
+      {
+        "teclas": ["Ctrl", "I"],
+        "descricao": "Itálico"
+      },
+      {
+        "teclas": {
+          "pt": ["Ctrl", "S"],
+          "en": ["Ctrl", "U"]
+        },
+        "descricao": "Sublinhado"
+      }
     ],
-    "exemplo": "Selecione a palavra \"Importante\" e pressione o atalho de negrito: ela fica em destaque.",
-    "explicacao": "Os atalhos de formatação usam a inicial do nome da função no idioma do Office (N de Negrito, S de Sublinhado em português; B de Bold, U de Underline em inglês).",
-    "dica": "Use o botão de idioma no topo para alternar entre Office em português e em inglês."
+    "pt": {
+      "titulo": "Como aplicar negrito, itálico e sublinhado pelo teclado?",
+      "exemplo": "Selecione a palavra \"Importante\" e pressione o atalho de negrito: ela fica em destaque.",
+      "explicacao": "Os atalhos de formatação usam a inicial do nome da função no idioma do Office (N de Negrito, S de Sublinhado em português; B de Bold, U de Underline em inglês).",
+      "extra": "Use o botão de idioma no topo para alternar entre Office em português e em inglês."
+    }
   },
   {
     "id": "geral-salvar",
-    "app": "Geral",
+    "programa": "Geral",
     "tipo": "atalho",
-    "pergunta": "Como salvar o arquivo rapidamente?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": { "pt": ["Ctrl", "B"], "en": ["Ctrl", "S"] }, "d": "Salvar" },
-      { "k": ["F12"], "d": "Salvar como (Word e Excel)" }
+      {
+        "teclas": {
+          "pt": ["Ctrl", "B"],
+          "en": ["Ctrl", "S"]
+        },
+        "descricao": "Salvar"
+      },
+      {
+        "teclas": ["F12"],
+        "descricao": "Salvar como (Word e Excel)"
+      }
     ],
-    "exemplo": "Terminou um parágrafo? Salve com o atalho antes de continuar. Para criar uma cópia com outro nome, use F12.",
-    "explicacao": "Salvar com frequência evita perder trabalho. \"Salvar como\" cria um novo arquivo sem alterar o original."
+    "pt": {
+      "titulo": "Como salvar o arquivo rapidamente?",
+      "exemplo": "Terminou um parágrafo? Salve com o atalho antes de continuar. Para criar uma cópia com outro nome, use F12.",
+      "explicacao": "Salvar com frequência evita perder trabalho. \"Salvar como\" cria um novo arquivo sem alterar o original."
+    }
   },
   {
     "id": "geral-selecionar-tudo",
-    "app": "Geral",
+    "programa": "Geral",
     "tipo": "atalho",
-    "pergunta": "Como selecionar todo o conteúdo do documento?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
       {
-        "k": { "pt": ["Ctrl", "T"], "en": ["Ctrl", "A"] },
-        "d": "Selecionar tudo"
+        "teclas": {
+          "pt": ["Ctrl", "T"],
+          "en": ["Ctrl", "A"]
+        },
+        "descricao": "Selecionar tudo"
       }
     ],
-    "exemplo": "No Word, seleciona o documento inteiro. No Excel, seleciona todas as células da planilha.",
-    "explicacao": "Útil para mudar fonte, tamanho ou copiar tudo de uma vez."
+    "pt": {
+      "titulo": "Como selecionar todo o conteúdo do documento?",
+      "exemplo": "No Word, seleciona o documento inteiro. No Excel, seleciona todas as células da planilha.",
+      "explicacao": "Útil para mudar fonte, tamanho ou copiar tudo de uma vez."
+    }
   },
   {
     "id": "geral-localizar-substituir",
-    "app": "Geral",
+    "programa": "Geral",
     "tipo": "atalho",
-    "pergunta": "Como localizar e substituir palavras?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": { "pt": ["Ctrl", "L"], "en": ["Ctrl", "F"] }, "d": "Localizar" },
-      { "k": { "pt": ["Ctrl", "U"], "en": ["Ctrl", "H"] }, "d": "Substituir" }
+      {
+        "teclas": {
+          "pt": ["Ctrl", "L"],
+          "en": ["Ctrl", "F"]
+        },
+        "descricao": "Localizar"
+      },
+      {
+        "teclas": {
+          "pt": ["Ctrl", "U"],
+          "en": ["Ctrl", "H"]
+        },
+        "descricao": "Substituir"
+      }
     ],
-    "exemplo": "Trocar \"Sr.\" por \"Senhor\" em todo o texto: abra Substituir, digite os dois termos e clique em Substituir tudo.",
-    "explicacao": "Localizar encontra o termo; Substituir troca por outro. Funciona no Word e no Excel."
+    "pt": {
+      "titulo": "Como localizar e substituir palavras?",
+      "exemplo": "Trocar \"Sr.\" por \"Senhor\" em todo o texto: abra Substituir, digite os dois termos e clique em Substituir tudo.",
+      "explicacao": "Localizar encontra o termo; Substituir troca por outro. Funciona no Word e no Excel."
+    }
   },
   {
     "id": "geral-colar-especial",
-    "app": "Geral",
+    "programa": "Geral",
     "tipo": "atalho",
-    "pergunta": "Como colar apenas o valor ou apenas o texto, sem formatação?",
-    "atalhos": [{ "k": ["Ctrl", "Alt", "V"], "d": "Abrir Colar especial" }],
-    "exemplo": "Copiou uma célula com fórmula e quer só o resultado? Ctrl+Alt+V e escolha \"Valores\".",
-    "explicacao": "O Colar especial permite escolher o que será colado: valores, formatos, fórmulas, texto sem formatação etc."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "V"],
+        "descricao": "Abrir Colar especial"
+      }
+    ],
+    "pt": {
+      "titulo": "Como colar apenas o valor ou apenas o texto, sem formatação?",
+      "exemplo": "Copiou uma célula com fórmula e quer só o resultado? Ctrl+Alt+V e escolha \"Valores\".",
+      "explicacao": "O Colar especial permite escolher o que será colado: valores, formatos, fórmulas, texto sem formatação etc."
+    }
   },
   {
     "id": "word-alinhamento",
-    "app": "Word",
+    "programa": "Word",
     "tipo": "atalho",
-    "pergunta": "Como alinhar o texto (esquerda, centro, direita, justificado)?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
       {
-        "k": { "pt": ["Ctrl", "Q"], "en": ["Ctrl", "L"] },
-        "d": "Alinhar à esquerda"
+        "teclas": {
+          "pt": ["Ctrl", "Q"],
+          "en": ["Ctrl", "L"]
+        },
+        "descricao": "Alinhar à esquerda"
       },
-      { "k": ["Ctrl", "E"], "d": "Centralizar" },
       {
-        "k": { "pt": ["Ctrl", "G"], "en": ["Ctrl", "R"] },
-        "d": "Alinhar à direita"
+        "teclas": ["Ctrl", "E"],
+        "descricao": "Centralizar"
       },
-      { "k": ["Ctrl", "J"], "d": "Justificar" }
+      {
+        "teclas": {
+          "pt": ["Ctrl", "G"],
+          "en": ["Ctrl", "R"]
+        },
+        "descricao": "Alinhar à direita"
+      },
+      {
+        "teclas": ["Ctrl", "J"],
+        "descricao": "Justificar"
+      }
     ],
-    "exemplo": "Título do trabalho: selecione a linha e pressione Ctrl+E para centralizar.",
-    "explicacao": "O alinhamento vale para o parágrafo em que o cursor está ou para todos os parágrafos selecionados."
+    "pt": {
+      "titulo": "Como alinhar o texto (esquerda, centro, direita, justificado)?",
+      "exemplo": "Título do trabalho: selecione a linha e pressione Ctrl+E para centralizar.",
+      "explicacao": "O alinhamento vale para o parágrafo em que o cursor está ou para todos os parágrafos selecionados."
+    }
   },
   {
     "id": "word-quebra-pagina",
-    "app": "Word",
+    "programa": "Word",
     "tipo": "atalho",
-    "pergunta": "Como inserir uma quebra de página?",
-    "atalhos": [{ "k": ["Ctrl", "Enter"], "d": "Quebra de página" }],
-    "exemplo": "Terminou a capa do trabalho? Pressione Ctrl+Enter e o cursor vai para o início de uma nova página.",
-    "explicacao": "É melhor que apertar Enter várias vezes: se o texto mudar, a quebra continua no lugar certo."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Enter"],
+        "descricao": "Quebra de página"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir uma quebra de página?",
+      "exemplo": "Terminou a capa do trabalho? Pressione Ctrl+Enter e o cursor vai para o início de uma nova página.",
+      "explicacao": "É melhor que apertar Enter várias vezes: se o texto mudar, a quebra continua no lugar certo."
+    }
   },
   {
     "id": "word-titulos",
-    "app": "Word",
+    "programa": "Word",
     "tipo": "atalho",
-    "pergunta": "Como aplicar estilos de título (Título 1, 2, 3)?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", "Alt", "1"], "d": "Título 1" },
-      { "k": ["Ctrl", "Alt", "2"], "d": "Título 2" },
-      { "k": ["Ctrl", "Alt", "3"], "d": "Título 3" }
+      {
+        "teclas": ["Ctrl", "Alt", "1"],
+        "descricao": "Título 1"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "2"],
+        "descricao": "Título 2"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "3"],
+        "descricao": "Título 3"
+      }
     ],
-    "exemplo": "Clique na linha \"Introdução\" e pressione Ctrl+Alt+1 para transformá-la em Título 1.",
-    "explicacao": "Usar estilos de título permite gerar o sumário automático e navegar pelo documento."
+    "pt": {
+      "titulo": "Como aplicar estilos de título (Título 1, 2, 3)?",
+      "exemplo": "Clique na linha \"Introdução\" e pressione Ctrl+Alt+1 para transformá-la em Título 1.",
+      "explicacao": "Usar estilos de título permite gerar o sumário automático e navegar pelo documento."
+    }
   },
   {
     "id": "word-maiusculas",
-    "app": "Word",
+    "programa": "Word",
     "tipo": "atalho",
-    "pergunta": "Como alternar entre maiúsculas e minúsculas?",
-    "atalhos": [{ "k": ["Shift", "F3"], "d": "Alterna maiúsculas/minúsculas" }],
-    "exemplo": "Selecione \"relatório mensal\" e pressione Shift+F3 repetidamente: Relatório mensal → RELATÓRIO MENSAL → relatório mensal.",
-    "explicacao": "Cada pressionamento passa para o próximo formato do ciclo."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "F3"],
+        "descricao": "Alterna maiúsculas/minúsculas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como alternar entre maiúsculas e minúsculas?",
+      "exemplo": "Selecione \"relatório mensal\" e pressione Shift+F3 repetidamente: Relatório mensal → RELATÓRIO MENSAL → relatório mensal.",
+      "explicacao": "Cada pressionamento passa para o próximo formato do ciclo."
+    }
   },
   {
     "id": "word-copiar-formatacao",
-    "app": "Word",
+    "programa": "Word",
     "tipo": "atalho",
-    "pergunta": "Como copiar só a formatação de um texto para outro?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", "Shift", "C"], "d": "Copiar formatação" },
-      { "k": ["Ctrl", "Shift", "V"], "d": "Colar formatação" }
+      {
+        "teclas": ["Ctrl", "Shift", "C"],
+        "descricao": "Copiar formatação"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "V"],
+        "descricao": "Colar formatação"
+      }
     ],
-    "exemplo": "Selecione um título já formatado, Ctrl+Shift+C; selecione outro título e Ctrl+Shift+V.",
-    "explicacao": "Copia fonte, tamanho, cor e estilo, sem levar o texto. Também funciona no PowerPoint."
+    "pt": {
+      "titulo": "Como copiar só a formatação de um texto para outro?",
+      "exemplo": "Selecione um título já formatado, Ctrl+Shift+C; selecione outro título e Ctrl+Shift+V.",
+      "explicacao": "Copia fonte, tamanho, cor e estilo, sem levar o texto. Também funciona no PowerPoint."
+    }
   },
   {
     "id": "word-navegacao",
-    "app": "Word",
+    "programa": "Word",
     "tipo": "atalho",
-    "pergunta": "Como ir rapidamente para o início ou o fim do documento?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", "Home"], "d": "Início do documento" },
-      { "k": ["Ctrl", "End"], "d": "Fim do documento" },
-      { "k": ["Ctrl", "←"], "d": "Palavra anterior" },
-      { "k": ["Ctrl", "→"], "d": "Próxima palavra" }
+      {
+        "teclas": ["Ctrl", "Home"],
+        "descricao": "Início do documento"
+      },
+      {
+        "teclas": ["Ctrl", "End"],
+        "descricao": "Fim do documento"
+      },
+      {
+        "teclas": ["Ctrl", "←"],
+        "descricao": "Palavra anterior"
+      },
+      {
+        "teclas": ["Ctrl", "→"],
+        "descricao": "Próxima palavra"
+      }
     ],
-    "exemplo": "Em um documento de 40 páginas, Ctrl+Home volta direto para a primeira linha.",
-    "explicacao": "Combinar Ctrl com as setas move o cursor por palavras em vez de letras."
+    "pt": {
+      "titulo": "Como ir rapidamente para o início ou o fim do documento?",
+      "exemplo": "Em um documento de 40 páginas, Ctrl+Home volta direto para a primeira linha.",
+      "explicacao": "Combinar Ctrl com as setas move o cursor por palavras em vez de letras."
+    }
   },
   {
     "id": "word-apagar-palavra",
-    "app": "Word",
+    "programa": "Word",
     "tipo": "atalho",
-    "pergunta": "Como apagar uma palavra inteira de uma vez?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", "Backspace"], "d": "Apaga a palavra à esquerda" },
-      { "k": ["Ctrl", "Delete"], "d": "Apaga a palavra à direita" }
+      {
+        "teclas": ["Ctrl", "Backspace"],
+        "descricao": "Apaga a palavra à esquerda"
+      },
+      {
+        "teclas": ["Ctrl", "Delete"],
+        "descricao": "Apaga a palavra à direita"
+      }
     ],
-    "exemplo": "Com o cursor no fim de \"exemplo\", Ctrl+Backspace remove a palavra toda.",
-    "explicacao": "Mais rápido que apagar letra por letra."
+    "pt": {
+      "titulo": "Como apagar uma palavra inteira de uma vez?",
+      "exemplo": "Com o cursor no fim de \"exemplo\", Ctrl+Backspace remove a palavra toda.",
+      "explicacao": "Mais rápido que apagar letra por letra."
+    }
   },
   {
     "id": "excel-editar-celula",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como editar o conteúdo de uma célula sem clicar duas vezes?",
-    "atalhos": [{ "k": ["F2"], "d": "Entrar no modo de edição da célula" }],
-    "exemplo": "Selecione a célula B2 que contém uma fórmula e pressione F2: o cursor aparece dentro dela.",
-    "explicacao": "Ao editar uma fórmula, as células usadas ficam destacadas, o que ajuda a conferir."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["F2"],
+        "descricao": "Entrar no modo de edição da célula"
+      }
+    ],
+    "pt": {
+      "titulo": "Como editar o conteúdo de uma célula sem clicar duas vezes?",
+      "exemplo": "Selecione a célula B2 que contém uma fórmula e pressione F2: o cursor aparece dentro dela.",
+      "explicacao": "Ao editar uma fórmula, as células usadas ficam destacadas, o que ajuda a conferir."
+    }
   },
   {
     "id": "excel-referencia-absoluta",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como fixar uma referência de célula em uma fórmula ($A$1)?",
-    "atalhos": [{ "k": ["F4"], "d": "Alterna entre A1, $A$1, A$1 e $A1" }],
-    "exemplo": "Na fórmula =B2*C1, clique em C1 dentro da fórmula e pressione F4: vira =B2*$C$1.\nAo copiar a fórmula para baixo, $C$1 não muda.",
-    "explicacao": "O $ trava a coluna, a linha ou ambas. Isso é essencial quando um valor (como uma taxa) deve ser usado em várias linhas."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["F4"],
+        "descricao": "Alterna entre A1, $A$1, A$1 e $A1"
+      }
+    ],
+    "pt": {
+      "titulo": "Como fixar uma referência de célula em uma fórmula ($A$1)?",
+      "exemplo": "Na fórmula =B2*C1, clique em C1 dentro da fórmula e pressione F4: vira =B2*$C$1.\nAo copiar a fórmula para baixo, $C$1 não muda.",
+      "explicacao": "O $ trava a coluna, a linha ou ambas. Isso é essencial quando um valor (como uma taxa) deve ser usado em várias linhas."
+    }
   },
   {
     "id": "excel-autosoma",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como somar uma coluna rapidamente?",
-    "atalhos": [{ "k": ["Alt", "="], "d": "Insere a AutoSoma" }],
-    "exemplo": "Clique na célula logo abaixo dos números e pressione Alt+=. O Excel escreve =SOMA(B2:B10); confirme com Enter.",
-    "explicacao": "O Excel detecta automaticamente o intervalo de números acima ou à esquerda."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "="],
+        "descricao": "Insere a AutoSoma"
+      }
+    ],
+    "pt": {
+      "titulo": "Como somar uma coluna rapidamente?",
+      "exemplo": "Clique na célula logo abaixo dos números e pressione Alt+=. O Excel escreve =SOMA(B2:B10); confirme com Enter.",
+      "explicacao": "O Excel detecta automaticamente o intervalo de números acima ou à esquerda."
+    }
   },
   {
     "id": "excel-filtro",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como ligar e desligar os filtros de uma tabela?",
-    "atalhos": [{ "k": ["Ctrl", "Shift", "L"], "d": "Ativa/desativa filtros" }],
-    "exemplo": "Clique em qualquer célula da tabela e pressione Ctrl+Shift+L: setas de filtro aparecem nos cabeçalhos.",
-    "explicacao": "Os filtros permitem mostrar apenas as linhas que atendem a um critério, como um cliente ou um mês."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "L"],
+        "descricao": "Ativa/desativa filtros"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ligar e desligar os filtros de uma tabela?",
+      "exemplo": "Clique em qualquer célula da tabela e pressione Ctrl+Shift+L: setas de filtro aparecem nos cabeçalhos.",
+      "explicacao": "Os filtros permitem mostrar apenas as linhas que atendem a um critério, como um cliente ou um mês."
+    }
   },
   {
     "id": "excel-data-hora",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como inserir a data e a hora atuais em uma célula?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", ";"], "d": "Data atual" },
-      { "k": ["Ctrl", "Shift", ";"], "d": "Hora atual" }
+      {
+        "teclas": ["Ctrl", ";"],
+        "descricao": "Data atual"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", ";"],
+        "descricao": "Hora atual"
+      }
     ],
-    "exemplo": "Em uma célula vazia, Ctrl+; escreve a data de hoje, por exemplo 06/10/2026.",
-    "explicacao": "O valor inserido é fixo: não muda nos dias seguintes. Para uma data que atualiza sozinha, use a função HOJE()."
+    "pt": {
+      "titulo": "Como inserir a data e a hora atuais em uma célula?",
+      "exemplo": "Em uma célula vazia, Ctrl+; escreve a data de hoje, por exemplo 06/10/2026.",
+      "explicacao": "O valor inserido é fixo: não muda nos dias seguintes. Para uma data que atualiza sozinha, use a função HOJE()."
+    }
   },
   {
     "id": "excel-selecionar-linha-coluna",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como selecionar uma coluna ou uma linha inteira?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["Ctrl", "Espaço"], "d": "Seleciona a coluna inteira" },
-      { "k": ["Shift", "Espaço"], "d": "Seleciona a linha inteira" }
+      {
+        "teclas": ["Ctrl", "Espaço"],
+        "descricao": "Seleciona a coluna inteira"
+      },
+      {
+        "teclas": ["Shift", "Espaço"],
+        "descricao": "Seleciona a linha inteira"
+      }
     ],
-    "exemplo": "Com uma célula na coluna C, Ctrl+Espaço seleciona toda a coluna C. Depois, Ctrl+- (menos) exclui a coluna.",
-    "explicacao": "Muito usado antes de inserir ou excluir linhas e colunas."
+    "pt": {
+      "titulo": "Como selecionar uma coluna ou uma linha inteira?",
+      "exemplo": "Com uma célula na coluna C, Ctrl+Espaço seleciona toda a coluna C. Depois, Ctrl+- (menos) exclui a coluna.",
+      "explicacao": "Muito usado antes de inserir ou excluir linhas e colunas."
+    }
   },
   {
     "id": "excel-quebra-linha-celula",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como pular de linha dentro da mesma célula?",
-    "atalhos": [{ "k": ["Alt", "Enter"], "d": "Quebra de linha na célula" }],
-    "exemplo": "Digite \"Rua das Flores\", pressione Alt+Enter e digite \"nº 120\": o texto fica em duas linhas na mesma célula.",
-    "explicacao": "Enter sozinho confirma a célula e desce; Alt+Enter mantém você dentro dela."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "Enter"],
+        "descricao": "Quebra de linha na célula"
+      }
+    ],
+    "pt": {
+      "titulo": "Como pular de linha dentro da mesma célula?",
+      "exemplo": "Digite \"Rua das Flores\", pressione Alt+Enter e digite \"nº 120\": o texto fica em duas linhas na mesma célula.",
+      "explicacao": "Enter sozinho confirma a célula e desce; Alt+Enter mantém você dentro dela."
+    }
   },
   {
     "id": "excel-ir-final",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "atalho",
-    "pergunta": "Como ir até o fim de uma tabela grande, ou selecionar tudo até lá?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
       {
-        "k": ["Ctrl", "↓"],
-        "d": "Vai até a última célula preenchida da coluna"
+        "teclas": ["Ctrl", "↓"],
+        "descricao": "Vai até a última célula preenchida da coluna"
       },
       {
-        "k": ["Ctrl", "Shift", "↓"],
-        "d": "Seleciona até a última célula preenchida"
+        "teclas": ["Ctrl", "Shift", "↓"],
+        "descricao": "Seleciona até a última célula preenchida"
       },
-      { "k": ["Ctrl", "Home"], "d": "Volta para A1" }
+      {
+        "teclas": ["Ctrl", "Home"],
+        "descricao": "Volta para A1"
+      }
     ],
-    "exemplo": "Com a célula A1 selecionada em uma lista de 5.000 linhas, Ctrl+↓ leva direto à última linha preenchida.",
-    "explicacao": "O Ctrl com as setas \"salta\" até o limite do bloco de dados."
+    "pt": {
+      "titulo": "Como ir até o fim de uma tabela grande, ou selecionar tudo até lá?",
+      "exemplo": "Com a célula A1 selecionada em uma lista de 5.000 linhas, Ctrl+↓ leva direto à última linha preenchida.",
+      "explicacao": "O Ctrl com as setas \"salta\" até o limite do bloco de dados."
+    }
   },
   {
     "id": "excel-soma",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como somar um intervalo de células?",
-    "formula": "=SOMA(B2:B10)",
-    "formulaEn": "=SUM(B2:B10)",
-    "exemplo": "     A         B\n1  Produto   Venda\n2  Caneta    10\n3  Caderno   25\n4  Lápis      5\n\n=SOMA(B2:B4)  →  40",
-    "explicacao": "SOMA adiciona todos os números do intervalo. Você pode somar vários intervalos: =SOMA(B2:B4;D2:D4)."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=SOMA(B2:B10)",
+      "en": "=SUM(B2:B10)"
+    },
+    "pt": {
+      "titulo": "Como somar um intervalo de células?",
+      "exemplo": "     A         B\n1  Produto   Venda\n2  Caneta    10\n3  Caderno   25\n4  Lápis      5\n\n=SOMA(B2:B4)  →  40",
+      "explicacao": "SOMA adiciona todos os números do intervalo. Você pode somar vários intervalos: =SOMA(B2:B4;D2:D4)."
+    }
   },
   {
     "id": "excel-media",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como calcular a média de um conjunto de valores?",
-    "formula": "=MÉDIA(B2:B6)",
-    "formulaEn": "=AVERAGE(B2:B6)",
-    "exemplo": "Notas em B2:B6: 7, 8, 6, 9, 10\n\n=MÉDIA(B2:B6)  →  8",
-    "explicacao": "Soma os valores e divide pela quantidade de células com números. Células vazias ou com texto são ignoradas."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=MÉDIA(B2:B6)",
+      "en": "=AVERAGE(B2:B6)"
+    },
+    "pt": {
+      "titulo": "Como calcular a média de um conjunto de valores?",
+      "exemplo": "Notas em B2:B6: 7, 8, 6, 9, 10\n\n=MÉDIA(B2:B6)  →  8",
+      "explicacao": "Soma os valores e divide pela quantidade de células com números. Células vazias ou com texto são ignoradas."
+    }
   },
   {
     "id": "excel-maximo-minimo",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como encontrar o maior e o menor valor de uma lista?",
-    "formula": "=MÁXIMO(B2:B10)  e  =MÍNIMO(B2:B10)",
-    "formulaEn": "=MAX(B2:B10)  and  =MIN(B2:B10)",
-    "exemplo": "Vendas em B2:B6: 120, 80, 200, 150, 95\n\n=MÁXIMO(B2:B6)  →  200\n=MÍNIMO(B2:B6)  →  80",
-    "explicacao": "Retornam o maior e o menor número do intervalo."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=MÁXIMO(B2:B10)  e  =MÍNIMO(B2:B10)",
+      "en": "=MAX(B2:B10)  and  =MIN(B2:B10)"
+    },
+    "pt": {
+      "titulo": "Como encontrar o maior e o menor valor de uma lista?",
+      "exemplo": "Vendas em B2:B6: 120, 80, 200, 150, 95\n\n=MÁXIMO(B2:B6)  →  200\n=MÍNIMO(B2:B6)  →  80",
+      "explicacao": "Retornam o maior e o menor número do intervalo."
+    }
   },
   {
     "id": "excel-se",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como fazer o Excel decidir entre dois resultados (função SE)?",
-    "formula": "=SE(teste; valor_se_verdadeiro; valor_se_falso)",
-    "formulaEn": "=IF(test, value_if_true, value_if_false)",
-    "exemplo": "Média do aluno em B2. Aprovado se for 7 ou mais:\n\n=SE(B2>=7; \"Aprovado\"; \"Reprovado\")\n\nB2 = 8  →  Aprovado\nB2 = 5  →  Reprovado",
-    "explicacao": "O Excel avalia o teste. Se for verdadeiro, mostra o segundo argumento; se for falso, o terceiro. Textos vão entre aspas.",
-    "dica": "No Excel em português, os argumentos são separados por ponto e vírgula (;)."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=SE(teste; valor_se_verdadeiro; valor_se_falso)",
+      "en": "=IF(test, value_if_true, value_if_false)"
+    },
+    "pt": {
+      "titulo": "Como fazer o Excel decidir entre dois resultados (função SE)?",
+      "exemplo": "Média do aluno em B2. Aprovado se for 7 ou mais:\n\n=SE(B2>=7; \"Aprovado\"; \"Reprovado\")\n\nB2 = 8  →  Aprovado\nB2 = 5  →  Reprovado",
+      "explicacao": "O Excel avalia o teste. Se for verdadeiro, mostra o segundo argumento; se for falso, o terceiro. Textos vão entre aspas.",
+      "extra": "No Excel em português, os argumentos são separados por ponto e vírgula (;)."
+    }
   },
   {
     "id": "excel-procv",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como buscar um valor em uma tabela (PROCV)?",
-    "formula": "=PROCV(valor_procurado; tabela; nº_da_coluna; 0)",
-    "formulaEn": "=VLOOKUP(lookup_value, table, col_index, FALSE)",
-    "exemplo": "Tabela em A2:B4:\n  101  Caneta\n  102  Caderno\n  103  Lápis\n\n=PROCV(102; A2:B4; 2; 0)  →  Caderno",
-    "explicacao": "Procura o valor na primeira coluna da tabela e devolve o conteúdo da coluna indicada na mesma linha. O 0 no final exige correspondência exata.",
-    "dica": "No Microsoft 365 existe também o PROCX, mais flexível, que também busca para a esquerda."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=PROCV(valor_procurado; tabela; nº_da_coluna; 0)",
+      "en": "=VLOOKUP(lookup_value, table, col_index, FALSE)"
+    },
+    "pt": {
+      "titulo": "Como buscar um valor em uma tabela (PROCV)?",
+      "exemplo": "Tabela em A2:B4:\n  101  Caneta\n  102  Caderno\n  103  Lápis\n\n=PROCV(102; A2:B4; 2; 0)  →  Caderno",
+      "explicacao": "Procura o valor na primeira coluna da tabela e devolve o conteúdo da coluna indicada na mesma linha. O 0 no final exige correspondência exata.",
+      "extra": "No Microsoft 365 existe também o PROCX, mais flexível, que também busca para a esquerda."
+    }
   },
   {
     "id": "excel-somase",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como somar apenas os valores que atendem a uma condição?",
-    "formula": "=SOMASE(intervalo; critério; intervalo_soma)",
-    "formulaEn": "=SUMIF(range, criteria, sum_range)",
-    "exemplo": "A: Vendedor | B: Valor\nAna 100 / Bia 50 / Ana 70\n\n=SOMASE(A2:A4; \"Ana\"; B2:B4)  →  170",
-    "explicacao": "Soma apenas as linhas em que o intervalo de critério é igual ao valor informado."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=SOMASE(intervalo; critério; intervalo_soma)",
+      "en": "=SUMIF(range, criteria, sum_range)"
+    },
+    "pt": {
+      "titulo": "Como somar apenas os valores que atendem a uma condição?",
+      "exemplo": "A: Vendedor | B: Valor\nAna 100 / Bia 50 / Ana 70\n\n=SOMASE(A2:A4; \"Ana\"; B2:B4)  →  170",
+      "explicacao": "Soma apenas as linhas em que o intervalo de critério é igual ao valor informado."
+    }
   },
   {
     "id": "excel-contse",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como contar quantas vezes um valor aparece?",
-    "formula": "=CONT.SE(intervalo; critério)",
-    "formulaEn": "=COUNTIF(range, criteria)",
-    "exemplo": "Status em A2:A6: Pago, Pendente, Pago, Pago, Pendente\n\n=CONT.SE(A2:A6; \"Pago\")  →  3",
-    "explicacao": "Conta quantas células do intervalo atendem ao critério. Aceita também comparações, como \">100\"."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=CONT.SE(intervalo; critério)",
+      "en": "=COUNTIF(range, criteria)"
+    },
+    "pt": {
+      "titulo": "Como contar quantas vezes um valor aparece?",
+      "exemplo": "Status em A2:A6: Pago, Pendente, Pago, Pago, Pendente\n\n=CONT.SE(A2:A6; \"Pago\")  →  3",
+      "explicacao": "Conta quantas células do intervalo atendem ao critério. Aceita também comparações, como \">100\"."
+    }
   },
   {
     "id": "excel-seerro",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como esconder mensagens de erro (#N/D, #DIV/0!) em uma fórmula?",
-    "formula": "=SEERRO(fórmula; valor_se_erro)",
-    "formulaEn": "=IFERROR(formula, value_if_error)",
-    "exemplo": "=SEERRO(A2/B2; 0)\n\nSe B2 for 0, em vez de #DIV/0! aparece 0.",
-    "explicacao": "Se a fórmula der erro, mostra o valor alternativo que você escolher; se não, mostra o resultado normal."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=SEERRO(fórmula; valor_se_erro)",
+      "en": "=IFERROR(formula, value_if_error)"
+    },
+    "pt": {
+      "titulo": "Como esconder mensagens de erro (#N/D, #DIV/0!) em uma fórmula?",
+      "exemplo": "=SEERRO(A2/B2; 0)\n\nSe B2 for 0, em vez de #DIV/0! aparece 0.",
+      "explicacao": "Se a fórmula der erro, mostra o valor alternativo que você escolher; se não, mostra o resultado normal."
+    }
   },
   {
     "id": "excel-concat",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como juntar textos de várias células em uma só?",
-    "formula": "=CONCAT(A2; \" \"; B2)   ou   =A2&\" \"&B2",
-    "formulaEn": "=CONCAT(A2, \" \", B2)   or   =A2&\" \"&B2",
-    "exemplo": "A2 = Maria, B2 = Silva\n\n=A2&\" \"&B2  →  Maria Silva",
-    "explicacao": "O & junta textos. O espaço entre aspas é adicionado para separar o nome do sobrenome."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=CONCAT(A2; \" \"; B2)   ou   =A2&\" \"&B2",
+      "en": "=CONCAT(A2, \" \", B2)   or   =A2&\" \"&B2"
+    },
+    "pt": {
+      "titulo": "Como juntar textos de várias células em uma só?",
+      "exemplo": "A2 = Maria, B2 = Silva\n\n=A2&\" \"&B2  →  Maria Silva",
+      "explicacao": "O & junta textos. O espaço entre aspas é adicionado para separar o nome do sobrenome."
+    }
   },
   {
     "id": "excel-hoje",
-    "app": "Excel",
+    "programa": "Excel",
     "tipo": "formula",
-    "pergunta": "Como mostrar a data de hoje que se atualiza sozinha?",
-    "formula": "=HOJE()",
-    "formulaEn": "=TODAY()",
-    "exemplo": "=HOJE()  →  06/10/2026 (e amanhã mostra 07/10/2026)\n\nDias até uma data em B2:  =B2-HOJE()",
-    "explicacao": "Diferente do atalho Ctrl+;, que grava uma data fixa, HOJE() é recalculada toda vez que a planilha abre."
+    "criadaEm": "2026-10-06",
+    "formula": {
+      "pt": "=HOJE()",
+      "en": "=TODAY()"
+    },
+    "pt": {
+      "titulo": "Como mostrar a data de hoje que se atualiza sozinha?",
+      "exemplo": "=HOJE()  →  06/10/2026 (e amanhã mostra 07/10/2026)\n\nDias até uma data em B2:  =B2-HOJE()",
+      "explicacao": "Diferente do atalho Ctrl+;, que grava uma data fixa, HOJE() é recalculada toda vez que a planilha abre."
+    }
   },
   {
     "id": "ppt-apresentar",
-    "app": "PowerPoint",
+    "programa": "PowerPoint",
     "tipo": "atalho",
-    "pergunta": "Como iniciar a apresentação de slides?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["F5"], "d": "Começa do primeiro slide" },
-      { "k": ["Shift", "F5"], "d": "Começa do slide atual" },
-      { "k": ["Esc"], "d": "Sai da apresentação" }
+      {
+        "teclas": ["F5"],
+        "descricao": "Começa do primeiro slide"
+      },
+      {
+        "teclas": ["Shift", "F5"],
+        "descricao": "Começa do slide atual"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Sai da apresentação"
+      }
     ],
-    "exemplo": "Quer testar só o slide 7? Selecione-o e pressione Shift+F5.",
-    "explicacao": "F5 é o atalho clássico do modo apresentação."
+    "pt": {
+      "titulo": "Como iniciar a apresentação de slides?",
+      "exemplo": "Quer testar só o slide 7? Selecione-o e pressione Shift+F5.",
+      "explicacao": "F5 é o atalho clássico do modo apresentação."
+    }
   },
   {
     "id": "ppt-novo-slide",
-    "app": "PowerPoint",
+    "programa": "PowerPoint",
     "tipo": "atalho",
-    "pergunta": "Como criar um novo slide rapidamente?",
-    "atalhos": [{ "k": ["Ctrl", "M"], "d": "Novo slide" }],
-    "exemplo": "Com o slide 3 selecionado, Ctrl+M cria o slide 4 logo depois dele.",
-    "explicacao": "O novo slide usa o layout do slide atual."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "M"],
+        "descricao": "Novo slide"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar um novo slide rapidamente?",
+      "exemplo": "Com o slide 3 selecionado, Ctrl+M cria o slide 4 logo depois dele.",
+      "explicacao": "O novo slide usa o layout do slide atual."
+    }
   },
   {
     "id": "ppt-duplicar",
-    "app": "PowerPoint",
+    "programa": "PowerPoint",
     "tipo": "atalho",
-    "pergunta": "Como duplicar um slide ou um objeto?",
-    "atalhos": [{ "k": ["Ctrl", "D"], "d": "Duplicar" }],
-    "exemplo": "Selecione um slide no painel da esquerda e pressione Ctrl+D: uma cópia aparece logo abaixo.",
-    "explicacao": "Também duplica o objeto selecionado (caixa de texto, forma, imagem) dentro do slide."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "D"],
+        "descricao": "Duplicar"
+      }
+    ],
+    "pt": {
+      "titulo": "Como duplicar um slide ou um objeto?",
+      "exemplo": "Selecione um slide no painel da esquerda e pressione Ctrl+D: uma cópia aparece logo abaixo.",
+      "explicacao": "Também duplica o objeto selecionado (caixa de texto, forma, imagem) dentro do slide."
+    }
   },
   {
     "id": "ppt-tela-preta",
-    "app": "PowerPoint",
+    "programa": "PowerPoint",
     "tipo": "atalho",
-    "pergunta": "Como escurecer a tela durante a apresentação?",
+    "criadaEm": "2026-10-06",
     "atalhos": [
-      { "k": ["."], "d": "Tela preta (pressione de novo para voltar)" },
-      { "k": [","], "d": "Tela branca (pressione de novo para voltar)" }
+      {
+        "teclas": ["."],
+        "descricao": "Tela preta (pressione de novo para voltar)"
+      },
+      {
+        "teclas": [","],
+        "descricao": "Tela branca (pressione de novo para voltar)"
+      }
     ],
-    "exemplo": "Vai fazer uma pausa para perguntas? Pressione \".\" e o público olha para você, não para o slide.",
-    "explicacao": "Funciona somente com a apresentação em tela cheia."
+    "pt": {
+      "titulo": "Como escurecer a tela durante a apresentação?",
+      "exemplo": "Vai fazer uma pausa para perguntas? Pressione \".\" e o público olha para você, não para o slide.",
+      "explicacao": "Funciona somente com a apresentação em tela cheia."
+    }
   },
   {
     "id": "ppt-ir-para-slide",
-    "app": "PowerPoint",
+    "programa": "PowerPoint",
     "tipo": "atalho",
-    "pergunta": "Como pular para um slide específico durante a apresentação?",
-    "atalhos": [{ "k": ["Número", "Enter"], "d": "Vai para o slide digitado" }],
-    "exemplo": "Em tela cheia, digite 12 e pressione Enter para ir ao slide 12.",
-    "explicacao": "Útil quando alguém pede para rever um slide anterior."
+    "criadaEm": "2026-10-06",
+    "atalhos": [
+      {
+        "teclas": ["Número", "Enter"],
+        "descricao": "Vai para o slide digitado"
+      }
+    ],
+    "pt": {
+      "titulo": "Como pular para um slide específico durante a apresentação?",
+      "exemplo": "Em tela cheia, digite 12 e pressione Enter para ir ao slide 12.",
+      "explicacao": "Útil quando alguém pede para rever um slide anterior."
+    }
   }
 ]
