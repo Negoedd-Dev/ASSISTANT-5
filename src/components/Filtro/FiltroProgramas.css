@@ -1,6 +1,67 @@
-.FiltroProgramas {
+/* .FiltroProgramas {
   display: flex;
   flex-wrap: wrap; /* quebra de linha automática*/
-  gap: 0.5rem;
+/* gap: 0.5rem;
   padding: 5px 0;
+} */
+*/
+/** ========================================================================================================================= */
+/* A justando do estilo para reposicionamento do filtro de programas. */
+/* .FiltroProgramas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; */
+  /* max-height: 400px; mesma altura da lista */
+  /* overflow-y: auto; com 20 programas, rola sozinho */
+
+  /* border: 2px solid black;
+}
+
+.FiltroProgramas button {
+  width: 100%;
+  text-align: left;
+} */
+
+/* telas pequenas: vira uma faixa horizontal com rolagem */
+/* @media (max-width: 800px) {
+  .FiltroProgramas {
+    flex-direction: row;
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .FiltroProgramas button {
+    width: auto;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+} */
+/* * ===================================================================================================================================== */
+.FiltroProgramas {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza os botões na coluna */
+  gap: 0.5rem;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.FiltroProgramas button {
+  width: 100%; /* use 90% para botões um pouco mais estreitos */
+  text-align: center; /* texto centralizado dentro do botão */
+}
+
+/* telas pequenas: vira uma faixa horizontal com rolagem */
+@media (max-width: 800px) {
+  .FiltroProgramas {
+    flex-direction: row;
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .FiltroProgramas button {
+    width: auto;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
 }
