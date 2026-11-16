@@ -1,0 +1,6 @@
+.FiltroProgramas {
+  display: flex;
+  flex-wrap: wrap; /* quebra de linha automática*/
+  gap: 0.5rem;
+  padding: 5px 0;
+}
