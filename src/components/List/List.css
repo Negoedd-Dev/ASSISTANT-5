@@ -23,6 +23,13 @@
   color: #666;
 }
 
+.FiltroProgramas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 12px;
+}
+
 .borda-padrao {
   border-color: #e5e7eb;
 }

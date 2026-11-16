@@ -40,27 +40,68 @@ import "./List.css";
 //   );
 // }
 // * ========================================================================================================
-import "./List.css";
+// import "./List.css";
 
-export default function List({ dicas, idioma, statusDe, onSelecionar }) {
+// export default function List({ dicas, idioma, statusDe, onSelecionar }) {
+//   return (
+//     <>
+//       <div className="list-container">
+//         {dicas.map((dica, indice) => {
+//           // se a dica ainda não tem tradução, usa o texto em português
+//           const texto = dica[idioma] ?? dica.pt;
+//           return (
+//             <button
+//               key={dica.id}
+//               className={`list-item borda-${statusDe(dica)}`}
+//               onClick={() => onSelecionar(indice)}
+//             >
+//               <strong>{texto.titulo}</strong>
+//               <span className="list-item-info">
+//                 {dica.programa} · {dica.tipo}
+//               </span>
+//             </button>
+//           );
+//         })}
+//       </div>
+//     </>
+//   );
+// }
+// * =======================================================================================================================
+import "./List.css";
+import FiltroProgramas from "../Filtro"; // NOVO
+
+export default function List({
+  dicas,
+  apps, // NOVO
+  programa, // NOVO
+  onFiltrar, // NOVO
+  idioma,
+  statusDe,
+  onSelecionar,
+}) {
   return (
-    <div className="list-container">
-      {dicas.map((dica, indice) => {
-        // se a dica ainda não tem tradução, usa o texto em português
-        const texto = dica[idioma] ?? dica.pt;
-        return (
-          <button
-            key={dica.id}
-            className={`list-item borda-${statusDe(dica)}`}
-            onClick={() => onSelecionar(indice)}
-          >
-            <strong>{texto.titulo}</strong>
-            <span className="list-item-info">
-              {dica.programa} · {dica.tipo}
-            </span>
-          </button>
-        );
-      })}
-    </div>
+    <>
+      {/* NOVO: fora do div com rolagem, para ficar fixo no topo */}
+      <FiltroProgramas apps={apps} atual={programa} onSelecionar={onFiltrar} />
+
+      <div className="list-container">
+        {dicas.map((dica, indice) => {
+          // se a dica ainda não tem tradução, usa o texto em português
+          const texto = dica[idioma] ?? dica.pt;
+          return (
+            <button
+              key={dica.id}
+              className={`list-item borda-${statusDe(dica)}`}
+              onClick={() => onSelecionar(indice)}
+            >
+              <strong>{texto.titulo}</strong>
+              <span className="list-item-info">
+                {dica.programa} · {dica.tipo}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+    </>
   );
 }
