@@ -730,5 +730,3830 @@
       "exemplo": "Em tela cheia, digite 12 e pressione Enter para ir ao slide 12.",
       "explicacao": "Útil quando alguém pede para rever um slide anterior."
     }
+  },
+  {
+    "id": "outlook-nova-mensagem",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": {
+          "pt": ["Ctrl", "O"],
+          "en": ["Ctrl", "N"]
+        },
+        "descricao": "Nova mensagem (no e-mail) ou novo evento (no calendário)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar uma nova mensagem ou um novo evento?",
+      "exemplo": "Na caixa de entrada, pressione o atalho e a janela de nova mensagem abre pronta para você digitar. No calendário, o mesmo atalho abre um novo evento.",
+      "explicacao": "O atalho cria o item da tela em que você está: e-mail, calendário ou contatos."
+    }
+  },
+  {
+    "id": "outlook-responder-encaminhar",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "R"],
+        "descricao": "Responder ao remetente"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "R"],
+        "descricao": "Responder a todos"
+      },
+      {
+        "teclas": ["Ctrl", "F"],
+        "descricao": "Encaminhar"
+      }
+    ],
+    "pt": {
+      "titulo": "Como responder, responder a todos e encaminhar uma mensagem?",
+      "exemplo": "Recebeu um e-mail enviado para a equipe inteira? Pressione Ctrl+Shift+R para responder a todos os destinatários de uma vez.",
+      "explicacao": "Os atalhos valem para a mensagem selecionada na lista ou aberta na leitura.",
+      "extra": "Antes de usar Responder a todos, confira quem está no e-mail para não enviar a resposta a quem não precisa."
+    }
+  },
+  {
+    "id": "outlook-enviar",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Enter"],
+        "descricao": "Enviar a mensagem"
+      }
+    ],
+    "pt": {
+      "titulo": "Como enviar uma mensagem sem usar o mouse?",
+      "exemplo": "Terminou de escrever? Pressione Ctrl+Enter e a mensagem é enviada.",
+      "explicacao": "Evita ter que clicar no botão Enviar. O envio é imediato, então revise destinatário e assunto antes."
+    }
+  },
+  {
+    "id": "outlook-abrir-janela",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "Enter"],
+        "descricao": "Abrir a mensagem selecionada em uma nova janela"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir uma mensagem em uma janela separada?",
+      "exemplo": "Selecione um e-mail na lista e pressione Shift+Enter: ele abre em outra janela, e você pode consultá-lo enquanto escreve uma resposta.",
+      "explicacao": "Útil para comparar duas mensagens ou copiar informações de uma para outra."
+    }
+  },
+  {
+    "id": "outlook-excluir",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Delete"],
+        "descricao": "Exclui a mensagem ou o item selecionado"
+      },
+      {
+        "teclas": ["Shift", "Delete"],
+        "descricao": "Exclui permanentemente o item selecionado"
+      }
+    ],
+    "pt": {
+      "titulo": "Como excluir mensagens e itens pelo teclado?",
+      "exemplo": "Selecione uma mensagem e pressione Delete para enviá-la à pasta de excluídos. Com Shift+Delete ela é apagada de vez.",
+      "explicacao": "Com Delete ainda é possível recuperar a mensagem na pasta Itens Excluídos. Com Shift+Delete, não.",
+      "extra": "Use Shift+Delete com cuidado: a exclusão permanente não tem volta."
+    }
+  },
+  {
+    "id": "outlook-lida-nao-lida",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Q"],
+        "descricao": "Marcar a conversa ou mensagem como lida"
+      },
+      {
+        "teclas": {
+          "pt": ["Ctrl", "S"],
+          "en": ["Ctrl", "U"]
+        },
+        "descricao": "Marcar a conversa ou mensagem como não lida"
+      }
+    ],
+    "pt": {
+      "titulo": "Como marcar uma mensagem como lida ou não lida?",
+      "exemplo": "Abriu um e-mail importante e quer lembrar de voltar nele? Marque como não lido para ele aparecer em destaque na lista.",
+      "explicacao": "Funciona na mensagem ou conversa selecionada na lista."
+    }
+  },
+  {
+    "id": "outlook-sinalizar",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Insert"],
+        "descricao": "Sinalizar a mensagem ou marcar a sinalizada como concluída"
+      }
+    ],
+    "pt": {
+      "titulo": "Como sinalizar uma mensagem?",
+      "exemplo": "Selecione um e-mail que precisa de resposta até sexta e pressione Insert para sinalizar. Quando resolver, pressione Insert de novo para marcá-lo como concluído.",
+      "explicacao": "A sinalização funciona como um lembrete e ajuda a encontrar depois o que ainda está pendente."
+    }
+  },
+  {
+    "id": "outlook-proxima-anterior",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", ">"],
+        "descricao": "Ir para a próxima mensagem"
+      },
+      {
+        "teclas": ["Ctrl", "<"],
+        "descricao": "Ir para a mensagem anterior"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ir para a próxima mensagem ou a anterior sem voltar à lista?",
+      "exemplo": "Lendo um e-mail e quer passar para o seguinte? Ctrl+> abre a próxima mensagem da lista.",
+      "explicacao": "Serve para percorrer a caixa de entrada lendo uma mensagem após a outra."
+    }
+  },
+  {
+    "id": "outlook-selecionar-varias",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "↓"],
+        "descricao": "Seleciona a mensagem atual e a próxima"
+      },
+      {
+        "teclas": ["Shift", "↑"],
+        "descricao": "Seleciona a mensagem atual e a anterior"
+      },
+      {
+        "teclas": ["Home"],
+        "descricao": "Seleciona a primeira mensagem da pasta (também Ctrl+Home)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como selecionar várias mensagens seguidas?",
+      "exemplo": "Para apagar cinco e-mails seguidos, selecione o primeiro, pressione Shift+↓ quatro vezes e depois Delete.",
+      "explicacao": "Cada vez que você repete Shift com a seta, mais uma mensagem entra na seleção."
+    }
+  },
+  {
+    "id": "outlook-ler-navegacao",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Home"],
+        "descricao": "Ir para o topo da conversa ou da mensagem"
+      },
+      {
+        "teclas": ["End"],
+        "descricao": "Ir para o fim da conversa ou da mensagem"
+      },
+      {
+        "teclas": ["Page Down"],
+        "descricao": "Descer uma página"
+      },
+      {
+        "teclas": ["Page Up"],
+        "descricao": "Subir uma página"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Fechar a mensagem aberta"
+      }
+    ],
+    "pt": {
+      "titulo": "Como navegar dentro de uma mensagem longa?",
+      "exemplo": "Em um e-mail com uma conversa de várias páginas, pressione End para ir direto à resposta mais recente.",
+      "explicacao": "Page Down e Page Up só fazem diferença em mensagens ou conversas de duas ou mais páginas."
+    }
+  },
+  {
+    "id": "outlook-painel-pastas",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "R"],
+        "descricao": "Ir para o painel de pastas"
+      },
+      {
+        "teclas": ["Letra ou número"],
+        "descricao": "Pular para a pasta cujo nome começa com ele"
+      },
+      {
+        "teclas": ["←"],
+        "descricao": "Recolher a seção selecionada"
+      },
+      {
+        "teclas": ["→"],
+        "descricao": "Expandir a seção selecionada"
+      }
+    ],
+    "pt": {
+      "titulo": "Como navegar pelo painel de pastas usando o teclado?",
+      "exemplo": "Pressione Ctrl+Alt+R para ir às pastas, digite a letra \"P\" para pular para uma pasta que comece com P e use → para abrir as subpastas.",
+      "explicacao": "Com o painel de pastas em foco você navega sem precisar do mouse."
+    }
+  },
+  {
+    "id": "outlook-cancelar-pesquisa",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Esc"],
+        "descricao": "Cancela a pesquisa"
+      }
+    ],
+    "pt": {
+      "titulo": "Como cancelar uma pesquisa?",
+      "exemplo": "Pesquisou um nome e quer voltar à caixa de entrada completa? Pressione Esc.",
+      "explicacao": "O Esc limpa a pesquisa e mostra a lista normal de mensagens."
+    }
+  },
+  {
+    "id": "outlook-hiperlink",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "K"],
+        "descricao": "Inserir um hiperlink"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir um link no texto da mensagem?",
+      "exemplo": "Selecione a palavra \"site\" no texto, pressione Ctrl+K, cole o endereço e confirme.",
+      "explicacao": "Transforma o texto selecionado em um link clicável, sem mostrar o endereço completo."
+    }
+  },
+  {
+    "id": "outlook-ajuda-atalhos",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["?"],
+        "descricao": "Abre a lista de atalhos de teclado"
+      },
+      {
+        "teclas": ["Alt"],
+        "descricao": "Mostra as dicas de teclas sobre os botões"
+      },
+      {
+        "teclas": ["Alt", "↓"],
+        "descricao": "Abre os botões de divisão"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ver os atalhos e as dicas de tecla na própria tela?",
+      "exemplo": "Esqueceu um atalho? Pressione ? e a lista aparece. Pressione Alt para ver as letras que acionam cada botão.",
+      "explicacao": "Botões de divisão são os que têm uma seta ao lado, com opções extras, como o botão de resposta."
+    }
+  },
+  {
+    "id": "outlook-trocar-telas",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "1"],
+        "descricao": "Ir para E-mail"
+      },
+      {
+        "teclas": ["Ctrl", "2"],
+        "descricao": "Ir para Calendário"
+      },
+      {
+        "teclas": ["Ctrl", "3"],
+        "descricao": "Ir para Copilot"
+      },
+      {
+        "teclas": ["Ctrl", "4"],
+        "descricao": "Ir para Pessoas (contatos)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como alternar entre E-mail, Calendário, Copilot e Pessoas?",
+      "exemplo": "Vendo a caixa de entrada e precisa checar a agenda? Pressione Ctrl+2 e depois Ctrl+1 para voltar.",
+      "explicacao": "Os números seguem a ordem dos ícones da barra lateral."
+    }
+  },
+  {
+    "id": "outlook-calendario-exibicoes",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "1"],
+        "descricao": "Exibição de dia"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "2"],
+        "descricao": "Exibição de semana de trabalho"
+      },
+      {
+        "teclas": ["Alt", "-"],
+        "descricao": "Exibição de semana completa"
+      },
+      {
+        "teclas": ["Alt", "3"],
+        "descricao": "Exibição de três dias"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "4"],
+        "descricao": "Exibição de mês"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mudar a exibição do calendário (dia, semana, mês)?",
+      "exemplo": "Quer uma visão geral do mês? Pressione Ctrl+Alt+4. Para focar só no dia de hoje, Ctrl+Alt+1.",
+      "explicacao": "Trocar de exibição ajuda a planejar a semana ou conferir um compromisso específico."
+    }
+  },
+  {
+    "id": "outlook-calendario-navegar",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "→"],
+        "descricao": "Ir para o próximo período"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "←"],
+        "descricao": "Ir para o período anterior"
+      },
+      {
+        "teclas": ["Alt", "Shift", "Y"],
+        "descricao": "Ir para hoje"
+      },
+      {
+        "teclas": ["Home"],
+        "descricao": "Ir para hoje (alternativa)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como avançar, voltar e ir para hoje no calendário?",
+      "exemplo": "Na exibição de semana, Ctrl+Alt+→ avança para a próxima semana. Se estiver perdido no calendário, volte para hoje com Alt+Shift+Y.",
+      "explicacao": "O \"período\" depende da exibição: dia, semana ou mês."
+    }
+  },
+  {
+    "id": "outlook-calendario-itens",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Enter"],
+        "descricao": "Abrir o item selecionado"
+      },
+      {
+        "teclas": ["Delete"],
+        "descricao": "Excluir o item selecionado"
+      },
+      {
+        "teclas": ["Tab"],
+        "descricao": "Ir para o próximo evento ou área"
+      },
+      {
+        "teclas": ["Shift", "Tab"],
+        "descricao": "Voltar ao evento ou área anterior"
+      },
+      {
+        "teclas": ["F6"],
+        "descricao": "Mover para outra região do calendário (também Ctrl+Shift+Tab)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir, excluir e percorrer os eventos do calendário?",
+      "exemplo": "Na exibição de semana, use Tab para passar de evento em evento e Enter para abrir o que quiser.",
+      "explicacao": "Dá para usar o calendário inteiro sem o mouse."
+    }
+  },
+  {
+    "id": "outlook-contatos-criar",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": {
+          "pt": ["Ctrl", "O"],
+          "en": ["Ctrl", "N"]
+        },
+        "descricao": "Criar um contato"
+      },
+      {
+        "teclas": ["Ctrl", "Q"],
+        "descricao": "Criar uma lista de contatos"
+      },
+      {
+        "teclas": ["Shift", "E"],
+        "descricao": "Editar um contato ou uma lista de contatos"
+      },
+      {
+        "teclas": {
+          "pt": ["Ctrl", "B"],
+          "en": ["Ctrl", "S"]
+        },
+        "descricao": "Salvar o contato ou a lista"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Descartar o contato"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar, editar e salvar um contato?",
+      "exemplo": "Na exibição Pessoas, pressione o atalho de criar contato, preencha nome e e-mail e salve.",
+      "explicacao": "Estes atalhos valem na exibição Pessoas."
+    }
+  },
+  {
+    "id": "outlook-contatos-procurar",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "H"],
+        "descricao": "Procurar um contato"
+      },
+      {
+        "teclas": ["Ctrl", "A"],
+        "descricao": "Selecionar todos os contatos ou listas"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Desmarcar todos os contatos ou listas"
+      },
+      {
+        "teclas": ["Delete"],
+        "descricao": "Excluir o contato ou a lista (também Ctrl+D)"
+      },
+      {
+        "teclas": ["↓"],
+        "descricao": "Mover para baixo na lista de contatos"
+      },
+      {
+        "teclas": ["↑"],
+        "descricao": "Mover para cima na lista de contatos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como procurar, selecionar e excluir contatos?",
+      "exemplo": "Quer achar alguém rápido? Pressione Ctrl+H, digite o nome e use as setas para percorrer o resultado.",
+      "explicacao": "Estes atalhos valem na exibição Pessoas."
+    }
+  },
+  {
+    "id": "outlook-contatos-guias",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "H"],
+        "descricao": "Mover o foco para a guia Página Inicial (pressione Alt, solte e depois H)"
+      },
+      {
+        "teclas": ["Alt", "V"],
+        "descricao": "Mover o foco para a guia Exibição (pressione Alt, solte e depois V)"
+      },
+      {
+        "teclas": ["Shift", "?"],
+        "descricao": "Exibir a lista de atalhos de teclado de Pessoas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ir para as guias Página Inicial e Exibição usando o teclado?",
+      "exemplo": "Na exibição Pessoas, pressione Alt e depois H para chegar aos comandos da guia Página Inicial sem usar o mouse.",
+      "explicacao": "As teclas são pressionadas em sequência, e não ao mesmo tempo."
+    }
+  },
+  {
+    "id": "outlook-acento-agudo",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0193"],
+        "descricao": "Á"
+      },
+      {
+        "teclas": ["Alt", "0201"],
+        "descricao": "É"
+      },
+      {
+        "teclas": ["Alt", "0205"],
+        "descricao": "Í"
+      },
+      {
+        "teclas": ["Alt", "0211"],
+        "descricao": "Ó"
+      },
+      {
+        "teclas": ["Alt", "0218"],
+        "descricao": "Ú"
+      },
+      {
+        "teclas": ["Alt", "0221"],
+        "descricao": "Ý"
+      },
+      {
+        "teclas": ["Alt", "0225"],
+        "descricao": "á"
+      },
+      {
+        "teclas": ["Alt", "0233"],
+        "descricao": "é"
+      },
+      {
+        "teclas": ["Alt", "0237"],
+        "descricao": "í"
+      },
+      {
+        "teclas": ["Alt", "0243"],
+        "descricao": "ó"
+      },
+      {
+        "teclas": ["Alt", "0250"],
+        "descricao": "ú"
+      },
+      {
+        "teclas": ["Alt", "0253"],
+        "descricao": "ý"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar vogais com acento agudo (Á, É, Í, Ó, Ú) com Alt + código?",
+      "exemplo": "Para digitar É, mantenha Alt pressionado, digite 0201 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "outlook-acento-grave",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0192"],
+        "descricao": "À"
+      },
+      {
+        "teclas": ["Alt", "0200"],
+        "descricao": "È"
+      },
+      {
+        "teclas": ["Alt", "0204"],
+        "descricao": "Ì"
+      },
+      {
+        "teclas": ["Alt", "0210"],
+        "descricao": "Ò"
+      },
+      {
+        "teclas": ["Alt", "0217"],
+        "descricao": "Ù"
+      },
+      {
+        "teclas": ["Alt", "0224"],
+        "descricao": "à"
+      },
+      {
+        "teclas": ["Alt", "0232"],
+        "descricao": "è"
+      },
+      {
+        "teclas": ["Alt", "0236"],
+        "descricao": "ì"
+      },
+      {
+        "teclas": ["Alt", "0242"],
+        "descricao": "ò"
+      },
+      {
+        "teclas": ["Alt", "0249"],
+        "descricao": "ù"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar vogais com acento grave (À, È, Ì, Ò, Ù) com Alt + código?",
+      "exemplo": "Para digitar à, mantenha Alt pressionado, digite 0224 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "outlook-acento-circunflexo",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0194"],
+        "descricao": "Â"
+      },
+      {
+        "teclas": ["Alt", "0202"],
+        "descricao": "Ê"
+      },
+      {
+        "teclas": ["Alt", "0206"],
+        "descricao": "Î"
+      },
+      {
+        "teclas": ["Alt", "0212"],
+        "descricao": "Ô"
+      },
+      {
+        "teclas": ["Alt", "0219"],
+        "descricao": "Û"
+      },
+      {
+        "teclas": ["Alt", "0226"],
+        "descricao": "â"
+      },
+      {
+        "teclas": ["Alt", "0234"],
+        "descricao": "ê"
+      },
+      {
+        "teclas": ["Alt", "0238"],
+        "descricao": "î"
+      },
+      {
+        "teclas": ["Alt", "0244"],
+        "descricao": "ô"
+      },
+      {
+        "teclas": ["Alt", "0251"],
+        "descricao": "û"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar vogais com acento circunflexo (Â, Ê, Î, Ô, Û) com Alt + código?",
+      "exemplo": "Para digitar ô, mantenha Alt pressionado, digite 0244 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "outlook-acento-til",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0195"],
+        "descricao": "Ã"
+      },
+      {
+        "teclas": ["Alt", "0213"],
+        "descricao": "Õ"
+      },
+      {
+        "teclas": ["Alt", "0209"],
+        "descricao": "Ñ"
+      },
+      {
+        "teclas": ["Alt", "0227"],
+        "descricao": "ã"
+      },
+      {
+        "teclas": ["Alt", "0245"],
+        "descricao": "õ"
+      },
+      {
+        "teclas": ["Alt", "0241"],
+        "descricao": "ñ"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar vogais com til (Ã, Õ, Ñ) com Alt + código?",
+      "exemplo": "Para digitar ã, mantenha Alt pressionado, digite 0227 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "outlook-acento-trema",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0196"],
+        "descricao": "Ä"
+      },
+      {
+        "teclas": ["Alt", "0203"],
+        "descricao": "Ë"
+      },
+      {
+        "teclas": ["Alt", "0207"],
+        "descricao": "Ï"
+      },
+      {
+        "teclas": ["Alt", "0214"],
+        "descricao": "Ö"
+      },
+      {
+        "teclas": ["Alt", "0220"],
+        "descricao": "Ü"
+      },
+      {
+        "teclas": ["Alt", "0159"],
+        "descricao": "Ÿ"
+      },
+      {
+        "teclas": ["Alt", "0228"],
+        "descricao": "ä"
+      },
+      {
+        "teclas": ["Alt", "0235"],
+        "descricao": "ë"
+      },
+      {
+        "teclas": ["Alt", "0239"],
+        "descricao": "ï"
+      },
+      {
+        "teclas": ["Alt", "0246"],
+        "descricao": "ö"
+      },
+      {
+        "teclas": ["Alt", "0252"],
+        "descricao": "ü"
+      },
+      {
+        "teclas": ["Alt", "0255"],
+        "descricao": "ÿ"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar vogais com trema (Ä, Ë, Ï, Ö, Ü, Ÿ) com Alt + código?",
+      "exemplo": "Para digitar ü, mantenha Alt pressionado, digite 0252 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "outlook-cedilha-pontuacao",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0199"],
+        "descricao": "Ç"
+      },
+      {
+        "teclas": ["Alt", "0231"],
+        "descricao": "ç"
+      },
+      {
+        "teclas": ["Alt", "0186"],
+        "descricao": "º"
+      },
+      {
+        "teclas": ["Alt", "0170"],
+        "descricao": "ª"
+      },
+      {
+        "teclas": ["Alt", "0161"],
+        "descricao": "¡"
+      },
+      {
+        "teclas": ["Alt", "0191"],
+        "descricao": "¿"
+      },
+      {
+        "teclas": ["Alt", "0171"],
+        "descricao": "«"
+      },
+      {
+        "teclas": ["Alt", "0187"],
+        "descricao": "»"
+      },
+      {
+        "teclas": ["Alt", "0223"],
+        "descricao": "ß"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar cedilha, ordinais e pontuação especial com Alt + código?",
+      "exemplo": "Para digitar ç, mantenha Alt pressionado, digite 0231 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "outlook-letras-especiais",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0197"],
+        "descricao": "Å"
+      },
+      {
+        "teclas": ["Alt", "0229"],
+        "descricao": "å"
+      },
+      {
+        "teclas": ["Alt", "0198"],
+        "descricao": "Æ"
+      },
+      {
+        "teclas": ["Alt", "0230"],
+        "descricao": "æ"
+      },
+      {
+        "teclas": ["Alt", "0216"],
+        "descricao": "Ø"
+      },
+      {
+        "teclas": ["Alt", "0248"],
+        "descricao": "ø"
+      },
+      {
+        "teclas": ["Alt", "0222"],
+        "descricao": "Þ"
+      },
+      {
+        "teclas": ["Alt", "0254"],
+        "descricao": "þ"
+      },
+      {
+        "teclas": ["Alt", "0208"],
+        "descricao": "Ð"
+      },
+      {
+        "teclas": ["Alt", "0240"],
+        "descricao": "ð"
+      },
+      {
+        "teclas": ["Alt", "0140"],
+        "descricao": "Œ"
+      },
+      {
+        "teclas": ["Alt", "0156"],
+        "descricao": "œ"
+      },
+      {
+        "teclas": ["Alt", "0138"],
+        "descricao": "Š"
+      },
+      {
+        "teclas": ["Alt", "0154"],
+        "descricao": "š"
+      },
+      {
+        "teclas": ["Alt", "0142"],
+        "descricao": "Ž"
+      },
+      {
+        "teclas": ["Alt", "0158"],
+        "descricao": "ž"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar letras especiais (Å, Æ, Ø, Œ, Š, Ž e outras) com Alt + código?",
+      "exemplo": "Para digitar Å, mantenha Alt pressionado, digite 0197 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "outlook-simbolos",
+    "programa": "Outlook",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "0169"],
+        "descricao": "©"
+      },
+      {
+        "teclas": ["Alt", "0174"],
+        "descricao": "®"
+      },
+      {
+        "teclas": ["Alt", "0153"],
+        "descricao": "™"
+      },
+      {
+        "teclas": ["Alt", "0128"],
+        "descricao": "€"
+      },
+      {
+        "teclas": ["Alt", "0163"],
+        "descricao": "£"
+      },
+      {
+        "teclas": ["Alt", "0165"],
+        "descricao": "¥"
+      },
+      {
+        "teclas": ["Alt", "0162"],
+        "descricao": "¢"
+      },
+      {
+        "teclas": ["Alt", "0164"],
+        "descricao": "¤"
+      },
+      {
+        "teclas": ["Alt", "0131"],
+        "descricao": "ƒ"
+      },
+      {
+        "teclas": ["Alt", "0167"],
+        "descricao": "§"
+      },
+      {
+        "teclas": ["Alt", "0182"],
+        "descricao": "¶"
+      },
+      {
+        "teclas": ["Alt", "0149"],
+        "descricao": "•"
+      },
+      {
+        "teclas": ["Alt", "0150"],
+        "descricao": "– (traço médio)"
+      },
+      {
+        "teclas": ["Alt", "0151"],
+        "descricao": "— (travessão)"
+      },
+      {
+        "teclas": ["Alt", "0134"],
+        "descricao": "†"
+      },
+      {
+        "teclas": ["Alt", "0135"],
+        "descricao": "‡"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar símbolos (©, ®, ™, €, §, •) com Alt + código?",
+      "exemplo": "Para digitar ©, mantenha Alt pressionado, digite 0169 no teclado numérico e solte Alt.",
+      "explicacao": "Mantenha Alt pressionado, digite o código no teclado numérico e solte Alt.",
+      "extra": "Use o teclado numérico (à direita do teclado) com Num Lock ativado. Os números da linha acima das letras não funcionam."
+    }
+  },
+  {
+    "id": "word-abrir-novo-fechar",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": {
+          "pt": ["Ctrl", "A"],
+          "en": ["Ctrl", "O"]
+        },
+        "descricao": "Abrir um documento"
+      },
+      {
+        "teclas": {
+          "pt": ["Ctrl", "O"],
+          "en": ["Ctrl", "N"]
+        },
+        "descricao": "Criar um novo documento"
+      },
+      {
+        "teclas": ["Ctrl", "W"],
+        "descricao": "Fechar o documento (também Ctrl+F4)"
+      },
+      {
+        "teclas": ["Alt", "F4"],
+        "descricao": "Fechar o Word"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir, criar e fechar documentos pelo teclado?",
+      "exemplo": "Terminou de revisar? Ctrl+W fecha o documento, e o Word pergunta se você quer salvar as alterações.",
+      "explicacao": "Ctrl+W fecha só o documento atual; Alt+F4 fecha o programa inteiro."
+    }
+  },
+  {
+    "id": "word-colar-texto",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "V"],
+        "descricao": "Colar apenas o texto"
+      }
+    ],
+    "pt": {
+      "titulo": "Como colar apenas o texto, sem formatação?",
+      "exemplo": "Copiou um parágrafo de um site e não quer trazer a fonte e a cor de lá? Cole com Ctrl+Shift+V.",
+      "explicacao": "O texto entra com a formatação do local onde você está colando."
+    }
+  },
+  {
+    "id": "word-tamanho-fonte",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", ">"],
+        "descricao": "Aumentar o tamanho da fonte"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "<"],
+        "descricao": "Diminuir o tamanho da fonte"
+      },
+      {
+        "teclas": ["Ctrl", "]"],
+        "descricao": "Aumentar a fonte em 1 ponto"
+      },
+      {
+        "teclas": ["Ctrl", "["],
+        "descricao": "Diminuir a fonte em 1 ponto"
+      }
+    ],
+    "pt": {
+      "titulo": "Como aumentar ou diminuir o tamanho da fonte pelo teclado?",
+      "exemplo": "Selecione o título e pressione Ctrl+] três vezes: a fonte aumenta 3 pontos.",
+      "explicacao": "Com Ctrl+Shift o tamanho segue a lista da caixa de fontes; com Ctrl e os colchetes ele muda de 1 em 1 ponto."
+    }
+  },
+  {
+    "id": "word-fonte-dialogo",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "D"],
+        "descricao": "Abrir a caixa Fonte (também Ctrl+Shift+F)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir a caixa de diálogo Fonte?",
+      "exemplo": "Selecione o texto e pressione Ctrl+D para ajustar fonte, tamanho, cor, sublinhado e efeitos em uma só janela.",
+      "explicacao": "Reúne todas as opções de formatação de caracteres."
+    }
+  },
+  {
+    "id": "word-recuo",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "M"],
+        "descricao": "Recuar o parágrafo"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "M"],
+        "descricao": "Remover o recuo"
+      }
+    ],
+    "pt": {
+      "titulo": "Como aplicar e remover o recuo de um parágrafo?",
+      "exemplo": "Clique em um parágrafo e pressione Ctrl+M para recuá-lo. Repita para aumentar o recuo.",
+      "explicacao": "Cada pressionamento move o parágrafo até a próxima parada de tabulação."
+    }
+  },
+  {
+    "id": "word-espacamento",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "1"],
+        "descricao": "Espaçamento simples"
+      },
+      {
+        "teclas": ["Ctrl", "2"],
+        "descricao": "Espaçamento duplo"
+      },
+      {
+        "teclas": ["Ctrl", "5"],
+        "descricao": "Espaçamento de 1,5 linha"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mudar o espaçamento entre linhas do parágrafo?",
+      "exemplo": "O trabalho exige espaçamento 1,5? Selecione o texto e pressione Ctrl+5.",
+      "explicacao": "Vale para o parágrafo em que o cursor está ou para os parágrafos selecionados."
+    }
+  },
+  {
+    "id": "word-estilos-paineis",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "N"],
+        "descricao": "Aplicar o estilo Normal"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "S"],
+        "descricao": "Abrir o painel Aplicar Estilos"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "Shift", "S"],
+        "descricao": "Abrir o painel Estilos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como voltar ao estilo Normal e abrir os painéis de estilos?",
+      "exemplo": "Texto com vários estilos misturados? Selecione e pressione Ctrl+Shift+N para voltar ao estilo Normal.",
+      "explicacao": "Trabalhar com estilos deixa o documento padronizado e facilita mudanças de visual."
+    }
+  },
+  {
+    "id": "word-lista-marcadores",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "L"],
+        "descricao": "Adicionar uma lista com marcadores"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar uma lista com marcadores pelo teclado?",
+      "exemplo": "Selecione várias linhas e pressione Ctrl+Shift+L para transformá-las em uma lista com marcadores.",
+      "explicacao": "Pressione de novo para remover os marcadores."
+    }
+  },
+  {
+    "id": "word-limpar-formatacao",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Espaço"],
+        "descricao": "Remover a formatação manual dos caracteres"
+      }
+    ],
+    "pt": {
+      "titulo": "Como remover a formatação manual de um trecho?",
+      "exemplo": "Selecione um trecho com negrito, cor e tamanho diferentes e pressione Ctrl+Espaço para voltar à formatação do estilo.",
+      "explicacao": "Remove só a formatação de caracteres, sem apagar o texto."
+    }
+  },
+  {
+    "id": "word-caracteres-ocultos",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "8"],
+        "descricao": "Mostrar todos os caracteres não imprimíveis"
+      },
+      {
+        "teclas": ["Shift", "F1"],
+        "descricao": "Abrir o painel Revelar Formatação"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ver os espaços e as marcas de parágrafo escondidos?",
+      "exemplo": "Está com um espaço ou uma quebra estranha no texto? Ctrl+Shift+8 mostra os marcadores de parágrafo e os espaços.",
+      "explicacao": "Use o 8 da linha de cima do teclado, e não o do teclado numérico."
+    }
+  },
+  {
+    "id": "word-quebras-especiais",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "Enter"],
+        "descricao": "Quebra de linha"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Enter"],
+        "descricao": "Quebra de coluna"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Espaço"],
+        "descricao": "Espaço incondicional"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir quebra de linha, quebra de coluna e espaço que não separa?",
+      "exemplo": "Para quebrar a linha de um endereço sem criar um novo parágrafo, use Shift+Enter.",
+      "explicacao": "O espaço incondicional impede que duas palavras (como \"R$ 100\") fiquem em linhas separadas."
+    }
+  },
+  {
+    "id": "word-simbolos-atalhos",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["(", "C", ")"],
+        "descricao": "Símbolo © (digite (c) e o Word corrige sozinho)"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "R"],
+        "descricao": "Símbolo ®"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "T"],
+        "descricao": "Símbolo ™"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "."],
+        "descricao": "Reticências (…)"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "-"],
+        "descricao": "Travessão — (use o - do teclado numérico)"
+      },
+      {
+        "teclas": ["Ctrl", "-"],
+        "descricao": "Traço médio – (use o - do teclado numérico)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir ©, ®, ™, reticências e traços pelo teclado?",
+      "exemplo": "Digitou o nome da marca e quer o símbolo registrado? Pressione Ctrl+Alt+R logo depois dele.",
+      "explicacao": "Os traços usam o sinal de menos do teclado numérico."
+    }
+  },
+  {
+    "id": "word-unicode",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Código", "Alt", "X"],
+        "descricao": "Converte o código em caractere (ex.: 20AC vira €)"
+      },
+      {
+        "teclas": ["Alt", "X"],
+        "descricao": "Com um caractere selecionado, mostra o código dele"
+      },
+      {
+        "teclas": ["Alt", "Código"],
+        "descricao": "Código numérico no teclado numérico (ex.: 0128 = €)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir um caractere pelo código Unicode?",
+      "exemplo": "Digite 20AC e pressione Alt+X: o código vira €. Com o € selecionado, Alt+X volta ao código.",
+      "explicacao": "Útil para símbolos que não existem no teclado."
+    }
+  },
+  {
+    "id": "word-selecao-texto",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "←/→"],
+        "descricao": "Seleciona um caractere por vez"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "←/→"],
+        "descricao": "Seleciona a palavra anterior ou a próxima"
+      },
+      {
+        "teclas": ["Shift", "Home"],
+        "descricao": "Seleciona até o início da linha"
+      },
+      {
+        "teclas": ["Shift", "End"],
+        "descricao": "Seleciona até o fim da linha"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "↑/↓"],
+        "descricao": "Seleciona até o início ou o fim do parágrafo"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Home"],
+        "descricao": "Seleciona até o início do documento"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "End"],
+        "descricao": "Seleciona até o fim do documento"
+      }
+    ],
+    "pt": {
+      "titulo": "Como selecionar texto usando só o teclado?",
+      "exemplo": "Com o cursor no fim de uma frase, pressione Ctrl+Shift+← algumas vezes para selecionar as últimas palavras.",
+      "explicacao": "Quem aprende estas combinações edita muito mais rápido que arrastando o mouse."
+    }
+  },
+  {
+    "id": "word-estender-selecao",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F8"],
+        "descricao": "Ativa o modo de seleção; cada F8 amplia: palavra, frase, parágrafo, seção, documento"
+      },
+      {
+        "teclas": ["Shift", "F8"],
+        "descricao": "Reduz a seleção"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "F8"],
+        "descricao": "Seleciona um bloco vertical de texto (depois use as setas)"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Para de estender a seleção"
+      }
+    ],
+    "pt": {
+      "titulo": "Como estender a seleção com a tecla F8?",
+      "exemplo": "Com o cursor em uma palavra, pressione F8 duas vezes e a frase inteira fica selecionada.",
+      "explicacao": "É a forma mais rápida de selecionar uma frase ou um parágrafo sem o mouse."
+    }
+  },
+  {
+    "id": "word-navegar-paragrafo-pagina",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "↑/↓"],
+        "descricao": "Mover o cursor um parágrafo para cima ou para baixo"
+      },
+      {
+        "teclas": ["Home"],
+        "descricao": "Início da linha"
+      },
+      {
+        "teclas": ["End"],
+        "descricao": "Fim da linha"
+      },
+      {
+        "teclas": ["Ctrl", "Page Down"],
+        "descricao": "Início da página seguinte"
+      },
+      {
+        "teclas": ["Ctrl", "Page Up"],
+        "descricao": "Início da página anterior"
+      },
+      {
+        "teclas": ["Page Down"],
+        "descricao": "Rolar uma tela para baixo"
+      },
+      {
+        "teclas": ["Page Up"],
+        "descricao": "Rolar uma tela para cima"
+      }
+    ],
+    "pt": {
+      "titulo": "Como navegar por parágrafos, linhas e páginas?",
+      "exemplo": "Em um documento longo, Ctrl+Page Down salta direto para o começo da próxima página.",
+      "explicacao": "Combine com Ctrl+Home e Ctrl+End para percorrer qualquer documento."
+    }
+  },
+  {
+    "id": "word-ir-para",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F5"],
+        "descricao": "Abrir a caixa Ir para (também Ctrl+G)"
+      },
+      {
+        "teclas": ["Shift", "F5"],
+        "descricao": "Voltar ao último local editado"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "Z"],
+        "descricao": "Percorrer os locais das quatro últimas alterações"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ir direto a uma página, tabela, nota ou comentário?",
+      "exemplo": "Pressione Ctrl+G, digite 25 e Enter para ir para a página 25.",
+      "explicacao": "Shift+F5 também leva ao ponto onde você parou na última vez que abriu o documento."
+    }
+  },
+  {
+    "id": "word-mover-copiar-f2",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F2"],
+        "descricao": "Mover o trecho: leve o cursor ao destino e pressione Enter"
+      },
+      {
+        "teclas": ["Shift", "F2"],
+        "descricao": "Copiar o trecho: leve o cursor ao destino e pressione Enter"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mover ou copiar um trecho sem recortar e colar?",
+      "exemplo": "Selecione uma frase, pressione F2, mova o cursor até o novo lugar e pressione Enter: a frase é movida.",
+      "explicacao": "Esc cancela a operação. A área de transferência não é usada."
+    }
+  },
+  {
+    "id": "word-imprimir",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "P"],
+        "descricao": "Imprimir o documento"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "I"],
+        "descricao": "Visualização de impressão"
+      },
+      {
+        "teclas": ["Ctrl", "F2"],
+        "descricao": "Visualização de impressão no modo Backstage"
+      }
+    ],
+    "pt": {
+      "titulo": "Como imprimir e visualizar a impressão?",
+      "exemplo": "Antes de imprimir, pressione Ctrl+Alt+I e confira se a quebra de página ficou onde esperava.",
+      "explicacao": "Com a prévia em zoom menor, Page Up e Page Down percorrem as páginas."
+    }
+  },
+  {
+    "id": "word-zoom",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "+"],
+        "descricao": "Ampliar"
+      },
+      {
+        "teclas": ["Ctrl", "-"],
+        "descricao": "Reduzir"
+      },
+      {
+        "teclas": ["Ctrl", "0"],
+        "descricao": "Voltar ao zoom de 100%"
+      },
+      {
+        "teclas": ["Ctrl", "Rolagem"],
+        "descricao": "Aumentar ou diminuir com a roda do mouse"
+      }
+    ],
+    "pt": {
+      "titulo": "Como aumentar e diminuir o zoom do documento?",
+      "exemplo": "Texto pequeno demais na tela? Ctrl++ amplia, e Ctrl+0 volta ao normal.",
+      "explicacao": "O zoom muda só a exibição, e não o tamanho da fonte impresso."
+    }
+  },
+  {
+    "id": "word-dividir-janela",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "S"],
+        "descricao": "Dividir a janela do documento"
+      },
+      {
+        "teclas": ["Alt", "Shift", "C"],
+        "descricao": "Remover a divisão (também Ctrl+Alt+S)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como dividir a janela para ver dois pontos do mesmo documento?",
+      "exemplo": "Em um relatório longo, divida a janela para manter o sumário no alto e editar o fim do texto embaixo.",
+      "explicacao": "Cada metade rola de forma independente."
+    }
+  },
+  {
+    "id": "word-guias-faixa",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "Q"],
+        "descricao": "Campo de pesquisa (Diga-me)"
+      },
+      {
+        "teclas": ["Alt", "F"],
+        "descricao": "Arquivo"
+      },
+      {
+        "teclas": ["Alt", "H"],
+        "descricao": "Página Inicial"
+      },
+      {
+        "teclas": ["Alt", "N"],
+        "descricao": "Inserir"
+      },
+      {
+        "teclas": ["Alt", "G"],
+        "descricao": "Design"
+      },
+      {
+        "teclas": ["Alt", "P"],
+        "descricao": "Layout"
+      },
+      {
+        "teclas": ["Alt", "S"],
+        "descricao": "Referências"
+      },
+      {
+        "teclas": ["Alt", "M"],
+        "descricao": "Correspondências"
+      },
+      {
+        "teclas": ["Alt", "R"],
+        "descricao": "Revisão"
+      },
+      {
+        "teclas": ["Alt", "W"],
+        "descricao": "Exibição"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir cada guia da faixa de opções pelo teclado?",
+      "exemplo": "Pressione Alt e depois H para abrir a guia Página Inicial. Pressione Alt de novo para ver as letras de cada botão.",
+      "explicacao": "As teclas são pressionadas em sequência, e não ao mesmo tempo."
+    }
+  },
+  {
+    "id": "word-faixa-teclado",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt"],
+        "descricao": "Ativar as dicas de tecla (também F10)"
+      },
+      {
+        "teclas": ["Tab"],
+        "descricao": "Mover para o próximo comando (Shift+Tab volta)"
+      },
+      {
+        "teclas": ["Ctrl", "←/→"],
+        "descricao": "Mover entre os grupos de comandos"
+      },
+      {
+        "teclas": ["Space"],
+        "descricao": "Ativar o botão selecionado (também Enter)"
+      },
+      {
+        "teclas": ["Ctrl", "F1"],
+        "descricao": "Expandir ou recolher a faixa de opções"
+      },
+      {
+        "teclas": ["Shift", "F10"],
+        "descricao": "Abrir o menu de contexto"
+      }
+    ],
+    "pt": {
+      "titulo": "Como navegar pela faixa de opções com o teclado?",
+      "exemplo": "Para ganhar espaço na tela, pressione Ctrl+F1 e recolha a faixa de opções. Pressione de novo para voltar.",
+      "explicacao": "Com Alt e as setas dá para chegar a qualquer comando sem o mouse."
+    }
+  },
+  {
+    "id": "word-tabelas-mover",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Tab"],
+        "descricao": "Próxima célula"
+      },
+      {
+        "teclas": ["Shift", "Tab"],
+        "descricao": "Célula anterior"
+      },
+      {
+        "teclas": ["Alt", "Home"],
+        "descricao": "Primeira célula da linha"
+      },
+      {
+        "teclas": ["Alt", "End"],
+        "descricao": "Última célula da linha"
+      },
+      {
+        "teclas": ["Alt", "Page Up"],
+        "descricao": "Primeira célula da coluna"
+      },
+      {
+        "teclas": ["Alt", "Page Down"],
+        "descricao": "Última célula da coluna"
+      }
+    ],
+    "pt": {
+      "titulo": "Como se mover dentro de uma tabela pelo teclado?",
+      "exemplo": "Na última célula da tabela, pressionar Tab cria uma nova linha automaticamente.",
+      "explicacao": "O Tab seleciona o conteúdo da célula para que você já possa digitar por cima."
+    }
+  },
+  {
+    "id": "word-tabelas-editar",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "←/→/↑/↓"],
+        "descricao": "Estender a seleção para células vizinhas"
+      },
+      {
+        "teclas": ["Alt", "Shift", "↑/↓"],
+        "descricao": "Mover a linha atual para cima ou para baixo"
+      },
+      {
+        "teclas": ["Enter"],
+        "descricao": "Novo parágrafo dentro da célula"
+      },
+      {
+        "teclas": ["Ctrl", "Tab"],
+        "descricao": "Inserir uma tabulação dentro da célula"
+      }
+    ],
+    "pt": {
+      "titulo": "Como selecionar e editar linhas de uma tabela pelo teclado?",
+      "exemplo": "Para trocar a ordem de duas linhas, clique na linha e use Alt+Shift+↑ ou Alt+Shift+↓.",
+      "explicacao": "Para selecionar a tabela inteira, use Alt+5 do teclado numérico com Num Lock desligado."
+    }
+  },
+  {
+    "id": "word-revisao",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "M"],
+        "descricao": "Inserir um comentário"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "E"],
+        "descricao": "Ativar ou desativar o controle de alterações"
+      },
+      {
+        "teclas": ["F7"],
+        "descricao": "Abrir o Editor (ortografia e gramática)"
+      },
+      {
+        "teclas": ["Alt", "F7"],
+        "descricao": "Ir para o próximo erro ortográfico ou gramatical"
+      },
+      {
+        "teclas": ["Shift", "F7"],
+        "descricao": "Abrir o dicionário de sinônimos"
+      },
+      {
+        "teclas": ["Alt", "Shift", "C"],
+        "descricao": "Fechar o painel de revisão"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir comentários, controlar alterações e revisar o texto?",
+      "exemplo": "Vai enviar o texto para alguém revisar? Ative o controle de alterações com Ctrl+Shift+E antes de editar.",
+      "explicacao": "Com o controle ligado, cada mudança fica registrada e pode ser aceita ou rejeitada depois."
+    }
+  },
+  {
+    "id": "word-referencias",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "F"],
+        "descricao": "Inserir uma nota de rodapé"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "D"],
+        "descricao": "Inserir uma nota de fim"
+      },
+      {
+        "teclas": ["Alt", "Shift", ">"],
+        "descricao": "Ir para a próxima nota de rodapé"
+      },
+      {
+        "teclas": ["Alt", "Shift", "<"],
+        "descricao": "Ir para a nota de rodapé anterior"
+      },
+      {
+        "teclas": ["Alt", "Shift", "O"],
+        "descricao": "Marcar uma entrada do sumário"
+      },
+      {
+        "teclas": ["Alt", "Shift", "X"],
+        "descricao": "Marcar uma entrada do índice"
+      },
+      {
+        "teclas": ["Alt", "Shift", "I"],
+        "descricao": "Marcar uma citação (índice de autoridades)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir notas de rodapé, notas de fim e marcar entradas?",
+      "exemplo": "No fim da frase que precisa de fonte, pressione Ctrl+Alt+F e digite a referência no rodapé da página.",
+      "explicacao": "Úteis em trabalhos acadêmicos e relatórios técnicos."
+    }
+  },
+  {
+    "id": "word-campos-inserir",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "Shift", "D"],
+        "descricao": "Inserir o campo de data"
+      },
+      {
+        "teclas": ["Alt", "Shift", "T"],
+        "descricao": "Inserir o campo de hora"
+      },
+      {
+        "teclas": ["Alt", "Shift", "P"],
+        "descricao": "Inserir o campo de página"
+      },
+      {
+        "teclas": ["Ctrl", "F9"],
+        "descricao": "Inserir um campo vazio"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "L"],
+        "descricao": "Inserir um campo de lista numerada"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir data, hora e número de página como campos?",
+      "exemplo": "No rodapé, pressione Alt+Shift+P para inserir o número da página, que se atualiza sozinho.",
+      "explicacao": "Campos mudam automaticamente, diferente de uma data digitada à mão."
+    }
+  },
+  {
+    "id": "word-campos-gerenciar",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F9"],
+        "descricao": "Atualizar os campos selecionados"
+      },
+      {
+        "teclas": ["Shift", "F9"],
+        "descricao": "Alternar entre o código do campo e o resultado"
+      },
+      {
+        "teclas": ["Alt", "F9"],
+        "descricao": "Alternar todos os códigos de campo e resultados"
+      },
+      {
+        "teclas": ["F11"],
+        "descricao": "Ir para o próximo campo (Shift+F11 volta)"
+      },
+      {
+        "teclas": ["Ctrl", "F11"],
+        "descricao": "Bloquear o campo (Ctrl+Shift+F11 desbloqueia)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "F9"],
+        "descricao": "Desvincular o campo"
+      }
+    ],
+    "pt": {
+      "titulo": "Como atualizar e alternar campos do documento?",
+      "exemplo": "Mudou o número de páginas e o sumário ficou desatualizado? Selecione-o e pressione F9.",
+      "explicacao": "Desvincular o campo transforma o resultado em texto comum."
+    }
+  },
+  {
+    "id": "word-mala-direta",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "M"],
+        "descricao": "Abrir a guia Correspondências"
+      },
+      {
+        "teclas": ["Alt", "Shift", "K"],
+        "descricao": "Visualizar a mala direta"
+      },
+      {
+        "teclas": ["Alt", "Shift", "N"],
+        "descricao": "Mesclar o documento"
+      },
+      {
+        "teclas": ["Alt", "Shift", "M"],
+        "descricao": "Imprimir o documento mesclado"
+      },
+      {
+        "teclas": ["Alt", "Shift", "E"],
+        "descricao": "Editar o documento com os dados da mala direta"
+      },
+      {
+        "teclas": ["Alt", "Shift", "F"],
+        "descricao": "Inserir um campo de mala direta"
+      }
+    ],
+    "pt": {
+      "titulo": "Quais são os atalhos da mala direta (guia Correspondências)?",
+      "exemplo": "Com a guia Correspondências aberta, Alt+Shift+F insere um campo, como o nome do destinatário.",
+      "explicacao": "Estes atalhos só funcionam com a guia Correspondências selecionada."
+    }
+  },
+  {
+    "id": "word-modos-exibicao",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "W", "F"],
+        "descricao": "Modo de Leitura"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "P"],
+        "descricao": "Layout de impressão"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "O"],
+        "descricao": "Estrutura de tópicos"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "N"],
+        "descricao": "Rascunho"
+      }
+    ],
+    "pt": {
+      "titulo": "Como trocar o modo de exibição do documento?",
+      "exemplo": "Quer ler sem distrações? Pressione Alt, W, F para entrar no modo de Leitura e Esc para sair.",
+      "explicacao": "Cada modo facilita uma tarefa: ler, imprimir, organizar ou escrever."
+    }
+  },
+  {
+    "id": "word-estrutura-topicos",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "Shift", "←"],
+        "descricao": "Promover o parágrafo"
+      },
+      {
+        "teclas": ["Alt", "Shift", "→"],
+        "descricao": "Rebaixar o parágrafo"
+      },
+      {
+        "teclas": ["Alt", "Shift", "↑/↓"],
+        "descricao": "Mover os parágrafos selecionados para cima ou para baixo"
+      },
+      {
+        "teclas": ["Alt", "Shift", "+"],
+        "descricao": "Expandir o texto sob um título"
+      },
+      {
+        "teclas": ["Alt", "Shift", "-"],
+        "descricao": "Recolher o texto sob um título"
+      },
+      {
+        "teclas": ["Alt", "Shift", "A"],
+        "descricao": "Expandir ou recolher todo o texto"
+      },
+      {
+        "teclas": ["Alt", "Shift", "1"],
+        "descricao": "Mostrar só os títulos de nível 1"
+      }
+    ],
+    "pt": {
+      "titulo": "Como organizar títulos na exibição de Estrutura de tópicos?",
+      "exemplo": "Para reorganizar capítulos, selecione um título e use Alt+Shift+↑ ou ↓: o conteúdo dele vai junto.",
+      "explicacao": "Estes atalhos só valem na exibição Estrutura de tópicos."
+    }
+  },
+  {
+    "id": "word-modo-leitura",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Home"],
+        "descricao": "Ir para o início do documento"
+      },
+      {
+        "teclas": ["End"],
+        "descricao": "Ir para o fim do documento"
+      },
+      {
+        "teclas": ["Número", "Enter"],
+        "descricao": "Ir para uma página específica"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Sair do modo de Leitura"
+      }
+    ],
+    "pt": {
+      "titulo": "Como navegar no modo de Leitura?",
+      "exemplo": "No modo de Leitura, digite 12 e pressione Enter para ir à página 12.",
+      "explicacao": "As setas ← e → viram as páginas, como em um livro."
+    }
+  },
+  {
+    "id": "word-acentos-ctrl",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "`", "a"],
+        "descricao": "à, è, ì, ò, ù (acento grave)"
+      },
+      {
+        "teclas": ["Ctrl", "'", "a"],
+        "descricao": "á, é, í, ó, ú (acento agudo)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "^", "a"],
+        "descricao": "â, ê, î, ô, û (circunflexo)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "~", "a"],
+        "descricao": "ã, õ, ñ (til)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", ":", "a"],
+        "descricao": "ä, ë, ï, ö, ü (trema)"
+      },
+      {
+        "teclas": ["Ctrl", ",", "c"],
+        "descricao": "ç (cedilha)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "&", "s"],
+        "descricao": "ß"
+      }
+    ],
+    "pt": {
+      "titulo": "Como digitar letras acentuadas com Ctrl + símbolo + letra?",
+      "exemplo": "Para digitar é: pressione Ctrl+', solte e digite a letra e.",
+      "explicacao": "Pressione a combinação com o símbolo, solte tudo e só depois digite a letra. Para maiúsculas, digite a letra em maiúscula.",
+      "extra": "Se você digita muito em outro idioma, vale trocar o layout do teclado."
+    }
+  },
+  {
+    "id": "word-idioma-revisao",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "R", "U", "L"],
+        "descricao": "Abrir a caixa Idioma para o texto selecionado"
+      },
+      {
+        "teclas": ["Alt", "R", "L"],
+        "descricao": "Definir os idiomas padrão"
+      }
+    ],
+    "pt": {
+      "titulo": "Como definir o idioma de revisão de um trecho?",
+      "exemplo": "Colou uma frase em inglês no texto? Selecione-a e use Alt, R, U, L para trocar o idioma e evitar sublinhados de erro.",
+      "explicacao": "O idioma certo também ajuda leitores de tela a pronunciar o trecho corretamente."
+    }
+  },
+  {
+    "id": "word-repetir-f4",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F4"],
+        "descricao": "Repetir o último comando ou ação"
+      },
+      {
+        "teclas": ["Shift", "F4"],
+        "descricao": "Repetir a última busca (Localizar ou Ir para)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como repetir a última ação com uma tecla?",
+      "exemplo": "Aplicou negrito e cor a uma palavra? Selecione outra e pressione F4 para repetir tudo.",
+      "explicacao": "Funciona com quase qualquer formatação ou comando."
+    }
+  },
+  {
+    "id": "word-janelas",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F6"],
+        "descricao": "Alternar entre documento, painel de tarefas, barra de status e faixa de opções"
+      },
+      {
+        "teclas": ["Ctrl", "F6"],
+        "descricao": "Ir para a próxima janela de documento"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "F6"],
+        "descricao": "Ir para a janela de documento anterior"
+      },
+      {
+        "teclas": ["Ctrl", "F10"],
+        "descricao": "Maximizar ou restaurar a janela do documento"
+      }
+    ],
+    "pt": {
+      "titulo": "Como alternar entre painéis e janelas de documentos?",
+      "exemplo": "Com dois documentos abertos, Ctrl+F6 alterna entre eles sem usar a barra de tarefas.",
+      "explicacao": "O F6 também ajuda a chegar ao painel de tarefas sem o mouse."
+    }
+  },
+  {
+    "id": "word-macros-vba",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "F8"],
+        "descricao": "Abrir a caixa Macro"
+      },
+      {
+        "teclas": ["Alt", "F11"],
+        "descricao": "Abrir o editor do Visual Basic for Applications"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir as macros e o editor do VBA?",
+      "exemplo": "Para repetir uma tarefa chata, grave uma macro e execute depois com Alt+F8.",
+      "explicacao": "Se uma ação não tem atalho, você pode gravar uma macro e atribuir um atalho a ela."
+    }
+  },
+  {
+    "id": "word-hiperlink",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "K"],
+        "descricao": "Inserir um hiperlink"
+      },
+      {
+        "teclas": ["Alt", "←"],
+        "descricao": "Voltar uma página"
+      },
+      {
+        "teclas": ["Alt", "→"],
+        "descricao": "Avançar uma página"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir um link e navegar entre páginas da web?",
+      "exemplo": "Selecione \"nosso site\", pressione Ctrl+K e cole o endereço.",
+      "explicacao": "Depois de seguir um link, Alt+← volta ao documento."
+    }
+  },
+  {
+    "id": "word-autotexto",
+    "programa": "Word",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "F3"],
+        "descricao": "Criar um bloco de construção com o texto selecionado"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar e reutilizar um bloco de texto pronto (AutoTexto)?",
+      "exemplo": "Selecione sua assinatura, pressione Alt+F3 e dê um nome. Depois, digite as primeiras letras e pressione Enter na dica que aparecer.",
+      "explicacao": "Bom para trechos que você digita sempre, como endereços e termos de contrato."
+    }
+  },
+  {
+    "id": "excel-abrir-fechar",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": {
+          "pt": ["Ctrl", "A"],
+          "en": ["Ctrl", "O"]
+        },
+        "descricao": "Abrir uma pasta de trabalho"
+      },
+      {
+        "teclas": ["Ctrl", "W"],
+        "descricao": "Fechar a pasta de trabalho (também Ctrl+F4)"
+      },
+      {
+        "teclas": ["Alt", "F4"],
+        "descricao": "Fechar o Excel"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir e fechar pastas de trabalho pelo teclado?",
+      "exemplo": "Terminou o relatório? Ctrl+W fecha a planilha, e o Excel pergunta se você quer salvar.",
+      "explicacao": "Ctrl+W fecha só a pasta atual; Alt+F4 fecha o Excel."
+    }
+  },
+  {
+    "id": "excel-colar-especial-opcoes",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "V"],
+        "descricao": "Abrir a caixa Colar Especial"
+      },
+      {
+        "teclas": ["V"],
+        "descricao": "Colar só os valores"
+      },
+      {
+        "teclas": ["F"],
+        "descricao": "Colar só as fórmulas"
+      },
+      {
+        "teclas": ["T"],
+        "descricao": "Colar só a formatação"
+      },
+      {
+        "teclas": ["C"],
+        "descricao": "Colar só os comentários"
+      },
+      {
+        "teclas": ["W"],
+        "descricao": "Colar só as larguras das colunas"
+      },
+      {
+        "teclas": ["X"],
+        "descricao": "Colar tudo, exceto as bordas"
+      },
+      {
+        "teclas": ["L"],
+        "descricao": "Colar fórmulas e formatos de número"
+      },
+      {
+        "teclas": ["U"],
+        "descricao": "Colar valores e formatos de número"
+      },
+      {
+        "teclas": ["N"],
+        "descricao": "Colar só a validação de dados"
+      }
+    ],
+    "pt": {
+      "titulo": "Quais letras escolher na caixa Colar Especial?",
+      "exemplo": "Copiou células com fórmula e quer só o resultado? Pressione Ctrl+Alt+V e depois V, e confirme com Enter.",
+      "explicacao": "Na caixa, pressione a letra sublinhada da opção. É mais rápido que clicar."
+    }
+  },
+  {
+    "id": "excel-preencher",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "D"],
+        "descricao": "Preencher para baixo com o conteúdo e o formato da célula de cima"
+      },
+      {
+        "teclas": ["Ctrl", "Enter"],
+        "descricao": "Preencher o intervalo selecionado com a entrada atual"
+      }
+    ],
+    "pt": {
+      "titulo": "Como preencher várias células de uma vez?",
+      "exemplo": "Selecione B2:B20, digite 0 e pressione Ctrl+Enter: todas as células recebem o 0.",
+      "explicacao": "Ctrl+D copia a primeira célula da seleção para as de baixo."
+    }
+  },
+  {
+    "id": "excel-preenchimento-relampago",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "E"],
+        "descricao": "Reconhecer o padrão da coluna ao lado e preencher a atual"
+      }
+    ],
+    "pt": {
+      "titulo": "Como usar o Preenchimento Relâmpago?",
+      "exemplo": "Com nomes completos na coluna A, digite o primeiro sobrenome na coluna B e pressione Ctrl+E: o Excel preenche o resto.",
+      "explicacao": "Funciona para separar, juntar ou reformatar dados seguindo o exemplo que você digitou."
+    }
+  },
+  {
+    "id": "excel-formatos-numero",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "~"],
+        "descricao": "Formato Geral"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "$"],
+        "descricao": "Formato Moeda com duas casas decimais"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "%"],
+        "descricao": "Formato Porcentagem sem casas decimais"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "^"],
+        "descricao": "Formato Científico"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "#"],
+        "descricao": "Formato Data (dia, mês e ano)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "@"],
+        "descricao": "Formato Hora (hora e minuto)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "!"],
+        "descricao": "Formato Número com duas casas e separador de milhar"
+      }
+    ],
+    "pt": {
+      "titulo": "Como aplicar formatos de número pelo teclado?",
+      "exemplo": "Selecione os valores da coluna e pressione Ctrl+Shift+$ para formatá-los como moeda.",
+      "explicacao": "Cada atalho usa o símbolo do formato, o que facilita memorizar."
+    }
+  },
+  {
+    "id": "excel-formatar-celulas",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "1"],
+        "descricao": "Abrir a caixa Formatar Células"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "F"],
+        "descricao": "Formatar a fonte na caixa Formatar Células"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "&"],
+        "descricao": "Aplicar contorno às células selecionadas"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", " "],
+        "descricao": "Remover o contorno"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir a formatação de células e aplicar bordas?",
+      "exemplo": "Selecione a tabela e pressione Ctrl+Shift+& para colocar contorno em todas as células.",
+      "explicacao": "A caixa Formatar Células reúne número, alinhamento, fonte, borda e preenchimento."
+    }
+  },
+  {
+    "id": "excel-formatar-texto",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "2"],
+        "descricao": "Negrito (também Ctrl+N em português)"
+      },
+      {
+        "teclas": ["Ctrl", "3"],
+        "descricao": "Itálico (também Ctrl+I)"
+      },
+      {
+        "teclas": ["Ctrl", "4"],
+        "descricao": "Sublinhado (também Ctrl+S em português)"
+      },
+      {
+        "teclas": ["Ctrl", "5"],
+        "descricao": "Tachado"
+      }
+    ],
+    "pt": {
+      "titulo": "Como aplicar negrito, itálico, sublinhado e tachado nas células?",
+      "exemplo": "Selecione os cabeçalhos da tabela e pressione Ctrl+2 para colocá-los em negrito.",
+      "explicacao": "Os números funcionam igual no Excel em português e em inglês."
+    }
+  },
+  {
+    "id": "excel-inserir-excluir-celulas",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "+"],
+        "descricao": "Abrir a caixa Inserir"
+      },
+      {
+        "teclas": ["Ctrl", "-"],
+        "descricao": "Abrir a caixa Excluir"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir e excluir células, linhas e colunas pelo teclado?",
+      "exemplo": "Selecione uma linha com Shift+Espaço e pressione Ctrl+Shift++ para inserir uma linha acima.",
+      "explicacao": "Combine com Ctrl+Espaço e Shift+Espaço, que selecionam colunas e linhas inteiras."
+    }
+  },
+  {
+    "id": "excel-ocultar-linhas-colunas",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "9"],
+        "descricao": "Ocultar as linhas selecionadas"
+      },
+      {
+        "teclas": ["Ctrl", "0"],
+        "descricao": "Ocultar as colunas selecionadas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ocultar linhas e colunas?",
+      "exemplo": "Selecione uma célula na linha 5 e pressione Ctrl+9 para escondê-la.",
+      "explicacao": "Ocultar não apaga os dados: as fórmulas continuam usando os valores escondidos."
+    }
+  },
+  {
+    "id": "excel-mostrar-formulas",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "`"],
+        "descricao": "Alternar entre valores e fórmulas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ver as fórmulas da planilha em vez dos resultados?",
+      "exemplo": "Quer conferir todas as fórmulas de uma vez? Pressione Ctrl+` e as células mostram as fórmulas. Pressione de novo para voltar.",
+      "explicacao": "A tecla do acento grave fica geralmente acima do Tab."
+    }
+  },
+  {
+    "id": "excel-copiar-acima",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "'"],
+        "descricao": "Copiar a fórmula da célula acima"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "\""],
+        "descricao": "Copiar o valor da célula acima"
+      }
+    ],
+    "pt": {
+      "titulo": "Como copiar o conteúdo da célula de cima?",
+      "exemplo": "Na célula B3, pressione Ctrl+Shift+\" para trazer o valor que está em B2.",
+      "explicacao": "A diferença é que o primeiro atalho traz a fórmula, e o segundo traz só o resultado."
+    }
+  },
+  {
+    "id": "excel-comentarios",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "F2"],
+        "descricao": "Adicionar ou editar uma anotação"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "F2"],
+        "descricao": "Adicionar ou responder a um comentário encadeado"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir anotações e comentários nas células?",
+      "exemplo": "Selecione a célula e pressione Shift+F2 para explicar de onde veio aquele número.",
+      "explicacao": "Anotações são notas simples; comentários encadeados permitem conversar com outras pessoas."
+    }
+  },
+  {
+    "id": "excel-ortografia",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F7"],
+        "descricao": "Verificar a ortografia da planilha ativa ou do intervalo selecionado"
+      }
+    ],
+    "pt": {
+      "titulo": "Como verificar a ortografia da planilha?",
+      "exemplo": "Antes de enviar a planilha, pressione F7 para encontrar erros de digitação nos textos.",
+      "explicacao": "Se houver um intervalo selecionado, só ele é verificado."
+    }
+  },
+  {
+    "id": "excel-analise-rapida",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Q"],
+        "descricao": "Exibir as opções de Análise Rápida"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir a Análise Rápida dos dados selecionados?",
+      "exemplo": "Selecione os números e pressione Ctrl+Q para adicionar gráficos, totais ou formatação condicional.",
+      "explicacao": "Facilita criar um gráfico ou uma formatação com poucos cliques."
+    }
+  },
+  {
+    "id": "excel-hiperlink",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "K"],
+        "descricao": "Abrir a caixa Inserir hiperlink"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir um link em uma célula?",
+      "exemplo": "Selecione a célula, pressione Ctrl+K e cole o endereço do site ou o caminho do arquivo.",
+      "explicacao": "O link pode apontar para um site, um arquivo ou outra planilha da pasta de trabalho."
+    }
+  },
+  {
+    "id": "excel-selecao-regiao",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "*"],
+        "descricao": "Selecionar a região atual em torno da célula ativa"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Espaço"],
+        "descricao": "Selecionar a planilha inteira"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Home"],
+        "descricao": "Estender a seleção até o início da planilha"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "End"],
+        "descricao": "Estender a seleção até a última célula usada"
+      },
+      {
+        "teclas": ["Shift", "F8"],
+        "descricao": "Adicionar uma célula ou intervalo não adjacente à seleção"
+      },
+      {
+        "teclas": ["F8"],
+        "descricao": "Ativar ou desativar o modo de seleção estendida"
+      }
+    ],
+    "pt": {
+      "titulo": "Como selecionar a região de dados ou a planilha inteira?",
+      "exemplo": "Clique em qualquer célula de uma tabela e pressione Ctrl+Shift+* para selecionar a tabela toda.",
+      "explicacao": "Útil para formatar, copiar ou criar um gráfico com toda a região de dados."
+    }
+  },
+  {
+    "id": "excel-trocar-planilhas",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Page Down"],
+        "descricao": "Ir para a próxima planilha"
+      },
+      {
+        "teclas": ["Ctrl", "Page Up"],
+        "descricao": "Ir para a planilha anterior"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Page Down"],
+        "descricao": "Selecionar a planilha atual e a próxima"
+      },
+      {
+        "teclas": ["Shift", "F11"],
+        "descricao": "Inserir uma nova planilha (também Alt+Shift+F1)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como alternar entre as planilhas e inserir uma nova?",
+      "exemplo": "Em uma pasta com várias abas, Ctrl+Page Down passa para a aba seguinte.",
+      "explicacao": "Com várias planilhas selecionadas, o que você digita aparece em todas elas. Cuidado!"
+    }
+  },
+  {
+    "id": "excel-navegar-telas",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Page Down"],
+        "descricao": "Descer uma tela"
+      },
+      {
+        "teclas": ["Page Up"],
+        "descricao": "Subir uma tela"
+      },
+      {
+        "teclas": ["Alt", "Page Down"],
+        "descricao": "Mover uma tela para a direita"
+      },
+      {
+        "teclas": ["Alt", "Page Up"],
+        "descricao": "Mover uma tela para a esquerda"
+      },
+      {
+        "teclas": ["Tab"],
+        "descricao": "Mover uma célula para a direita (Shift+Tab volta)"
+      },
+      {
+        "teclas": ["Alt", "↓"],
+        "descricao": "Abrir a lista de validação da célula"
+      }
+    ],
+    "pt": {
+      "titulo": "Como percorrer a planilha por telas e entre células?",
+      "exemplo": "Em uma planilha larga, Alt+Page Down leva uma tela inteira para a direita.",
+      "explicacao": "Se a célula tiver uma lista suspensa, Alt+↓ abre as opções."
+    }
+  },
+  {
+    "id": "excel-modo-termino",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["End", "↓"],
+        "descricao": "Ir para a próxima célula preenchida na coluna"
+      },
+      {
+        "teclas": ["End", "→"],
+        "descricao": "Ir para a próxima célula preenchida na linha"
+      }
+    ],
+    "pt": {
+      "titulo": "Como usar o modo Término (End) para saltar entre dados?",
+      "exemplo": "Pressione End e depois ↓: o cursor salta para a última célula do bloco de dados.",
+      "explicacao": "O modo Término aparece na barra de status e se desativa sozinho depois da seta."
+    }
+  },
+  {
+    "id": "excel-confirmar-entrada",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Enter"],
+        "descricao": "Concluir e descer para a célula de baixo"
+      },
+      {
+        "teclas": ["Shift", "Enter"],
+        "descricao": "Concluir e subir para a célula de cima"
+      },
+      {
+        "teclas": ["Tab"],
+        "descricao": "Concluir e ir para a célula da direita"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Cancelar a entrada"
+      }
+    ],
+    "pt": {
+      "titulo": "Como confirmar uma entrada e escolher para onde o cursor vai?",
+      "exemplo": "Digitou o valor errado? Pressione Esc antes de confirmar e a célula volta ao que era.",
+      "explicacao": "Com Tab e Enter você preenche uma tabela linha por linha, sem tirar a mão do teclado."
+    }
+  },
+  {
+    "id": "excel-limpar-celula",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Delete"],
+        "descricao": "Remover o conteúdo (dados e fórmulas)"
+      },
+      {
+        "teclas": ["Backspace"],
+        "descricao": "Limpar a célula ativa"
+      }
+    ],
+    "pt": {
+      "titulo": "Como limpar o conteúdo de uma célula sem mexer na formatação?",
+      "exemplo": "Selecione B2:B10 e pressione Delete: os valores somem, mas as cores e bordas continuam.",
+      "explicacao": "O Delete preserva formatos, comentários e anotações."
+    }
+  },
+  {
+    "id": "excel-recalcular",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F9"],
+        "descricao": "Calcular todas as planilhas das pastas abertas"
+      },
+      {
+        "teclas": ["Shift", "F9"],
+        "descricao": "Calcular só a planilha ativa"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "F9"],
+        "descricao": "Calcular tudo, mesmo o que não mudou"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "Shift", "F9"],
+        "descricao": "Rechecar as fórmulas dependentes e calcular tudo"
+      }
+    ],
+    "pt": {
+      "titulo": "Como recalcular as fórmulas manualmente?",
+      "exemplo": "Em planilhas pesadas com cálculo manual, pressione F9 para atualizar os resultados.",
+      "explicacao": "O cálculo automático já faz isso sozinho, a menos que esteja desligado."
+    }
+  },
+  {
+    "id": "excel-barra-formulas",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "U"],
+        "descricao": "Expandir ou recolher a barra de fórmulas"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Cancelar a entrada na célula ou na barra"
+      },
+      {
+        "teclas": ["Ctrl", "End"],
+        "descricao": "Ir para o fim do texto na barra de fórmulas"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "End"],
+        "descricao": "Selecionar o texto até o fim, a partir do cursor"
+      }
+    ],
+    "pt": {
+      "titulo": "Como trabalhar na barra de fórmulas pelo teclado?",
+      "exemplo": "Fórmula longa demais para ler? Pressione Ctrl+Shift+U para expandir a barra de fórmulas.",
+      "explicacao": "A barra expandida mostra a fórmula em várias linhas."
+    }
+  },
+  {
+    "id": "excel-inserir-funcao",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "F3"],
+        "descricao": "Abrir a caixa Inserir Função"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "A"],
+        "descricao": "Inserir os nomes e parênteses dos argumentos (com o cursor após o nome da função)"
+      },
+      {
+        "teclas": ["F3"],
+        "descricao": "Colar um nome definido na fórmula"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir uma função e os argumentos dela?",
+      "exemplo": "Digite =SE e pressione Ctrl+Shift+A: o Excel mostra os argumentos da função para você preencher.",
+      "explicacao": "É útil para lembrar a ordem dos argumentos de uma função."
+    }
+  },
+  {
+    "id": "excel-nomes-definidos",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "M", "M", "D"],
+        "descricao": "Definir um nome para usar nas referências"
+      },
+      {
+        "teclas": ["F3"],
+        "descricao": "Colar um nome na fórmula"
+      }
+    ],
+    "pt": {
+      "titulo": "Como definir um nome para um intervalo?",
+      "exemplo": "Selecione B2:B100, dê o nome \"Vendas\" e use =SOMA(Vendas) em vez de =SOMA(B2:B100).",
+      "explicacao": "Nomes deixam as fórmulas mais legíveis e fáceis de manter."
+    }
+  },
+  {
+    "id": "excel-graficos",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "F1"],
+        "descricao": "Criar um gráfico dentro da planilha com os dados selecionados"
+      },
+      {
+        "teclas": ["F11"],
+        "descricao": "Criar um gráfico em uma planilha separada"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar um gráfico rapidamente?",
+      "exemplo": "Selecione a tabela de vendas e pressione Alt+F1: um gráfico de colunas aparece na planilha.",
+      "explicacao": "Depois você pode trocar o tipo de gráfico na guia Design do Gráfico."
+    }
+  },
+  {
+    "id": "excel-ir-para",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F5"],
+        "descricao": "Abrir a caixa Ir para"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ir direto a uma célula ou a um intervalo?",
+      "exemplo": "Pressione F5, digite B2000 e Enter para ir direto à célula B2000.",
+      "explicacao": "A caixa também aceita nomes definidos e intervalos."
+    }
+  },
+  {
+    "id": "excel-atualizar-dados",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "F5"],
+        "descricao": "Atualizar os dados da planilha atual"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "F5"],
+        "descricao": "Atualizar todos os dados da pasta de trabalho"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Interromper a atualização"
+      }
+    ],
+    "pt": {
+      "titulo": "Como atualizar dados externos?",
+      "exemplo": "Planilha ligada a um banco de dados? Ctrl+Alt+F5 atualiza todas as conexões de uma vez.",
+      "explicacao": "Serve para consultas, tabelas dinâmicas e conexões externas."
+    }
+  },
+  {
+    "id": "excel-macros-vba",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "F8"],
+        "descricao": "Criar, executar, editar ou excluir uma macro"
+      },
+      {
+        "teclas": ["Alt", "F11"],
+        "descricao": "Abrir o editor do Visual Basic for Applications"
+      },
+      {
+        "teclas": ["Alt", "F12"],
+        "descricao": "Abrir o Editor do Power Query"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir macros, o editor do VBA e o Power Query?",
+      "exemplo": "Para automatizar uma tarefa repetitiva, grave uma macro e execute depois com Alt+F8.",
+      "explicacao": "O Power Query transforma e limpa dados antes de colocá-los na planilha."
+    }
+  },
+  {
+    "id": "excel-guias-faixa",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "Q"],
+        "descricao": "Campo de pesquisa"
+      },
+      {
+        "teclas": ["Alt", "F"],
+        "descricao": "Arquivo"
+      },
+      {
+        "teclas": ["Alt", "H"],
+        "descricao": "Página Inicial"
+      },
+      {
+        "teclas": ["Alt", "N"],
+        "descricao": "Inserir"
+      },
+      {
+        "teclas": ["Alt", "P"],
+        "descricao": "Layout da Página"
+      },
+      {
+        "teclas": ["Alt", "M"],
+        "descricao": "Fórmulas"
+      },
+      {
+        "teclas": ["Alt", "A"],
+        "descricao": "Dados"
+      },
+      {
+        "teclas": ["Alt", "R"],
+        "descricao": "Revisão"
+      },
+      {
+        "teclas": ["Alt", "W"],
+        "descricao": "Exibir"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir cada guia da faixa de opções pelo teclado?",
+      "exemplo": "Pressione Alt e depois A para abrir a guia Dados e chegar aos filtros e à classificação.",
+      "explicacao": "Depois de abrir a guia, pressione Alt de novo para ver as letras de cada botão.",
+      "extra": "Alt, W, P muda para o layout de página; Alt, W, L volta ao modo Normal."
+    }
+  },
+  {
+    "id": "excel-faixa-teclado",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt"],
+        "descricao": "Ativar as dicas de tecla (também F10)"
+      },
+      {
+        "teclas": ["Tab"],
+        "descricao": "Mover para o próximo comando"
+      },
+      {
+        "teclas": ["Ctrl", "F1"],
+        "descricao": "Expandir ou recolher a faixa de opções"
+      },
+      {
+        "teclas": ["Shift", "F10"],
+        "descricao": "Abrir o menu de contexto"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "F1"],
+        "descricao": "Alternar o modo de tela inteira"
+      }
+    ],
+    "pt": {
+      "titulo": "Como navegar pela faixa de opções do Excel com o teclado?",
+      "exemplo": "Precisa de mais espaço para ver as linhas? Pressione Ctrl+F1 para recolher a faixa de opções.",
+      "explicacao": "Com Alt e as setas dá para chegar a qualquer comando."
+    }
+  },
+  {
+    "id": "excel-zoom",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "="],
+        "descricao": "Ampliar"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "-"],
+        "descricao": "Reduzir"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Rolagem"],
+        "descricao": "Rolar horizontalmente com o mouse"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ampliar e reduzir o zoom da planilha pelo teclado?",
+      "exemplo": "Planilha com muitas colunas? Reduza o zoom com Ctrl+Alt+- para ver mais de uma vez.",
+      "explicacao": "O zoom muda só a exibição, e não os dados."
+    }
+  },
+  {
+    "id": "excel-copilot",
+    "programa": "Excel",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "C"],
+        "descricao": "Abrir o painel do Copilot"
+      },
+      {
+        "teclas": ["Enter"],
+        "descricao": "Enviar o prompt"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Parar ou cancelar a solicitação"
+      },
+      {
+        "teclas": ["Ctrl", "Enter"],
+        "descricao": "Aceitar as alterações feitas pelo Copilot"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "M"],
+        "descricao": "Alternar entre os modos editar, conversar e planejar"
+      },
+      {
+        "teclas": ["F6"],
+        "descricao": "Mover o foco entre a grade e o Copilot"
+      },
+      {
+        "teclas": ["Alt", "Shift", "H"],
+        "descricao": "Iniciar o ditado"
+      }
+    ],
+    "pt": {
+      "titulo": "Quais são os atalhos do Copilot no Excel?",
+      "exemplo": "Abra o painel com Alt+C, descreva o que quer (\"some as vendas por mês\") e envie com Enter.",
+      "explicacao": "Revise as mudanças antes de aceitar com Ctrl+Enter."
+    }
+  },
+  {
+    "id": "ppt-modo-apresentador",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "F5"],
+        "descricao": "Iniciar no Modo de Exibição do Apresentador"
+      }
+    ],
+    "pt": {
+      "titulo": "Como iniciar a apresentação no Modo de Exibição do Apresentador?",
+      "exemplo": "Vai apresentar com as anotações na tela do notebook? Pressione Alt+F5.",
+      "explicacao": "O público vê só os slides, e você vê as anotações, o tempo e o próximo slide.",
+      "extra": "Com duas telas, o Modo de Exibição do Apresentador abre sozinho ao iniciar a apresentação."
+    }
+  },
+  {
+    "id": "ppt-avancar-voltar",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Enter"],
+        "descricao": "Avançar (também N, Page Down, →, ↓ ou Espaço)"
+      },
+      {
+        "teclas": ["P"],
+        "descricao": "Voltar (também Page Up, ←, ↑ ou Backspace)"
+      },
+      {
+        "teclas": ["Home"],
+        "descricao": "Ir para o primeiro slide"
+      },
+      {
+        "teclas": ["End"],
+        "descricao": "Ir para o último slide"
+      },
+      {
+        "teclas": ["Ctrl", "H"],
+        "descricao": "Ocultar o ponteiro e os botões de navegação"
+      }
+    ],
+    "pt": {
+      "titulo": "Como avançar e voltar durante a apresentação?",
+      "exemplo": "Na apresentação, pressione Enter ou Espaço para avançar a próxima animação ou o próximo slide.",
+      "explicacao": "Avançar executa a próxima animação; só depois passa ao próximo slide."
+    }
+  },
+  {
+    "id": "ppt-slide-oculto-links",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["H"],
+        "descricao": "Ir para o próximo slide, se estiver oculto"
+      },
+      {
+        "teclas": ["Tab"],
+        "descricao": "Ir para o próximo link ou gatilho do slide"
+      },
+      {
+        "teclas": ["Shift", "Tab"],
+        "descricao": "Voltar ao link anterior"
+      },
+      {
+        "teclas": ["Enter"],
+        "descricao": "Abrir o link selecionado"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ir a um slide oculto e navegar por links na apresentação?",
+      "exemplo": "Guardou um slide de reserva oculto para perguntas? Durante a apresentação, pressione H para mostrá-lo.",
+      "explicacao": "H não funciona no Modo de Exibição do Apresentador."
+    }
+  },
+  {
+    "id": "ppt-notas-apresentador",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["F6"],
+        "descricao": "Alternar entre as regiões do Modo de Exibição do Apresentador"
+      },
+      {
+        "teclas": ["Ctrl", "↓"],
+        "descricao": "Rolar uma linha para baixo nas anotações"
+      },
+      {
+        "teclas": ["Ctrl", "↑"],
+        "descricao": "Rolar uma linha para cima nas anotações"
+      },
+      {
+        "teclas": ["Ctrl", "Page Down"],
+        "descricao": "Rolar uma tela para baixo nas anotações"
+      },
+      {
+        "teclas": ["Ctrl", "Page Up"],
+        "descricao": "Rolar uma tela para cima nas anotações"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Fechar o Modo de Exibição do Apresentador"
+      }
+    ],
+    "pt": {
+      "titulo": "Como rolar as anotações no Modo de Exibição do Apresentador?",
+      "exemplo": "Anotações longas? Use Ctrl+↓ para rolar o texto sem tocar no mouse.",
+      "explicacao": "Funciona só com o painel de anotações em foco."
+    }
+  },
+  {
+    "id": "ppt-midia",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "P"],
+        "descricao": "Reproduzir ou pausar a mídia (também Ctrl+Espaço)"
+      },
+      {
+        "teclas": ["Alt", "Q"],
+        "descricao": "Parar a reprodução"
+      },
+      {
+        "teclas": ["Alt", "↑"],
+        "descricao": "Aumentar o volume"
+      },
+      {
+        "teclas": ["Alt", "↓"],
+        "descricao": "Diminuir o volume"
+      },
+      {
+        "teclas": ["Alt", "U"],
+        "descricao": "Ativar o mudo"
+      },
+      {
+        "teclas": ["Alt", "End"],
+        "descricao": "Ir para o próximo indicador"
+      },
+      {
+        "teclas": ["Alt", "Home"],
+        "descricao": "Ir para o indicador anterior"
+      },
+      {
+        "teclas": ["Alt", "Shift", "Page Down"],
+        "descricao": "Avançar três segundos"
+      },
+      {
+        "teclas": ["Alt", "Shift", "Page Up"],
+        "descricao": "Retroceder três segundos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como controlar áudio e vídeo durante a apresentação?",
+      "exemplo": "Vídeo tocando em um slide? Ctrl+Espaço pausa e retoma sem clicar.",
+      "explicacao": "Funcionam com vídeos importados do computador, e não com vídeos online."
+    }
+  },
+  {
+    "id": "ppt-mover-slides",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "↑"],
+        "descricao": "Mover o slide ou a seção para cima"
+      },
+      {
+        "teclas": ["Ctrl", "↓"],
+        "descricao": "Mover o slide ou a seção para baixo"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "↑"],
+        "descricao": "Mover para o início"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "↓"],
+        "descricao": "Mover para o fim"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mudar um slide de posição usando o teclado?",
+      "exemplo": "Selecione o slide no painel da esquerda e pressione Ctrl+Shift+↑ para levá-lo ao começo da apresentação.",
+      "explicacao": "Evita arrastar slides com o mouse em apresentações longas."
+    }
+  },
+  {
+    "id": "ppt-ordem-objetos",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "]"],
+        "descricao": "Trazer o objeto uma posição para a frente"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "["],
+        "descricao": "Enviar o objeto uma posição para trás"
+      }
+    ],
+    "pt": {
+      "titulo": "Como trazer um objeto para a frente ou enviar para trás?",
+      "exemplo": "Uma caixa de texto ficou escondida atrás de uma imagem? Selecione-a e pressione Ctrl+Shift+].",
+      "explicacao": "Útil quando vários objetos estão sobrepostos."
+    }
+  },
+  {
+    "id": "ppt-agrupar",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "G"],
+        "descricao": "Agrupar os objetos selecionados"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "G"],
+        "descricao": "Desagrupar o grupo selecionado"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "J"],
+        "descricao": "Reagrupar os objetos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como agrupar e desagrupar objetos?",
+      "exemplo": "Selecione uma forma e o texto dela e pressione Ctrl+G: eles passam a se mover juntos.",
+      "explicacao": "Reagrupar refaz o último grupo que você desfez."
+    }
+  },
+  {
+    "id": "ppt-selecionar-objetos",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Alt", "5"],
+        "descricao": "Mover o foco para a primeira forma flutuante"
+      },
+      {
+        "teclas": ["Tab"],
+        "descricao": "Selecionar o próximo objeto (Shift+Tab volta)"
+      },
+      {
+        "teclas": {
+          "pt": ["Ctrl", "T"],
+          "en": ["Ctrl", "A"]
+        },
+        "descricao": "Selecionar todos os objetos do slide"
+      }
+    ],
+    "pt": {
+      "titulo": "Como selecionar objetos do slide pelo teclado?",
+      "exemplo": "Pressione Ctrl+Alt+5 e depois Tab repetidamente para percorrer imagens e caixas de texto.",
+      "explicacao": "Para selecionar vários objetos pelo teclado, o Painel de Seleção também ajuda."
+    }
+  },
+  {
+    "id": "ppt-girar-objeto",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "→"],
+        "descricao": "Girar 15 graus no sentido horário"
+      },
+      {
+        "teclas": ["Alt", "←"],
+        "descricao": "Girar 15 graus no sentido anti-horário"
+      }
+    ],
+    "pt": {
+      "titulo": "Como girar um objeto pelo teclado?",
+      "exemplo": "Selecione uma seta e pressione Alt+→ seis vezes para girá-la 90 graus.",
+      "explicacao": "Cada pressionamento gira 15 graus."
+    }
+  },
+  {
+    "id": "ppt-hiperlink-comentario-equacao",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "K"],
+        "descricao": "Inserir um hiperlink"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "M"],
+        "descricao": "Inserir um novo comentário"
+      },
+      {
+        "teclas": ["Alt", "="],
+        "descricao": "Inserir uma equação"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir link, comentário e equação?",
+      "exemplo": "Selecione o texto do botão \"Saiba mais\" e pressione Ctrl+K para colocar o link.",
+      "explicacao": "Comentários são visíveis a quem revisa a apresentação."
+    }
+  },
+  {
+    "id": "ppt-copiar-formatacao",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "C"],
+        "descricao": "Copiar a formatação do objeto ou texto"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "V"],
+        "descricao": "Colar a formatação copiada"
+      },
+      {
+        "teclas": ["Alt", "Shift", "C"],
+        "descricao": "Copiar a animação"
+      },
+      {
+        "teclas": ["Alt", "Shift", "V"],
+        "descricao": "Colar a animação"
+      }
+    ],
+    "pt": {
+      "titulo": "Como copiar a formatação e a animação de um objeto?",
+      "exemplo": "Quer a mesma entrada animada em outro título? Selecione o primeiro, Alt+Shift+C; selecione o outro, Alt+Shift+V.",
+      "explicacao": "O pincel de animação não está disponível nas versões 2007 e 2010 do Office."
+    }
+  },
+  {
+    "id": "ppt-sub-sobrescrito",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "="],
+        "descricao": "Subscrito"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "+"],
+        "descricao": "Sobrescrito"
+      },
+      {
+        "teclas": ["Ctrl", "Espaço"],
+        "descricao": "Remover a formatação manual dos caracteres"
+      }
+    ],
+    "pt": {
+      "titulo": "Como aplicar subscrito e sobrescrito?",
+      "exemplo": "Para escrever H2O, selecione o 2 e pressione Ctrl+= para virar subscrito.",
+      "explicacao": "O espaçamento é ajustado automaticamente."
+    }
+  },
+  {
+    "id": "ppt-marcadores-digitando",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["*", "Espaço"],
+        "descricao": "Marcadores redondos"
+      },
+      {
+        "teclas": ["-", "Espaço"],
+        "descricao": "Hifens"
+      },
+      {
+        "teclas": [">", "Espaço"],
+        "descricao": "Marcadores de seta"
+      },
+      {
+        "teclas": ["-", "-", ">", "Espaço"],
+        "descricao": "Setas"
+      },
+      {
+        "teclas": ["=", ">", "Espaço"],
+        "descricao": "Setas duplas"
+      },
+      {
+        "teclas": ["<", ">", "Espaço"],
+        "descricao": "Losangos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar listas com marcadores diferentes só digitando?",
+      "exemplo": "Em uma linha vazia, digite -> e Espaço e comece a lista de setas; depois pressione Enter para o próximo item.",
+      "explicacao": "O PowerPoint transforma os caracteres em marcadores quando você pressiona Espaço."
+    }
+  },
+  {
+    "id": "ppt-tabelas",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Tab"],
+        "descricao": "Próxima célula (na última célula, cria uma nova linha)"
+      },
+      {
+        "teclas": ["Shift", "Tab"],
+        "descricao": "Célula anterior"
+      },
+      {
+        "teclas": ["↓"],
+        "descricao": "Próxima linha"
+      },
+      {
+        "teclas": ["↑"],
+        "descricao": "Linha anterior"
+      },
+      {
+        "teclas": ["Ctrl", "Tab"],
+        "descricao": "Inserir uma tabulação na célula"
+      }
+    ],
+    "pt": {
+      "titulo": "Como se mover dentro de uma tabela do PowerPoint?",
+      "exemplo": "Ao terminar a última célula da tabela, pressione Tab e uma nova linha é criada.",
+      "explicacao": "Enter dentro da célula começa um novo parágrafo."
+    }
+  },
+  {
+    "id": "ppt-paineis-exibicoes",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "F9"],
+        "descricao": "Mostrar ou ocultar a grade"
+      },
+      {
+        "teclas": ["Alt", "F9"],
+        "descricao": "Mostrar ou ocultar as guias de alinhamento"
+      },
+      {
+        "teclas": ["F6"],
+        "descricao": "Percorrer os painéis no sentido horário"
+      },
+      {
+        "teclas": ["Shift", "F6"],
+        "descricao": "Percorrer os painéis no sentido anti-horário"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Tab"],
+        "descricao": "Alternar entre miniaturas e estrutura de tópicos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mostrar grade e guias e alternar entre painéis?",
+      "exemplo": "Para alinhar objetos com precisão, ative a grade com Shift+F9.",
+      "explicacao": "A grade e as guias não aparecem na apresentação nem na impressão."
+    }
+  },
+  {
+    "id": "ppt-painel-selecao",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "F10"],
+        "descricao": "Abrir o Painel de Seleção"
+      },
+      {
+        "teclas": ["F6"],
+        "descricao": "Alternar o foco entre os painéis"
+      },
+      {
+        "teclas": ["F2"],
+        "descricao": "Renomear o item com foco"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "F"],
+        "descricao": "Mover o item selecionado para a frente"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "B"],
+        "descricao": "Mover o item selecionado para trás"
+      }
+    ],
+    "pt": {
+      "titulo": "Como usar o Painel de Seleção pelo teclado?",
+      "exemplo": "Slide cheio de objetos? Abra o Painel de Seleção com Alt+F10, renomeie com F2 e reordene com Ctrl+Shift+F ou B.",
+      "explicacao": "O painel lista todos os objetos do slide, mesmo os escondidos atrás de outros."
+    }
+  },
+  {
+    "id": "ppt-guias-faixa",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "Q"],
+        "descricao": "Campo de pesquisa"
+      },
+      {
+        "teclas": ["Alt", "F"],
+        "descricao": "Arquivo"
+      },
+      {
+        "teclas": ["Alt", "H"],
+        "descricao": "Página Inicial"
+      },
+      {
+        "teclas": ["Alt", "N"],
+        "descricao": "Inserir"
+      },
+      {
+        "teclas": ["Alt", "G"],
+        "descricao": "Design"
+      },
+      {
+        "teclas": ["Alt", "K"],
+        "descricao": "Transições"
+      },
+      {
+        "teclas": ["Alt", "A"],
+        "descricao": "Animações"
+      },
+      {
+        "teclas": ["Alt", "S"],
+        "descricao": "Apresentação de Slides"
+      },
+      {
+        "teclas": ["Alt", "R"],
+        "descricao": "Revisão"
+      },
+      {
+        "teclas": ["Alt", "W"],
+        "descricao": "Exibir"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir cada guia da faixa de opções do PowerPoint?",
+      "exemplo": "Pressione Alt e depois K para abrir a guia Transições.",
+      "explicacao": "As teclas são pressionadas em sequência, e não ao mesmo tempo."
+    }
+  },
+  {
+    "id": "ppt-atalhos-faixa-uteis",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "H", "L"],
+        "descricao": "Escolher um layout de slide"
+      },
+      {
+        "teclas": ["Alt", "G", "H"],
+        "descricao": "Escolher um tema"
+      },
+      {
+        "teclas": ["Alt", "N", "X"],
+        "descricao": "Inserir uma caixa de texto"
+      },
+      {
+        "teclas": ["Alt", "N", "S", "H"],
+        "descricao": "Inserir uma forma"
+      },
+      {
+        "teclas": ["Alt", "N", "P", "D"],
+        "descricao": "Inserir uma imagem do dispositivo"
+      },
+      {
+        "teclas": ["Alt", "W", "P", "N"],
+        "descricao": "Mostrar ou ocultar o painel de Notas"
+      },
+      {
+        "teclas": ["Alt", "W", "Q"],
+        "descricao": "Abrir a caixa Zoom"
+      }
+    ],
+    "pt": {
+      "titulo": "Quais atalhos de sequência servem para inserir e organizar slides?",
+      "exemplo": "Quer inserir uma caixa de texto? Pressione Alt, N, X e clique no slide.",
+      "explicacao": "Cada tecla é pressionada e solta em sequência."
+    }
+  },
+  {
+    "id": "ppt-estrutura-paragrafos",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Alt", "Shift", "←"],
+        "descricao": "Promover o parágrafo"
+      },
+      {
+        "teclas": ["Alt", "Shift", "→"],
+        "descricao": "Rebaixar o parágrafo"
+      },
+      {
+        "teclas": ["Alt", "Shift", "↑"],
+        "descricao": "Mover os parágrafos selecionados para cima"
+      },
+      {
+        "teclas": ["Alt", "Shift", "↓"],
+        "descricao": "Mover os parágrafos selecionados para baixo"
+      },
+      {
+        "teclas": ["Alt", "Shift", "1"],
+        "descricao": "Mostrar só os títulos de nível 1 (modo Estrutura de tópicos)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como reorganizar tópicos e parágrafos dentro do slide?",
+      "exemplo": "Para transformar um item em subitem, coloque o cursor nele e pressione Alt+Shift+→.",
+      "explicacao": "Funciona em listas e na exibição de Estrutura de tópicos."
+    }
+  },
+  {
+    "id": "ppt-ctrl-enter-placeholder",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Enter"],
+        "descricao": "Ir ao próximo espaço reservado; no último, cria um novo slide"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ir ao próximo espaço de texto ou criar um novo slide?",
+      "exemplo": "Terminou de digitar o título? Ctrl+Enter vai para o corpo do texto. No último espaço, cria um slide com o mesmo layout.",
+      "explicacao": "Acelera muito a digitação do conteúdo de uma apresentação."
+    }
+  },
+  {
+    "id": "ppt-zoom",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "+"],
+        "descricao": "Ampliar"
+      },
+      {
+        "teclas": ["Ctrl", "-"],
+        "descricao": "Reduzir"
+      },
+      {
+        "teclas": ["Ctrl", "Alt", "O"],
+        "descricao": "Ajustar o zoom à janela"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ampliar, reduzir e ajustar o zoom do slide?",
+      "exemplo": "Para ver o slide inteiro na janela, pressione Ctrl+Alt+O.",
+      "explicacao": "O zoom muda só a exibição, e não o tamanho dos objetos."
+    }
+  },
+  {
+    "id": "ppt-salvar-como",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", "S"],
+        "descricao": "Salvar com outro nome, em outro local ou em outro formato"
+      }
+    ],
+    "pt": {
+      "titulo": "Como salvar com outro nome ou em outro formato?",
+      "exemplo": "Precisa enviar a apresentação em PDF? Pressione Ctrl+Shift+S e escolha o formato.",
+      "explicacao": "A apresentação original continua intacta."
+    }
+  },
+  {
+    "id": "ppt-selecionar-texto",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "←/→"],
+        "descricao": "Selecionar um caractere por vez"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "←/→"],
+        "descricao": "Selecionar até o fim ou o início da palavra"
+      },
+      {
+        "teclas": ["Shift", "↑/↓"],
+        "descricao": "Selecionar uma linha acima ou abaixo"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "↑/↓"],
+        "descricao": "Selecionar até o início ou o fim do parágrafo"
+      },
+      {
+        "teclas": ["Enter"],
+        "descricao": "Selecionar o texto dentro do objeto selecionado"
+      },
+      {
+        "teclas": ["Esc"],
+        "descricao": "Voltar a selecionar o objeto"
+      }
+    ],
+    "pt": {
+      "titulo": "Como selecionar texto dentro de uma caixa pelo teclado?",
+      "exemplo": "Com uma caixa de texto selecionada, pressione Enter para editar o texto dela.",
+      "explicacao": "Esc sai do texto e seleciona o objeto inteiro."
+    }
+  },
+  {
+    "id": "ppt-tamanho-fonte-caixa",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Shift", ">"],
+        "descricao": "Aumentar o tamanho da fonte"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "<"],
+        "descricao": "Diminuir o tamanho da fonte"
+      },
+      {
+        "teclas": ["Shift", "F3"],
+        "descricao": "Alternar entre maiúscula inicial, minúsculas e MAIÚSCULAS"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mudar o tamanho da fonte e as maiúsculas do texto?",
+      "exemplo": "Título com letras minúsculas? Selecione-o e pressione Shift+F3 para alternar entre os formatos.",
+      "explicacao": "Cada Shift+F3 passa para o próximo formato do ciclo."
+    }
+  },
+  {
+    "id": "ppt-copilot-reescrever",
+    "programa": "PowerPoint",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-14",
+    "atalhos": [
+      {
+        "teclas": ["Shift", "F8"],
+        "descricao": "Abrir as opções de reescrita do Copilot para a caixa de texto selecionada"
+      }
+    ],
+    "pt": {
+      "titulo": "Como reescrever um texto com o Copilot?",
+      "exemplo": "Selecione a caixa de texto do slide e pressione Shift+F8 para pedir uma versão mais curta ou mais formal.",
+      "explicacao": "Disponível apenas em versões do PowerPoint com o Copilot."
+    }
   }
 ]
