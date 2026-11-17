@@ -113,6 +113,9 @@ export default function List({ dicas, idioma, statusDe, onSelecionar }) {
   return (
     <>
       <div className="list-container">
+        {dicas.lenght === 0 && (
+          <p className="list-vazio">Nenhuma dica encontrada!</p>
+        )}
         {dicas.map((dica, indice) => {
           // se a dica ainda não tem tradução, usa o texto em português
           const texto = dica[idioma] ?? dica.pt;

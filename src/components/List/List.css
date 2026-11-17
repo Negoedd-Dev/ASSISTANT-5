@@ -23,6 +23,12 @@
   color: #666;
 }
 
+.list-vazio {
+  padding: 16px;
+  text-align: center;
+  color: #555;
+}
+
 .FiltroProgramas {
   display: flex;
   flex-wrap: wrap;
