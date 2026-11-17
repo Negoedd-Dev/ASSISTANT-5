@@ -1,0 +1,17 @@
+.Busca {
+  flex: 1 1 220px;
+}
+
+.Busca input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: Poppins;
+  background: #fff;
+  border: 2px solid #e5e7eb;
+  border-radius: 6px;
+}
+.Busaca input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
