@@ -1,8 +1,9 @@
-.Busca {
+.busca {
   flex: 1 1 220px;
+  margin: 0 auto 0 2.5em;
 }
 
-.Busca input {
+.busca input {
   width: 100%;
   padding: 8px 12px;
   font-size: 14px;
@@ -11,7 +12,7 @@
   border: 2px solid #e5e7eb;
   border-radius: 6px;
 }
-.Busaca input:focus {
+.busca input:focus {
   outline: none;
   border-color: #2563eb;
 }
