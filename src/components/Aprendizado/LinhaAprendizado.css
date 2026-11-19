@@ -1,0 +1,33 @@
+.LinhaAprendizado {
+  width: 90%;
+  margin: 0 6.5em;
+  max-height: 400px; /* mesma altura da lista */
+  overflow-y: auto;
+  padding: 12px;
+  background: #fff;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.LinhaAprendizado ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3px;
+}
+
+.LinhaAprendizado-nome {
+  font-weight: 600;
+}
+
+.LinhaAprendizado-numeros {
+  margin-bottom: 4px;
+  font-size: 13px;
+  color: #555;
+}
+
+.LinhaAprendizado progress {
+  width: 100%;
+  height: 8px;
+  accent-color: #16a34a; /* verde, igual à borda das dicas lidas */
+}
