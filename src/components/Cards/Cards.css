@@ -8,6 +8,19 @@
   padding: 16px;
 }
 
+.card-topo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.card-topo-rotulo {
+  font-size: 17px;
+  color: #555;
+}
+
 .card {
   background: #56b99c;
   border-radius: 10px;
