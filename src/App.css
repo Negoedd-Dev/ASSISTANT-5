@@ -116,7 +116,9 @@
   grid-area: busca;
 }
 .area-titulo-progresso {
+  width: 15rem;
   grid-area: titulo-progresso;
+  margin: 0 auto 0 5em;
 }
 .area-filtro {
   grid-area: filtro;
