@@ -1,0 +1,147 @@
+/* Fica fixo no canto inferior direito, sem depender do layout da página */
+.Chat {
+  position: fixed;
+  right: 16px;
+  bottom: calc(16px + var(--chat-folga, 0px)); /* sobe junto com o rodapé */
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.Chat-botao {
+  width: 56px;
+  height: 56px;
+  font-size: 26px;
+  color: #fff;
+  background: #1d4ed8;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.Chat-balao {
+  padding: 8px 12px;
+  background: #fff;
+  border: 2px solid #1d4ed8;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Chat-janela {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 480px;
+  max-height: calc(100vh - 32px - var(--chat-folga, 0px));
+  background: #fff;
+  border: 2px solid #1d4ed8;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+.Chat-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  color: #fff;
+  background: #1d4ed8;
+}
+
+.Chat-cabecalho button {
+  color: #fff;
+  background: transparent;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Chat-mensagens {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  overflow-y: auto;
+  background: #f3f4f6;
+}
+
+.Chat-msg {
+  max-width: 90%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  line-height: 1.35;
+}
+
+.Chat-msg p {
+  white-space: pre-line; /* respeita as quebras de linha do progresso */
+}
+
+.Chat-msg-bot {
+  align-self: flex-start;
+  background: #fff;
+  border: 1px solid #d1d5db;
+}
+
+.Chat-msg-usuario {
+  align-self: flex-end;
+  color: #fff;
+  background: #1d4ed8;
+}
+
+.Chat-opcoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.Chat-opcoes button,
+.Chat-opcoes a {
+  padding: 5px 10px;
+  font: inherit;
+  font-size: 13px;
+  color: #1d4ed8;
+  text-decoration: none;
+  background: #eff6ff;
+  border: 1px solid #1d4ed8;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.Chat-entrada {
+  display: flex;
+  gap: 6px;
+  padding: 8px;
+  border-top: 1px solid #d1d5db;
+}
+
+.Chat-entrada input {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 8px;
+  font: inherit;
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+}
+
+.Chat-entrada button {
+  padding: 6px 12px;
+  font: inherit;
+  color: #fff;
+  background: #1d4ed8;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .Chat-janela {
+    width: calc(100vw - 32px);
+  }
+}
