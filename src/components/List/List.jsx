@@ -107,29 +107,93 @@ import "./List.css";
 // }
 // * ========================================================================================================================
 // Alteração no layout do porjeto, reposicionando o filtro de programas
+// import "./List.css";
+
+// export default function List({ dicas, idioma, statusDe, onSelecionar }) {
+//   return (
+//     <>
+//       <div className="list-container">
+//         {dicas.lenght === 0 && (
+//           <p className="list-vazio">Nenhuma dica encontrada!</p>
+//         )}
+//         {dicas.map((dica, indice) => {
+//           // se a dica ainda não tem tradução, usa o texto em português
+//           const texto = dica[idioma] ?? dica.pt;
+//           return (
+//             <button
+//               key={dica.id}
+//               className={`list-item borda-${statusDe(dica)}`}
+//               onClick={() => onSelecionar(indice)}
+//             >
+//               <strong>{texto.titulo}</strong>
+//               <span className="list-item-info">
+//                 {dica.programa} · {dica.tipo}
+//               </span>
+//             </button>
+//           );
+//         })}
+//       </div>
+//     </>
+//   );
+// }
+// * ===============================================================================================================================
 import "./List.css";
 
-export default function List({ dicas, idioma, statusDe, onSelecionar }) {
+export default function List({
+  dicas,
+  idioma,
+  statusDe,
+  onSelecionar,
+  onEditar, // opcional: só existe no modo editor
+  onExcluir, // opcional: só existe no modo editor
+}) {
   return (
     <>
       <div className="list-container">
-        {dicas.lenght === 0 && (
+        {dicas.length === 0 && (
           <p className="list-vazio">Nenhuma dica encontrada!</p>
         )}
         {dicas.map((dica, indice) => {
           // se a dica ainda não tem tradução, usa o texto em português
           const texto = dica[idioma] ?? dica.pt;
           return (
-            <button
-              key={dica.id}
-              className={`list-item borda-${statusDe(dica)}`}
-              onClick={() => onSelecionar(indice)}
-            >
-              <strong>{texto.titulo}</strong>
-              <span className="list-item-info">
-                {dica.programa} · {dica.tipo}
-              </span>
-            </button>
+            // A borda colorida fica na div; o botão de abrir e os de editar/excluir
+            // são irmãos (um botão dentro de outro botão não é permitido no HTML).
+            <div key={dica.id} className={`list-item borda-${statusDe(dica)}`}>
+              <button
+                type="button"
+                className="list-item-abrir"
+                onClick={() => onSelecionar(indice)}
+              >
+                <strong>{texto.titulo}</strong>
+                <span className="list-item-info">
+                  {dica.programa} · {dica.tipo}
+                </span>
+              </button>
+
+              {(onEditar || onExcluir) && (
+                <div className="list-item-acoes">
+                  {onEditar && (
+                    <button
+                      className="btn-editar"
+                      type="button"
+                      onClick={() => onEditar(dica)}
+                    >
+                      Editar
+                    </button>
+                  )}
+                  {onExcluir && (
+                    <button
+                      className="btn-excluir"
+                      type="button"
+                      onClick={() => onExcluir(dica)}
+                    >
+                      Excluir
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
           );
         })}
       </div>

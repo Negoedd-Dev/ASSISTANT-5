@@ -8,19 +8,71 @@
   padding: 4px;
 }
 
+/* A div é o "cartão" com a borda colorida; dentro dela ficam o botão de abrir
+   (ocupa o espaço todo) e, no modo editor, os botões Editar/Excluir. */
 .list-item {
-  text-align: left;
-  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   background: #fff;
   border: 2px solid #e5e7eb;
   border-radius: 8px;
+}
+
+.list-item-abrir {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  padding: 12px 16px;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
   cursor: pointer;
 }
+
 .list-item-info {
   display: block;
   margin-top: 4px;
   font-size: 13px;
   color: #666;
+}
+
+.list-item-acoes {
+  display: flex;
+  gap: 6px;
+  padding-right: 12px;
+}
+
+.list-item-acoes button {
+  font: inherit;
+  font-size: 13px;
+  padding: 4px 10px;
+  border: 1px solid #6b7280;
+  border-radius: 6px;
+  background: #f3f4f6;
+  cursor: pointer;
+}
+
+.list-item-acoes .btn-editar {
+  border: none;
+  background: rgba(245, 158, 11, 0.3);
+  color: #7a4a00;
+}
+
+.list-item-acoes .btn-editar:hover:not(:disabled) {
+  background: rgba(245, 158, 11, 0.5);
+}
+
+.list-item-acoes .btn-excluir {
+  border: none;
+  background: #f44336;
+  color: #fff;
+}
+
+.list-item-acoes .btn-excluir:hover:not(:disabled) {
+  background: #d32f2f;
 }
 
 .list-vazio {
