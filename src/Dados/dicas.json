@@ -4555,5 +4555,1259 @@
       "exemplo": "Selecione a caixa de texto do slide e pressione Shift+F8 para pedir uma versão mais curta ou mais formal.",
       "explicacao": "Disponível apenas em versões do PowerPoint com o Copilot."
     }
+  },
+  {
+    "id": "autocad-modos-de-desenho",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["F3"],
+        "descricao": "Alternar os modos de snap ao objeto"
+      },
+      {
+        "teclas": ["F7"],
+        "descricao": "Alternar a grade"
+      },
+      {
+        "teclas": ["F8"],
+        "descricao": "Alternar o modo ortogonal"
+      },
+      {
+        "teclas": ["F9"],
+        "descricao": "Alternar o snap"
+      },
+      {
+        "teclas": ["F10"],
+        "descricao": "Alternar o modo polar"
+      },
+      {
+        "teclas": ["F11"],
+        "descricao": "Alternar o rastreamento de snap ao objeto"
+      },
+      {
+        "teclas": ["F12"],
+        "descricao": "Alternar a entrada dinâmica"
+      }
+    ],
+    "pt": {
+      "titulo": "Como ligar e desligar os modos de desenho (ortogonal, polar, snap, grade)?",
+      "exemplo": "Vai desenhar uma parede na horizontal? Pressione F8 para ligar o modo ortogonal: o cursor só se move a 0° e 90°.",
+      "explicacao": "Cada tecla liga ou desliga um modo, e o estado aparece na barra de status, na parte de baixo da tela."
+    }
+  },
+  {
+    "id": "autocad-janelas-e-ajuda",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["F1"],
+        "descricao": "Exibir a Ajuda"
+      },
+      {
+        "teclas": ["F2"],
+        "descricao": "Alternar a tela de texto (histórico de comandos)"
+      },
+      {
+        "teclas": ["Ctrl", "9"],
+        "descricao": "Mostrar ou ocultar a linha de comando"
+      },
+      {
+        "teclas": ["Ctrl", "0"],
+        "descricao": "Limpar a tela (esconde barras e paletas para ganhar espaço)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir a ajuda, a linha de comando e a tela de texto?",
+      "exemplo": "Não lembra o que o último comando respondeu? Pressione F2 para ver o histórico completo.",
+      "explicacao": "Pressione a mesma tecla de novo para voltar ao normal."
+    }
+  },
+  {
+    "id": "autocad-paletas",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "1"],
+        "descricao": "Paleta Propriedades"
+      },
+      {
+        "teclas": ["Ctrl", "2"],
+        "descricao": "Paleta Design Center"
+      },
+      {
+        "teclas": ["Ctrl", "3"],
+        "descricao": "Paleta de ferramentas"
+      },
+      {
+        "teclas": ["Ctrl", "4"],
+        "descricao": "Paleta Conjunto de folhas"
+      },
+      {
+        "teclas": ["Ctrl", "6"],
+        "descricao": "Gerenciador de conexões a banco de dados"
+      },
+      {
+        "teclas": ["Ctrl", "7"],
+        "descricao": "Gerenciador de conjunto de revisões"
+      },
+      {
+        "teclas": ["Ctrl", "8"],
+        "descricao": "QuickCalc (calculadora)"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "H"],
+        "descricao": "Ocultar ou mostrar todas as paletas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como abrir as paletas (Propriedades, Design Center, QuickCalc) pelo teclado?",
+      "exemplo": "Selecione uma linha e pressione Ctrl+1 para ver e mudar o comprimento, a camada e a cor dela.",
+      "explicacao": "Ctrl+Shift+H esconde todas as paletas de uma vez, útil quando você precisa de mais espaço de desenho."
+    }
+  },
+  {
+    "id": "autocad-copiar-colar",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "C"],
+        "descricao": "Copiar o objeto"
+      },
+      {
+        "teclas": ["Ctrl", "X"],
+        "descricao": "Recortar o objeto"
+      },
+      {
+        "teclas": ["Ctrl", "V"],
+        "descricao": "Colar o objeto"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "C"],
+        "descricao": "Copiar para a área de transferência com ponto base"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "V"],
+        "descricao": "Colar os dados como bloco"
+      }
+    ],
+    "pt": {
+      "titulo": "Como copiar, recortar e colar objetos pelo teclado?",
+      "exemplo": "Copie uma peça com Ctrl+Shift+C, escolhendo um canto como ponto base. Ao colar, esse canto fica preso ao cursor para posicionar com precisão.",
+      "explicacao": "Colar como bloco (Ctrl+Shift+V) traz tudo como um único objeto, fácil de mover e selecionar."
+    }
+  },
+  {
+    "id": "autocad-desfazer-refazer",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Z"],
+        "descricao": "Desfazer a última ação"
+      },
+      {
+        "teclas": ["Ctrl", "Y"],
+        "descricao": "Refazer a última ação"
+      }
+    ],
+    "pt": {
+      "titulo": "Como desfazer e refazer uma ação?",
+      "exemplo": "Apagou um objeto sem querer? Pressione Ctrl+Z e ele volta.",
+      "explicacao": "Você pode pressionar Ctrl+Z várias vezes para voltar mais de uma ação."
+    }
+  },
+  {
+    "id": "autocad-cancelar-comando",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Esc"],
+        "descricao": "Cancelar o comando atual"
+      },
+      {
+        "teclas": ["Ctrl", "["],
+        "descricao": "Cancelar o comando atual (também funciona Ctrl+\\)"
+      }
+    ],
+    "pt": {
+      "titulo": "Como cancelar o comando atual?",
+      "exemplo": "Começou o comando errado? Pressione Esc para sair dele e começar de novo.",
+      "explicacao": "Se o comando não sair, pressione Esc duas vezes."
+    }
+  },
+  {
+    "id": "autocad-arquivos",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "N"],
+        "descricao": "Novo desenho"
+      },
+      {
+        "teclas": ["Ctrl", "O"],
+        "descricao": "Abrir desenho"
+      },
+      {
+        "teclas": ["Ctrl", "S"],
+        "descricao": "Salvar desenho"
+      },
+      {
+        "teclas": ["Ctrl", "P"],
+        "descricao": "Abrir a caixa de diálogo Plotar"
+      },
+      {
+        "teclas": ["Ctrl", "Q"],
+        "descricao": "Sair do programa"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar, abrir, salvar e imprimir desenhos pelo teclado?",
+      "exemplo": "Terminou uma etapa do projeto? Pressione Ctrl+S para salvar o desenho.",
+      "explicacao": "Salve com frequência: o AutoCAD pode fechar sem aviso e você perderia o que não foi salvo."
+    }
+  },
+  {
+    "id": "autocad-navegar-desenhos",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "Tab"],
+        "descricao": "Alternar para o próximo desenho"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "Tab"],
+        "descricao": "Voltar ao desenho anterior"
+      },
+      {
+        "teclas": ["Ctrl", "Page Down"],
+        "descricao": "Ir para a próxima guia do desenho atual"
+      },
+      {
+        "teclas": ["Ctrl", "Page Up"],
+        "descricao": "Ir para a guia anterior do desenho atual"
+      }
+    ],
+    "pt": {
+      "titulo": "Como alternar entre desenhos e guias abertos?",
+      "exemplo": "Está com a planta e o corte abertos em desenhos diferentes? Ctrl+Tab alterna entre eles.",
+      "explicacao": "As guias do desenho atual são o Modelo e os layouts."
+    }
+  },
+  {
+    "id": "autocad-selecionar-tudo",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "A"],
+        "descricao": "Selecionar todos os objetos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como selecionar todos os objetos do desenho?",
+      "exemplo": "Quer mudar a cor de tudo? Pressione Ctrl+A e depois altere a cor na paleta Propriedades.",
+      "explicacao": "Objetos em camadas congeladas ou bloqueadas não são selecionados."
+    }
+  },
+  {
+    "id": "autocad-grade-coordenadas-snaps",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "D"],
+        "descricao": "Alternar a exibição de coordenadas"
+      },
+      {
+        "teclas": ["Ctrl", "G"],
+        "descricao": "Alternar a grade"
+      },
+      {
+        "teclas": ["Ctrl", "F"],
+        "descricao": "Alternar os snaps ao objeto em execução"
+      }
+    ],
+    "pt": {
+      "titulo": "Como alternar coordenadas, grade e snaps ao objeto?",
+      "exemplo": "O cursor está \"grudando\" em pontos e atrapalhando? Pressione Ctrl+F para desligar os snaps ao objeto.",
+      "explicacao": "Pressione de novo para ligar."
+    }
+  },
+  {
+    "id": "autocad-plano-isometrico",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["Ctrl", "E"],
+        "descricao": "Percorrer os planos isométricos"
+      },
+      {
+        "teclas": ["F5"],
+        "descricao": "Alternar o plano isométrico"
+      }
+    ],
+    "pt": {
+      "titulo": "Como trabalhar em plano isométrico?",
+      "exemplo": "Desenhando uma peça em perspectiva isométrica? Pressione F5 para trocar entre os planos esquerdo, superior e direito.",
+      "explicacao": "O cursor muda de forma conforme o plano ativo."
+    }
+  },
+  {
+    "id": "autocad-alternancias-avancadas",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["F4"],
+        "descricao": "Alternar o Osnap 3D"
+      },
+      {
+        "teclas": ["F6"],
+        "descricao": "Alternar o UCS dinâmico"
+      },
+      {
+        "teclas": ["Ctrl", "H"],
+        "descricao": "Alternar Selecionar estilo"
+      },
+      {
+        "teclas": ["Ctrl", "Shift", "I"],
+        "descricao": "Alternar Inferir restrições"
+      }
+    ],
+    "pt": {
+      "titulo": "Como usar as alternâncias avançadas (3D, restrições e UCS dinâmico)?",
+      "exemplo": "Trabalhando em 3D e precisando pegar pontos em sólidos? Pressione F4 para ligar o Osnap 3D.",
+      "explicacao": "São teclas que você usa menos, mas ajudam em desenhos 3D e paramétricos."
+    }
+  },
+  {
+    "id": "autocad-linhas-e-formas",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["L", "Enter"],
+        "descricao": "LINHA: cria segmentos de linha reta"
+      },
+      {
+        "teclas": ["PL", "Enter"],
+        "descricao": "PLINHA: cria uma polilinha 2D"
+      },
+      {
+        "teclas": ["REC", "Enter"],
+        "descricao": "RETANGULO: cria uma polilinha retangular"
+      },
+      {
+        "teclas": ["POL", "Enter"],
+        "descricao": "POLIGONO: cria uma polilinha fechada equilátera"
+      },
+      {
+        "teclas": ["XL", "Enter"],
+        "descricao": "LINHAINF: cria uma linha de comprimento infinito"
+      },
+      {
+        "teclas": ["ML", "Enter"],
+        "descricao": "MLINHA: cria múltiplas linhas paralelas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como desenhar linhas, polilinhas e retângulos pelo atalho do comando?",
+      "exemplo": "Digite REC, pressione Enter, clique no primeiro canto e no canto oposto: o retângulo está pronto.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona).",
+      "extra": "Usar o atalho é bem mais rápido do que procurar o botão na faixa de opções."
+    }
+  },
+  {
+    "id": "autocad-circulos-arcos-curvas",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["C", "Enter"],
+        "descricao": "CIRCULO: cria um círculo"
+      },
+      {
+        "teclas": ["A", "Enter"],
+        "descricao": "ARC: cria um arco"
+      },
+      {
+        "teclas": ["EL", "Enter"],
+        "descricao": "ELIPSE: cria uma elipse ou um arco elíptico"
+      },
+      {
+        "teclas": ["SPL", "Enter"],
+        "descricao": "SPLINE: cria uma curva suave que passa por pontos ou perto deles"
+      },
+      {
+        "teclas": ["DO", "Enter"],
+        "descricao": "ANEL: cria um círculo preenchido ou um anel largo"
+      },
+      {
+        "teclas": ["PO", "Enter"],
+        "descricao": "PONTO: cria um objeto de ponto"
+      }
+    ],
+    "pt": {
+      "titulo": "Como desenhar círculos, arcos e curvas pelo atalho do comando?",
+      "exemplo": "Digite C, pressione Enter, clique no centro e informe o raio.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-mover-copiar-apagar",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["M", "Enter"],
+        "descricao": "MOVER: move objetos em uma distância e uma direção"
+      },
+      {
+        "teclas": ["CO", "Enter"],
+        "descricao": "COPIAR: copia objetos a uma distância e direção especificadas"
+      },
+      {
+        "teclas": ["MI", "Enter"],
+        "descricao": "ESPELHAR: cria uma cópia espelhada dos objetos selecionados"
+      },
+      {
+        "teclas": ["AR", "Enter"],
+        "descricao": "MATRIZ: cria várias cópias dos objetos em um padrão"
+      },
+      {
+        "teclas": ["E", "Enter"],
+        "descricao": "APAGAR: remove objetos do desenho"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mover, copiar, espelhar e apagar objetos pelo atalho do comando?",
+      "exemplo": "Selecione uma janela, digite M, pressione Enter, clique em um ponto base e depois no destino.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-girar-escalar-alinhar",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["RO", "Enter"],
+        "descricao": "ROTAC: rotaciona os objetos ao redor de um ponto base"
+      },
+      {
+        "teclas": ["SC", "Enter"],
+        "descricao": "ESCALA: amplia ou reduz os objetos mantendo as proporções"
+      },
+      {
+        "teclas": ["S", "Enter"],
+        "descricao": "ESTICAR: estica os objetos cruzados por uma janela de seleção"
+      },
+      {
+        "teclas": ["AL", "Enter"],
+        "descricao": "ALINHAR: alinha objetos com outros em 2D e 3D"
+      },
+      {
+        "teclas": ["LEN", "Enter"],
+        "descricao": "ALONGAR: muda o comprimento de objetos e o ângulo interno de arcos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como girar, redimensionar, esticar e alinhar objetos pelo atalho do comando?",
+      "exemplo": "Selecione uma peça, digite RO, pressione Enter, clique no ponto base e digite 90 para girá-la em 90°.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-aparar-estender-cantos",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["TR", "Enter"],
+        "descricao": "APARAR: apara objetos até que encontrem as arestas de outros"
+      },
+      {
+        "teclas": ["EX", "Enter"],
+        "descricao": "ESTENDER: estende os objetos até que encontrem as arestas de outros"
+      },
+      {
+        "teclas": ["F", "Enter"],
+        "descricao": "CONCORD: arredonda e faz a concordância das arestas dos objetos"
+      },
+      {
+        "teclas": ["CHA", "Enter"],
+        "descricao": "CHANFRO: chanfra as arestas dos objetos"
+      },
+      {
+        "teclas": ["BR", "Enter"],
+        "descricao": "QUEBRAR: quebra o objeto selecionado entre dois pontos"
+      }
+    ],
+    "pt": {
+      "titulo": "Como aparar, estender e arredondar cantos pelo atalho do comando?",
+      "exemplo": "Duas linhas se cruzam além do canto? Digite TR, pressione Enter e clique na parte que sobra para cortá-la.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-deslocar-unir-explodir",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["O", "Enter"],
+        "descricao": "DESLOCAMENTO: cria linhas paralelas, círculos concêntricos e curvas paralelas"
+      },
+      {
+        "teclas": ["J", "Enter"],
+        "descricao": "UNIR: une objetos similares em um único objeto"
+      },
+      {
+        "teclas": ["X", "Enter"],
+        "descricao": "EXPLODIR: quebra um objeto composto em seus componentes"
+      },
+      {
+        "teclas": ["PE", "Enter"],
+        "descricao": "EDITARP: edita polilinhas e malhas poligonais 3D"
+      }
+    ],
+    "pt": {
+      "titulo": "Como deslocar, unir e explodir objetos pelo atalho do comando?",
+      "exemplo": "Para desenhar a segunda linha de uma parede, digite O, informe a espessura, clique na linha e depois para o lado onde ela deve ficar.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-camadas",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["LA", "Enter"],
+        "descricao": "CAMADA: gerencia as camadas e suas propriedades"
+      },
+      {
+        "teclas": ["LAS", "Enter"],
+        "descricao": "ESTADOCAMADA: salva, restaura e gerencia estados de camada nomeados"
+      }
+    ],
+    "pt": {
+      "titulo": "Como gerenciar camadas pelo atalho do comando?",
+      "exemplo": "Digite LA e pressione Enter para abrir o gerenciador, onde você liga, congela e bloqueia camadas.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-propriedades-cor-linha",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["CH", "Enter"],
+        "descricao": "PROPRIEDADES: controla as propriedades de objetos existentes"
+      },
+      {
+        "teclas": ["PR", "Enter"],
+        "descricao": "PROPRIEDADES: exibe a paleta Propriedades"
+      },
+      {
+        "teclas": ["MA", "Enter"],
+        "descricao": "MATCHPROP: aplica as propriedades de um objeto a outros objetos"
+      },
+      {
+        "teclas": ["COL", "Enter"],
+        "descricao": "COR: define a cor dos novos objetos"
+      },
+      {
+        "teclas": ["LT", "Enter"],
+        "descricao": "TIPOLINHA: carrega, define e modifica tipos de linha"
+      },
+      {
+        "teclas": ["LTS", "Enter"],
+        "descricao": "ESCALATL: muda a escala dos tipos de linha de todos os objetos"
+      },
+      {
+        "teclas": ["LW", "Enter"],
+        "descricao": "ESPLINHA: define a espessura de linha atual e as opções de exibição"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mudar propriedades, cor e tipo de linha pelo atalho do comando?",
+      "exemplo": "Quer que uma linha fique igual a outra? Digite MA, clique na linha de referência e depois na linha que deve copiar o formato.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona).",
+      "extra": "Se uma linha tracejada aparece contínua, digite LTS e aumente a escala do tipo de linha."
+    }
+  },
+  {
+    "id": "autocad-blocos",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["B", "Enter"],
+        "descricao": "BLOCO: cria uma definição de bloco com base nos objetos selecionados"
+      },
+      {
+        "teclas": ["W", "Enter"],
+        "descricao": "GBLOCO: grava objetos ou um bloco em um novo arquivo de desenho"
+      },
+      {
+        "teclas": ["I", "Enter"],
+        "descricao": "INSERIR: insere um bloco ou desenho no desenho atual"
+      },
+      {
+        "teclas": ["BE", "Enter"],
+        "descricao": "EDITARBLOCO: abre a definição do bloco no Editor de bloco"
+      },
+      {
+        "teclas": ["BS", "Enter"],
+        "descricao": "SALVARBLOCO: salva a definição de bloco atual"
+      },
+      {
+        "teclas": ["BC", "Enter"],
+        "descricao": "FECHARBLOCO: fecha o Editor de bloco"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar, inserir e editar blocos pelo atalho do comando?",
+      "exemplo": "Desenhou uma porta e vai repeti-la na planta? Digite B, dê um nome, escolha os objetos e depois insira cópias com I.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-hachuras",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["H", "Enter"],
+        "descricao": "HACHURA: preenche uma área delimitada com hachura, cor sólida ou gradiente"
+      },
+      {
+        "teclas": ["BH", "Enter"],
+        "descricao": "HACHURA: mesma função de H"
+      },
+      {
+        "teclas": ["HE", "Enter"],
+        "descricao": "EDITARHACH: modifica uma hachura ou um preenchimento existente"
+      },
+      {
+        "teclas": ["GD", "Enter"],
+        "descricao": "GRADIENTE: preenche uma área ou objetos com gradiente"
+      },
+      {
+        "teclas": ["BO", "Enter"],
+        "descricao": "LIMITE: cria uma região ou polilinha a partir de uma área delimitada"
+      }
+    ],
+    "pt": {
+      "titulo": "Como preencher áreas com hachura ou gradiente?",
+      "exemplo": "Digite H, pressione Enter, clique dentro da área fechada e escolha o padrão da hachura.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona).",
+      "extra": "A hachura só preenche áreas totalmente fechadas. Se der erro, confira se o contorno não tem falhas."
+    }
+  },
+  {
+    "id": "autocad-textos",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["T", "Enter"],
+        "descricao": "TEXTOM: cria um objeto de texto com várias linhas"
+      },
+      {
+        "teclas": ["DT", "Enter"],
+        "descricao": "TEXTO: cria um objeto de texto de linha única"
+      },
+      {
+        "teclas": ["ED", "Enter"],
+        "descricao": "EDITARD: edita texto de linha única, texto de cota e definições de atributos"
+      },
+      {
+        "teclas": ["ST", "Enter"],
+        "descricao": "ESTILO: cria, modifica ou especifica estilos de texto"
+      },
+      {
+        "teclas": ["SP", "Enter"],
+        "descricao": "ORTOGRAF: verifica a ortografia no desenho"
+      }
+    ],
+    "pt": {
+      "titulo": "Como inserir e editar textos pelo atalho do comando?",
+      "exemplo": "Digite T, pressione Enter, clique em dois cantos para definir a caixa e digite o texto da nota.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-tabelas",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["TB", "Enter"],
+        "descricao": "TABELA: cria um objeto de tabela vazio"
+      },
+      {
+        "teclas": ["TS", "Enter"],
+        "descricao": "ESTILOTABELA: cria, modifica ou especifica estilos de tabela"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar tabelas pelo atalho do comando?",
+      "exemplo": "Precisa de uma lista de materiais no desenho? Digite TB, defina o número de linhas e colunas e clique para posicionar.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-cotas-radiais",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["DAN", "Enter"],
+        "descricao": "COTAANG: cria uma cota angular"
+      },
+      {
+        "teclas": ["DRA", "Enter"],
+        "descricao": "COTARAIOS: cria uma cota de raio para um círculo ou arco"
+      },
+      {
+        "teclas": ["DDI", "Enter"],
+        "descricao": "COTADIAMETRO: cria uma cota de diâmetro para um círculo ou arco"
+      },
+      {
+        "teclas": ["DAR", "Enter"],
+        "descricao": "COTAARCO: cria uma cota de comprimento de arco"
+      },
+      {
+        "teclas": ["DCE", "Enter"],
+        "descricao": "COTACENTRO: cria a marca de centro ou as linhas de centro de círculos e arcos"
+      },
+      {
+        "teclas": ["DOR", "Enter"],
+        "descricao": "COTAORDEN: cria cotas de ordenadas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar cotas angulares, de raio, de diâmetro e de arco pelo atalho do comando?",
+      "exemplo": "Digite DDI, pressione Enter e clique no círculo: o AutoCAD mede o diâmetro e posiciona a cota.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-editar-cotas",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["D", "Enter"],
+        "descricao": "ESTILOCOTA: cria e modifica estilos de cota"
+      },
+      {
+        "teclas": ["DED", "Enter"],
+        "descricao": "EDITARCOTA: edita o texto e as linhas de extensão da cota"
+      },
+      {
+        "teclas": ["DBA", "Enter"],
+        "descricao": "COTALINBASE: cria uma cota partindo da linha de base da cota anterior"
+      },
+      {
+        "teclas": ["DCO", "Enter"],
+        "descricao": "COTASERIE: cria uma cota que começa na linha de extensão de uma cota anterior"
+      },
+      {
+        "teclas": ["DRE", "Enter"],
+        "descricao": "REASSOCIARCOTA: associa ou reassocia cotas a objetos ou pontos"
+      },
+      {
+        "teclas": ["DOV", "Enter"],
+        "descricao": "SOBRECOTA: controla as sobreposições de variáveis de sistema nas cotas selecionadas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como editar e organizar cotas pelo atalho do comando?",
+      "exemplo": "As cotas ficaram com a seta grande demais? Digite D e ajuste o estilo para mudar todas de uma vez.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-medir",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["DI", "Enter"],
+        "descricao": "DIST: mede a distância e o ângulo entre dois pontos"
+      },
+      {
+        "teclas": ["AA", "Enter"],
+        "descricao": "AREA: calcula a área e o perímetro de objetos ou áreas definidas"
+      },
+      {
+        "teclas": ["MEA", "Enter"],
+        "descricao": "MEDIRGEOM: mede distância, raio, ângulo, área e volume"
+      },
+      {
+        "teclas": ["LI", "Enter"],
+        "descricao": "LISTA: exibe os dados de propriedade dos objetos selecionados"
+      },
+      {
+        "teclas": ["ID", "Enter"],
+        "descricao": "ID: exibe as coordenadas de um ponto"
+      },
+      {
+        "teclas": ["QC", "Enter"],
+        "descricao": "CALCRAPIDA: abre a calculadora QuickCalc"
+      }
+    ],
+    "pt": {
+      "titulo": "Como medir distâncias, áreas e ângulos pelo atalho do comando?",
+      "exemplo": "Quer saber o tamanho de um vão? Digite DI, clique em um ponto e no outro: a distância aparece na linha de comando.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-dividir-medir-objeto",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["DIV", "Enter"],
+        "descricao": "DIVIDIR: cria pontos ou blocos espaçados igualmente ao longo de um objeto"
+      },
+      {
+        "teclas": ["ME", "Enter"],
+        "descricao": "MEDIDA: cria pontos ou blocos em intervalos medidos ao longo de um objeto"
+      }
+    ],
+    "pt": {
+      "titulo": "Como dividir um objeto em partes iguais ou marcar medidas ao longo dele?",
+      "exemplo": "Precisa de 5 postes igualmente espaçados em uma linha? Digite DIV, clique na linha e informe 5 segmentos.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona).",
+      "extra": "Use DIV quando você sabe o número de partes e ME quando sabe a distância entre elas."
+    }
+  },
+  {
+    "id": "autocad-atualizar-vista",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["P", "Enter"],
+        "descricao": "PAN: move a vista do desenho"
+      },
+      {
+        "teclas": ["R", "Enter"],
+        "descricao": "REDESEN: atualiza a exibição na viewport atual"
+      },
+      {
+        "teclas": ["RA", "Enter"],
+        "descricao": "REDESTUDO: atualiza a exibição em todas as viewports"
+      },
+      {
+        "teclas": ["RE", "Enter"],
+        "descricao": "REGEN: regenera o desenho inteiro a partir da viewport atual"
+      },
+      {
+        "teclas": ["REA", "Enter"],
+        "descricao": "REGENTUDO: regenera o desenho e atualiza todas as viewports"
+      },
+      {
+        "teclas": ["V", "Enter"],
+        "descricao": "VISTA: salva e restaura vistas nomeadas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mover a vista e atualizar a tela?",
+      "exemplo": "Círculos aparecendo como polígonos? Digite RE e pressione Enter para regenerar o desenho.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-vistas-3d",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["ORBIT", "Enter"],
+        "descricao": "ORBITA3D: rotaciona a vista no espaço 3D"
+      },
+      {
+        "teclas": ["VS", "Enter"],
+        "descricao": "EVATUAL: define o estilo visual da viewport atual"
+      },
+      {
+        "teclas": ["VSM", "Enter"],
+        "descricao": "ESTILOSVISUAIS: cria e modifica estilos visuais"
+      },
+      {
+        "teclas": ["HI", "Enter"],
+        "descricao": "OCULTAR: regenera o modelo 3D com as linhas ocultas suprimidas"
+      },
+      {
+        "teclas": ["CUBE", "Enter"],
+        "descricao": "CUBONAV: controla a exibição da ferramenta ViewCube"
+      },
+      {
+        "teclas": ["WHEEL", "Enter"],
+        "descricao": "CIRCULONAV: exibe o círculo com as ferramentas de navegação de vistas"
+      },
+      {
+        "teclas": ["CAM", "Enter"],
+        "descricao": "CAMERA: define uma câmera e um alvo para criar uma vista em perspectiva 3D"
+      }
+    ],
+    "pt": {
+      "titulo": "Como girar e mudar o estilo visual de um modelo 3D?",
+      "exemplo": "Digite ORBIT, pressione Enter e arraste com o mouse para ver o modelo por todos os lados.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-espaco-modelo-papel",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["MS", "Enter"],
+        "descricao": "ESPACOM: migra do espaço do papel para uma viewport do espaço do modelo"
+      },
+      {
+        "teclas": ["PS", "Enter"],
+        "descricao": "ESPACOP: migra de uma viewport do espaço do modelo para o espaço do papel"
+      },
+      {
+        "teclas": ["LO", "Enter"],
+        "descricao": "LAYOUT: cria e modifica guias de layout"
+      },
+      {
+        "teclas": ["MV", "Enter"],
+        "descricao": "CVISTA: cria e controla viewports de layout"
+      }
+    ],
+    "pt": {
+      "titulo": "Como alternar entre espaço do modelo e espaço do papel?",
+      "exemplo": "Dentro do layout, digite MS para ajustar o desenho dentro da viewport e PS para voltar ao papel.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-imprimir-pdf",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["PRE", "Enter"],
+        "descricao": "VISUALIZAR: exibe o desenho do modo como será plotado"
+      },
+      {
+        "teclas": ["PRINT", "Enter"],
+        "descricao": "PLOTAR: plota o desenho em uma plotadora, impressora ou arquivo"
+      },
+      {
+        "teclas": ["EPDF", "Enter"],
+        "descricao": "EXPORTARPDF: exporta o desenho para PDF"
+      }
+    ],
+    "pt": {
+      "titulo": "Como visualizar, imprimir e exportar para PDF pelo atalho do comando?",
+      "exemplo": "Vai mandar a planta para o cliente? Digite EPDF, pressione Enter e salve o PDF.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-refex",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["XA", "Enter"],
+        "descricao": "ANEXAREFEX: insere um arquivo DWG como referência externa"
+      },
+      {
+        "teclas": ["XR", "Enter"],
+        "descricao": "REFEX: abre a paleta Referências externas"
+      },
+      {
+        "teclas": ["ER", "Enter"],
+        "descricao": "REFERENCIASEXTERNAS: abre a paleta Referências externas"
+      },
+      {
+        "teclas": ["XB", "Enter"],
+        "descricao": "ASSREFEX: associa ao desenho atual objetos nomeados de uma refex"
+      },
+      {
+        "teclas": ["XC", "Enter"],
+        "descricao": "CORTAREFEX: recorta a exibição de uma referência externa ou bloco"
+      }
+    ],
+    "pt": {
+      "titulo": "Como usar referências externas (refex)?",
+      "exemplo": "Precisa da base arquitetônica no seu projeto? Digite XA e escolha o arquivo DWG para anexá-lo como referência.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona).",
+      "extra": "Uma refex não fica dentro do desenho: se o arquivo original mudar, a referência é atualizada."
+    }
+  },
+  {
+    "id": "autocad-importar-exportar",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["IMP", "Enter"],
+        "descricao": "IMPORTAR: importa arquivos de diferentes formatos para o desenho atual"
+      },
+      {
+        "teclas": ["EXP", "Enter"],
+        "descricao": "EXPORTAR: salva os objetos do desenho em outro formato de arquivo"
+      },
+      {
+        "teclas": ["IAT", "Enter"],
+        "descricao": "ANEXARIMAG: insere uma referência a um arquivo de imagem"
+      },
+      {
+        "teclas": ["ICL", "Enter"],
+        "descricao": "CORTARIMAG: recorta a exibição de uma imagem de acordo com um limite"
+      }
+    ],
+    "pt": {
+      "titulo": "Como importar e exportar arquivos e imagens?",
+      "exemplo": "Quer usar uma foto como base para o desenho? Digite IAT e escolha a imagem.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-limpar-renomear-recuperar",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["PU", "Enter"],
+        "descricao": "ELIMINAR: remove do desenho itens não usados, como blocos e camadas"
+      },
+      {
+        "teclas": ["REN", "Enter"],
+        "descricao": "RENOMEAR: muda o nome de itens como camadas e estilos de cota"
+      },
+      {
+        "teclas": ["DRM", "Enter"],
+        "descricao": "RECUPERARDESENHO: lista os desenhos que podem ser recuperados após uma falha"
+      }
+    ],
+    "pt": {
+      "titulo": "Como limpar o desenho, renomear itens e recuperar um arquivo após uma falha?",
+      "exemplo": "O arquivo está pesado? Digite PU, pressione Enter e elimine blocos e camadas que ninguém usa.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-configuracoes",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["UN", "Enter"],
+        "descricao": "UNIDADES: controla os formatos de exibição e a precisão de coordenadas e ângulos"
+      },
+      {
+        "teclas": ["DS", "Enter"],
+        "descricao": "CONFIGDES: define grade, snap, rastreio, snaps ao objeto e entrada dinâmica"
+      },
+      {
+        "teclas": ["OS", "Enter"],
+        "descricao": "OSNAP: define os modos de snap ao objeto em execução"
+      },
+      {
+        "teclas": ["SN", "Enter"],
+        "descricao": "SNAP: restringe o movimento do cursor a intervalos especificados"
+      },
+      {
+        "teclas": ["OP", "Enter"],
+        "descricao": "OPCOES: personaliza as configurações do programa"
+      },
+      {
+        "teclas": ["UC", "Enter"],
+        "descricao": "GERUCS: gerencia sistemas de coordenadas definidos pelo usuário"
+      }
+    ],
+    "pt": {
+      "titulo": "Como configurar unidades, snaps e opções do programa?",
+      "exemplo": "Vai trabalhar em milímetros? Digite UN e ajuste as unidades antes de começar o desenho.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-interface",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["TO", "Enter"],
+        "descricao": "BARRAFERR: exibe, oculta e personaliza barras de ferramentas"
+      },
+      {
+        "teclas": ["TP", "Enter"],
+        "descricao": "PALETASFERRAM: abre a janela Paletas de ferramentas"
+      },
+      {
+        "teclas": ["CLI", "Enter"],
+        "descricao": "LINHACOMANDO: exibe a janela Linha de comando"
+      },
+      {
+        "teclas": ["POFF", "Enter"],
+        "descricao": "OCULTARPALETAS: oculta as paletas exibidas, inclusive a linha de comando"
+      },
+      {
+        "teclas": ["PON", "Enter"],
+        "descricao": "MOSTRARPALETAS: restaura a exibição das paletas ocultas"
+      }
+    ],
+    "pt": {
+      "titulo": "Como mostrar barras de ferramentas, paletas e a linha de comando pelo atalho do comando?",
+      "exemplo": "A linha de comando sumiu? Pressione Ctrl+9 ou digite CLI para trazê-la de volta.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-grupos-regioes-filtros",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["G", "Enter"],
+        "descricao": "GRUPO: cria e gerencia conjuntos salvos de objetos chamados grupos"
+      },
+      {
+        "teclas": ["REG", "Enter"],
+        "descricao": "REGIAO: converte um objeto que envolve uma área em um objeto de região"
+      },
+      {
+        "teclas": ["FI", "Enter"],
+        "descricao": "FILTRO: cria uma lista de requisitos para incluir objetos em um conjunto de seleção"
+      }
+    ],
+    "pt": {
+      "titulo": "Como agrupar objetos e criar regiões?",
+      "exemplo": "Vai mover um conjunto de móveis sempre junto? Selecione-os, digite G e crie um grupo.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-solidos-3d",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["CYL", "Enter"],
+        "descricao": "CILINDRO: cria um cilindro sólido 3D"
+      },
+      {
+        "teclas": ["PYR", "Enter"],
+        "descricao": "PIRAMIDE: cria uma pirâmide sólida 3D"
+      },
+      {
+        "teclas": ["TOR", "Enter"],
+        "descricao": "TOROIDE: cria um sólido 3D em forma de anel"
+      },
+      {
+        "teclas": ["WE", "Enter"],
+        "descricao": "CUNHA: cria uma cunha sólida 3D"
+      },
+      {
+        "teclas": ["PSOLID", "Enter"],
+        "descricao": "POLISSOLIDO: cria um polissólido 3D semelhante a uma parede"
+      }
+    ],
+    "pt": {
+      "titulo": "Como criar sólidos 3D básicos pelo atalho do comando?",
+      "exemplo": "Digite CYL, pressione Enter, clique no centro, informe o raio e depois a altura.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona)."
+    }
+  },
+  {
+    "id": "autocad-editar-solidos-3d",
+    "programa": "AutoCAD",
+    "tipo": "atalho",
+    "criadaEm": "2026-11-21",
+    "atalhos": [
+      {
+        "teclas": ["UNI", "Enter"],
+        "descricao": "UNIAO: une dois sólidos ou regiões"
+      },
+      {
+        "teclas": ["SU", "Enter"],
+        "descricao": "SUBTRAIR: combina sólidos, superfícies ou regiões por subtração"
+      },
+      {
+        "teclas": ["IN", "Enter"],
+        "descricao": "INTERSEC: cria um sólido ou região a partir da sobreposição de objetos"
+      },
+      {
+        "teclas": ["EXT", "Enter"],
+        "descricao": "EXTRUSAO: estende as cotas de um objeto 2D ou de uma face 3D para o espaço 3D"
+      },
+      {
+        "teclas": ["REV", "Enter"],
+        "descricao": "REVOLUCAO: cria um sólido ou superfície ao girar um objeto 2D em torno de um eixo"
+      },
+      {
+        "teclas": ["SL", "Enter"],
+        "descricao": "FATIAR: cria novos sólidos ao fatiar ou dividir objetos existentes"
+      }
+    ],
+    "pt": {
+      "titulo": "Como unir, subtrair, extrudar e fatiar sólidos 3D?",
+      "exemplo": "Para fazer um furo em uma peça, crie um cilindro, digite SU, selecione a peça e depois o cilindro.",
+      "explicacao": "Digite o atalho na linha de comando e pressione Enter (a barra de espaço também funciona).",
+      "extra": "Na subtração, a primeira seleção é o que permanece e a segunda é o que será retirado."
+    }
   }
 ]
