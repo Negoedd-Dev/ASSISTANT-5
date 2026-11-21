@@ -16,6 +16,8 @@ export default function detectarIntencao(entrada, programas) {
   const t = normalizar(entrada);
   if (!t) return null;
 
+  if (tem(t, /\b(sair|fechar|tchau|ate logo|adeus)\b/)) return { acao: "sair" };
+
   if (tem(t, /\b(tour|tutorial|como usar|como funciona|ajuda|comecar)\b/)) {
     return { acao: "tour" };
   }

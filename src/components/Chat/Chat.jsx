@@ -86,6 +86,7 @@ export default function Chat({
           { rotulo: "Exportar JSON", acao: "exportar" },
         ]
       : []),
+    { rotulo: "Sair", acao: "sair" },
   ];
 
   const boasVindas = () => [
@@ -127,6 +128,15 @@ export default function Chat({
     switch (acao) {
       case "menu":
         adicionar(voltarMenu("O que você deseja fazer?"));
+        break;
+
+      case "sair":
+        adicionar(msg("bot", "Até logo! Estarei aqui quando você precisar."));
+        // dá um instante para ler a despedida, fecha e começa uma conversa nova na próxima vez
+        setTimeout(() => {
+          setAberto(false);
+          setMensagens([]);
+        }, 1200);
         break;
 
       case "tour": {
