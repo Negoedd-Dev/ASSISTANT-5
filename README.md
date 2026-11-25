@@ -4,7 +4,7 @@ Site de dicas de atalhos de teclado e fórmulas para qualquer programa (Windows,
 
 ![Tela do projeto](docs/tela.png)
 
-**Demo:** _(preencha quando publicar)_
+**Demo:** _(https://assistant-5-tawny.vercel.app/)_
 
 ## Por que criei
 
@@ -27,7 +27,7 @@ React, Vite, JavaScript, CSS. Dados em `dicas.json` e alterações salvas no `lo
 Requisito: [Node.js](https://nodejs.org) 18 ou superior.
 
 ```bash
-git clone https://github.com/seu-usuario/assistant-5
+git clone https://github.com/Negoedd-Dev/assistant-5
 cd assistant-5
 npm install
 npm run dev
@@ -43,4 +43,4 @@ Sem o Git, baixe o ZIP pelo botão verde **Code** desta página.
 
 ## Autor
 
-Negoedd · [LinkedIn](https://www.linkedin.com/in/seu-perfil)
+Negoedd · [LinkedIn](https://www.linkedin.com/in/edson-nunes)
