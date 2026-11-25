@@ -1,8 +1,7 @@
-/* Fica fixo no canto inferior direito, sem depender do layout da página */
 .Chat {
   position: fixed;
   right: 16px;
-  bottom: calc(16px + var(--chat-folga, 0px)); /* sobe junto com o rodapé */
+  bottom: calc(16px + var(--chat-folga, 0px));
   z-index: 900;
   display: flex;
   flex-direction: column;
@@ -79,9 +78,8 @@
 }
 
 .Chat-msg p {
-  white-space: pre-line; /* respeita as quebras de linha do progresso */
+  white-space: pre-line;
 }
-
 .Chat-msg-bot {
   align-self: flex-start;
   background: #fff;

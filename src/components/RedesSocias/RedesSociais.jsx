@@ -39,7 +39,6 @@ export default function RedesSociais() {
     },
   ].filter((item) => item.href);
 
-  // sem nenhum link preenchido, não mostra nada
   if (itens.length === 0) return null;
 
   return (

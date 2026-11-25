@@ -7,13 +7,10 @@ import {
   montarDica,
 } from "../../utils/montarDica";
 
-// dica = null  -> nova dica
-// dica = {...} -> editar essa dica
 export default function FormDica({ dica, programas, onSalvar, onCancelar }) {
   const [campos, setCampos] = useState(() => estadoInicial(dica));
   const [erro, setErro] = useState("");
 
-  // Esc fecha o formulário
   useEffect(() => {
     const aoTeclar = (e) => e.key === "Escape" && onCancelar();
     window.addEventListener("keydown", aoTeclar);

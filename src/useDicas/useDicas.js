@@ -25,9 +25,7 @@ export default function useDicas() {
   useEffect(() => {
     try {
       localStorage.setItem(CHAVE, JSON.stringify(edicoes));
-    } catch {
-      /* sem localStorage, o app continua funcionando */
-    }
+    } catch {}
   }, [edicoes]);
 
   const dicas = useMemo(
@@ -35,7 +33,6 @@ export default function useDicas() {
     [edicoes],
   );
 
-  // Baixa o dicas.json com todas as alterações, pronto para substituir o do projeto
   function exportarJSON() {
     const conteudo = JSON.stringify(dicas, null, 2) + "\n";
     const blob = new Blob([conteudo], { type: "application/json" });

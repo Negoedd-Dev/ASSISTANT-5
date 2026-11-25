@@ -1,5 +1,3 @@
-// Conta quantas dicas existem e quantas foram lidas, por programa.
-// "statusDe" é a função do hook useStatusDicas ("lida" | "vista" | "nova" | "padrao").
 export default function calcularProgresso(dicas, statusDe) {
   const porPrograma = new Map();
 

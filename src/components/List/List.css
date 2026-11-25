@@ -8,8 +8,6 @@
   padding: 4px;
 }
 
-/* A div é o "cartão" com a borda colorida; dentro dela ficam o botão de abrir
-   (ocupa o espaço todo) e, no modo editor, os botões Editar/Excluir. */
 .list-item {
   display: flex;
   align-items: center;
@@ -93,10 +91,10 @@
 }
 .borda-nova {
   border-color: #facc15;
-} /* amarela */
+}
 .borda-vista {
   border-color: #9ca3af;
-} /* cinza */
+}
 .borda-lida {
   border-color: #16a34a;
-} /* verde */
+}

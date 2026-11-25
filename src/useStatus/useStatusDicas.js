@@ -21,12 +21,9 @@ export default function useStatusDicas() {
   useEffect(() => {
     try {
       localStorage.setItem(CHAVE, JSON.stringify(status));
-    } catch {
-      /* sem localStorage, o app continua funcionando */
-    }
+    } catch {}
   }, [status]);
 
-  // "vista" só é aplicada se a dica ainda não tem status (não rebaixa uma "lida")
   function marcarVista(id) {
     setStatus((s) => (s[id] ? s : { ...s, [id]: "vista" }));
   }
@@ -35,7 +32,6 @@ export default function useStatusDicas() {
     setStatus((s) => ({ ...s, [id]: s[id] === "lida" ? "vista" : "lida" }));
   }
 
-  // retorna: "lida" | "vista" | "nova" | "padrao"
   function statusDe(dica) {
     if (status[dica.id]) return status[dica.id];
     return ehRecente(dica.criadaEm) ? "nova" : "padrao";

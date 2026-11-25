@@ -44,7 +44,7 @@
   border-radius: 6px;
   font-family: poppins;
   font-size: 15px;
-  white-space: pre-wrap; /* respeita as quebras de linha do exemplo */
+  white-space: pre-wrap;
 }
 
 .card-atalhos {

@@ -1,10 +1,5 @@
-// As alterações do usuário ficam separadas das dicas originais (dicas.json):
-//   adicionadas: dicas novas
-//   editadas:    { [id]: dica } com a versão editada de uma dica original
-//   excluidas:   ids de dicas originais que foram excluídas
 export const EDICOES_VAZIAS = { adicionadas: [], editadas: {}, excluidas: [] };
 
-// Junta as dicas originais com as alterações
 export function aplicarEdicoes(base, edicoes) {
   const idsBase = new Set(base.map((d) => d.id));
 
@@ -12,7 +7,6 @@ export function aplicarEdicoes(base, edicoes) {
     .filter((d) => !edicoes.excluidas.includes(d.id))
     .map((d) => edicoes.editadas[d.id] ?? d);
 
-  // se um dia o dicas.json passar a ter uma dica adicionada, ela não aparece duas vezes
   const novas = edicoes.adicionadas.filter((d) => !idsBase.has(d.id));
 
   return [...originais, ...novas];

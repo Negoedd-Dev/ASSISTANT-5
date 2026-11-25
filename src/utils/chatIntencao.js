@@ -1,7 +1,3 @@
-// Descobre o que a pessoa quis dizer ao digitar no chat.
-// Devolve { acao, valor? } ou null quando não entende.
-// Ações: menu, tour, buscar, filtrar, filtro-aplicar, progresso, doc, nova, exportar
-
 const normalizar = (texto) =>
   texto
     .normalize("NFD")
@@ -29,7 +25,6 @@ export default function detectarIntencao(entrada, programas) {
     return { acao: "nova" };
   }
 
-  // nome de um programa: "excel", "quero ver word"...
   for (const programa of programas) {
     const nome = normalizar(programa).replace(/[.*+?${}()|[\]\\]/g, "\\$&");
     if (new RegExp(`\\b${nome}\\b`).test(t)) {

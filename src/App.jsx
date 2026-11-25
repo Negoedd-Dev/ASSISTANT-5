@@ -15,9 +15,6 @@ import filtrarDicas from "./utils/filtrarDicas";
 import calcularProgresso from "./utils/calcularProgresso";
 import Footer from "./components/Footer";
 
-// Modo editor: liga sozinho quando você roda o projeto com "npm run dev".
-// No site publicado (build) ele nunca aparece. Para ver como o visitante vê
-// enquanto desenvolve, abra localhost:5173/?leitor
 const modoEditor =
   import.meta.env.DEV &&
   !new URLSearchParams(window.location.search).has("leitor");
@@ -34,12 +31,11 @@ export default function App() {
     temAlteracoes,
   } = useDicas();
 
-  // O card aberto é guardado pelo id da dica (e não pelo índice na lista).
   const [idAberto, setIdAberto] = useState(null);
   const [programa, setPrograma] = useState("Todos");
   const [busca, setBusca] = useState("");
   const [idioma, setIdioma] = useState("pt");
-  // null = formulário fechado | "nova" = nova dica | dica = editando
+
   const [formulario, setFormulario] = useState(null);
 
   const programas = useMemo(
@@ -73,7 +69,6 @@ export default function App() {
     marcarVista(dica.id);
   }
 
-  // Usado pelo chat: busca em todos os programas e devolve quantas dicas achou
   function buscarPeloChat(texto) {
     setPrograma("Todos");
     buscar(texto);
@@ -88,7 +83,7 @@ export default function App() {
       editar(dica);
     }
     setFormulario(null);
-    // mostra a dica salva: limpa filtros que poderiam escondê-la
+
     setBusca("");
     setPrograma("Todos");
     setIdAberto(dica.id);

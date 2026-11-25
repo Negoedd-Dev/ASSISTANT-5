@@ -1,4 +1,3 @@
-/* Fundo escuro que cobre a tela; o formulário fica por cima, no centro */
 .FormDica-fundo {
   position: fixed;
   inset: 0;
@@ -51,7 +50,7 @@
 
 .FormDica textarea {
   resize: vertical;
-  font-family: Consolas, monospace; /* mantém o alinhamento dos exemplos */
+  font-family: Consolas, monospace;
 }
 
 .FormDica-ajuda {

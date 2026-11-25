@@ -21,9 +21,7 @@ function jaVisitou() {
 function marcarVisitou() {
   try {
     localStorage.setItem(CHAVE_VISTO, "1");
-  } catch {
-    /* sem localStorage, tudo bem */
-  }
+  } catch {}
 }
 
 let proximoId = 1;
@@ -34,12 +32,6 @@ const msg = (autor, texto, opcoes = []) => ({
   opcoes,
 });
 
-// Props:
-//   programas   lista de nomes de programas (sem "Todos")
-//   progresso   resultado de calcularProgresso: [{programa, lidas, total}, ...]
-//   onBuscar    (texto) => quantidade de dicas encontradas
-//   onFiltrar   (programa) => void   ("Todos" limpa o filtro)
-//   editor      { onNovaDica, onExportar } ou undefined (só no npm run dev)
 export default function Chat({
   programas,
   progresso,
@@ -53,9 +45,8 @@ export default function Chat({
   const [modoBusca, setModoBusca] = useState(false);
   const [texto, setTexto] = useState("");
   const fimRef = useRef(null);
-  const [folga, setFolga] = useState(0); // quanto o rodapé está aparecendo na tela
+  const [folga, setFolga] = useState(0);
 
-  // Mantém o chat acima do rodapé: mede quanto dele está visível e sobe esse tanto
   useEffect(() => {
     const rodape = document.querySelector(SELETOR_RODAPE);
     if (!rodape) return undefined;
@@ -103,7 +94,6 @@ export default function Chat({
     setMensagens((atuais) => (atuais.length === 0 ? boasVindas() : atuais));
   }
 
-  // Esc fecha a janela
   useEffect(() => {
     if (!aberto) return undefined;
     const aoTeclar = (e) => e.key === "Escape" && setAberto(false);
@@ -111,7 +101,6 @@ export default function Chat({
     return () => window.removeEventListener("keydown", aoTeclar);
   }, [aberto]);
 
-  // Rola até a última mensagem
   useEffect(() => {
     fimRef.current?.scrollIntoView?.({ block: "end" });
   }, [mensagens, aberto]);
@@ -132,7 +121,7 @@ export default function Chat({
 
       case "sair":
         adicionar(msg("bot", "Até logo! Estarei aqui quando você precisar."));
-        // dá um instante para ler a despedida, fecha e começa uma conversa nova na próxima vez
+
         setTimeout(() => {
           setAberto(false);
           setMensagens([]);

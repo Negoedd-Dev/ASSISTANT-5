@@ -2,7 +2,6 @@ import "./Cards.css";
 import SeletorIdioma from "../Idioma";
 import Button, { BUTTON_VARIANTS } from "../Button";
 
-// "teclas" pode ser uma lista (igual nos dois idiomas) ou { pt: [...], en: [...] }
 function teclasDoIdioma(teclas, idioma) {
   return Array.isArray(teclas) ? teclas : (teclas[idioma] ?? teclas.pt);
 }
